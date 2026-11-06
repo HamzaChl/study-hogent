@@ -7,5 +7,3 @@ dist/
 # Spec & sources privées (KASK/HOGENT)
 revision-app-spec.md
 /sources/
-/public/content/*/img/
-*.draft.json

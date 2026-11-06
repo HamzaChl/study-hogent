@@ -29,7 +29,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 border-l border-t border-line md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 pl-px pt-px md:grid-cols-2 lg:grid-cols-3">
         {shown.map((c) => (
           <CourseCard key={c.id} course={c} index={catalog.indexOf(c)} total={catalog.length} />
         ))}
@@ -72,7 +72,7 @@ function CourseCard({ course, index, total }: { course: CatalogCourse; index: nu
     </>
   );
 
-  const cls = "group flex flex-col border-b border-r border-line p-7 sm:p-8";
+  const cls = "group -ml-px -mt-px flex flex-col border border-line p-7 sm:p-8";
   return available ? (
     <a href={`#/course/${course.id}`} className={`${cls} transition-colors duration-300 hover:bg-haze/60 focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-ink`} aria-label={`${course.title} — ${course.subtitle ?? ""}: open de cursus`}>
       {inner}
