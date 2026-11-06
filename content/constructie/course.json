@@ -1,0 +1,76 @@
+{
+  "id": "constructie",
+  "title": "Constructie",
+  "subtitle": "Materialen, elementen & structuren",
+  "meta": [
+    { "label": "Cursus", "value": "01" },
+    { "label": "Instelling", "value": "HOGENT / KASK" },
+    { "label": "Opleiding", "value": "Bachelor Interieurvormgeving" },
+    { "label": "Academiejaar", "value": "2026–2027" },
+    { "label": "Semester", "value": "01" },
+    { "label": "ECTS", "value": "03" },
+    { "label": "Docent", "value": "Thomas Van der Velde" },
+    { "label": "Taal", "value": "Nederlands" }
+  ],
+  "official": {
+    "source": "BaMaFlex — Constructie (17399/5880/2627/1/12), HOGENT, academiejaar 2026-27",
+    "studyTime": { "total": 80, "lectures": 24, "selfStudy": 56 },
+    "description": [
+      "Hoorcolleges, case studies en/of groepsgesprekken; eventueel aangevuld met gastcolleges.",
+      "Daar waar in het eerste semester de nadruk ligt op theoretische initiatie en oriëntatie binnen constructie, komen in het 2de en 3de semester competenties op het vlak van constructietechnieken aan bod.",
+      "De inhouden van dit opleidingsonderdeel zijn ondersteunend aan het opleidingsonderdeel interieurvormgeving. Via kleine opdrachten worden studenten vertrouwd gemaakt met standaard constructieprincipes en hun voorstellingswijze op verschillende schalen."
+    ],
+    "parts": [
+      {
+        "id": "p1", "number": "01", "title": "Fundamentele principes van constructies",
+        "topics": [
+          { "id": "p1-01", "number": "01", "title": "Soorten krachten, lasten & belastingen" },
+          { "id": "p1-02", "number": "02", "title": "Relatie tussen krachten, spanning en vervorming" },
+          { "id": "p1-03", "number": "03", "title": "Materialen" },
+          { "id": "p1-04", "number": "04", "title": "Elementen" },
+          { "id": "p1-05", "number": "05", "title": "Verbindingen" },
+          { "id": "p1-06", "number": "06", "title": "Structuren" }
+        ]
+      },
+      {
+        "id": "p2", "number": "02", "title": "Constructie-elementen en bouwknopen",
+        "topics": [
+          { "id": "p2-01", "number": "01", "title": "Funderingen" },
+          { "id": "p2-02", "number": "02", "title": "Wanden" },
+          { "id": "p2-03", "number": "03", "title": "Vloeren" },
+          { "id": "p2-04", "number": "04", "title": "Openingen" },
+          { "id": "p2-05", "number": "05", "title": "Daken" },
+          { "id": "p2-06", "number": "06", "title": "Trappen" },
+          { "id": "p2-07", "number": "07", "title": "Bouwknopen" }
+        ]
+      },
+      {
+        "id": "p3", "number": "03", "title": "Bouwfysische aspecten",
+        "topics": [
+          { "id": "p3-01", "number": "01", "title": "EPB-regelgeving" },
+          { "id": "p3-02", "number": "02", "title": "Thermische prestaties" },
+          { "id": "p3-03", "number": "03", "title": "Condensatie" },
+          { "id": "p3-04", "number": "04", "title": "Akoestiek" },
+          { "id": "p3-05", "number": "05", "title": "Brandveiligheid" }
+        ]
+      }
+    ],
+    "objectives": [
+      "Heeft kennis van en inzicht in de constructieve principes, gangbaar in (interieur)architectuur, design en vormgeving.",
+      "Heeft kennis van en inzicht in de verschillende constructief-technische aspecten waarmee het beroepenveld van de interieurvormgever in aanraking komt.",
+      "Heeft inzicht in de algemene opbouw van (interieur)constructies.",
+      "Toont zich in staat om helder, correct en met inbegrip van het geijkte vakjargon te communiceren over de constructief-technische aspecten van (interieur)architectuur, design en vormgeving; en dat met zowel leken als specialisten.",
+      "Toont inzicht in de verschillende constructieve componenten en structuren en hun relatie tot het geheel van de ruimte of het object.",
+      "Is in staat om op een kritische, onderbouwde en geargumenteerde manier een eigen visie te ontwikkelen."
+    ],
+    "evaluation": [
+      "Schriftelijk theoretisch examen op papier.",
+      "Gesloten boek.",
+      "Combinatie van open vragen en gesloten vragen.",
+      "Bespreking van constructieve detailtekeningen.",
+      "Gequoteerd op 20 (tot op een geheel getal). Tweede examenkans mogelijk.",
+      "Deelname aan de onderwijs- en studieactiviteiten is verplicht."
+    ],
+    "materials": "Syllabus; handouts van de presentaties uit de les."
+  }
+}

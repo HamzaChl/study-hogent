@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { background: #FFFFFF; color: #080808; }
+body {
+  font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: #080808; color: #FFFFFF; }
+/* Lange Nederlandse samenstellingen (ARCHITECTUURGESCHIEDENIS…) mogen op smalle schermen afbreken. */
+h1, h2, h3 { overflow-wrap: anywhere; hyphens: auto; -webkit-hyphens: auto; }
+
+@layer components {
+  /* Kleine hoofdletters: metadata, navigatie */
+  .meta { @apply text-[11px] font-medium uppercase tracking-meta; }
+  .meta-mute { @apply meta text-mute; }
+  /* Omlijnde pil (filters, badges) */
+  .pill { @apply inline-flex h-6 items-center rounded-full border border-line px-2.5 text-[10px] font-medium uppercase tracking-meta text-ink transition-colors duration-200; }
+  .pill-active { @apply border-ink bg-ink text-paper; }
+  /* Knoppen: zwart-wit, dunne rand */
+  .btn { @apply inline-flex h-11 items-center justify-center gap-2 border border-ink px-5 text-[11px] font-semibold uppercase tracking-meta transition-colors duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink disabled:cursor-not-allowed disabled:opacity-40; }
+  .btn-solid { @apply btn bg-ink text-paper hover:bg-paper hover:text-ink; }
+  .btn-line { @apply btn bg-paper text-ink hover:bg-ink hover:text-paper; }
+  .btn-quiet { @apply btn border-line text-ink hover:border-ink; }
+  .link-u { @apply bg-[length:0%_1px] bg-left-bottom bg-no-repeat transition-[background-size] duration-300 [background-image:linear-gradient(currentColor,currentColor)] hover:bg-[length:100%_1px]; }
+  .rule { @apply h-px w-full bg-line; }
+  .rule-ink { @apply h-px w-full bg-ink; }
+  .prose-nl p { @apply text-[15px] leading-[1.7] text-[#333]; }
+}
+
+/* Kaartomslag */
+.flip { perspective: 1600px; }
+.flip-inner { transition: transform 600ms cubic-bezier(.2,.7,.2,1); transform-style: preserve-3d; }
+.flip-inner.is-flipped { transform: rotateY(180deg); }
+.flip-face { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.flip-back { transform: rotateY(180deg); }
+
+.page-fade { animation: pagefade 380ms ease both; }
+@keyframes pagefade { from { opacity: 0; } to { opacity: 1; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .flip-inner, .page-fade { transition: none; animation: none; }
+}

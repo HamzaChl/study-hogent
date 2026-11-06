@@ -1,0 +1,107 @@
+{
+  "courses": [
+    {
+      "id": "constructie",
+      "title": "Constructie",
+      "subtitle": "Materialen, elementen & structuren",
+      "category": "Constructie",
+      "status": "available",
+      "description": "Een introductie tot constructieve principes, materialen, elementen, verbindingen en structuren binnen de interieurvormgeving.",
+      "image": "content/constructie/img/p48-2.jpg",
+      "imageAlt": "Stalen skeletstructuur in opbouw — Farnsworth House, Ludwig Mies van der Rohe",
+      "meta": [
+        {
+          "label": "Jaar",
+          "value": "2026–2027"
+        },
+        {
+          "label": "ECTS",
+          "value": "3"
+        },
+        {
+          "label": "Semester",
+          "value": "01"
+        },
+        {
+          "label": "Status",
+          "value": "Beschikbaar"
+        }
+      ]
+    },
+    {
+      "id": "geschiedenis-architectuur",
+      "title": "Geschiedenis en actualiteit van Architectuur",
+      "category": "Architectuurgeschiedenis",
+      "status": "available",
+      "description": "Ontdek de geschiedenis van de architectuur, van de oudheid tot vandaag. Leer belangrijke gebouwen, architecten en stijlperiodes herkennen, situeren en analyseren.",
+      "image": "content/constructie/img/p39-2.jpg",
+      "imageAlt": "Monumentale historische architectuur — de Leeuwenpoort in Mycene",
+      "meta": [
+        {
+          "label": "Jaar",
+          "value": "2026–2027"
+        },
+        {
+          "label": "ECTS",
+          "value": "3"
+        },
+        {
+          "label": "Semester",
+          "value": "01"
+        },
+        {
+          "label": "Status",
+          "value": "Beschikbaar"
+        }
+      ]
+    },
+    {
+      "id": "course-03",
+      "title": "Cursus 03",
+      "category": "Binnenkort beschikbaar",
+      "status": "coming-soon",
+      "description": "Nieuw studiemateriaal is binnenkort beschikbaar.",
+      "image": "content/constructie/img/p41-3.jpg",
+      "imageAlt": "Brutalistische betonarchitectuur",
+      "meta": [
+        {
+          "label": "Status",
+          "value": "Binnenkort beschikbaar"
+        }
+      ],
+      "hidden": true
+    },
+    {
+      "id": "course-04",
+      "title": "Cursus 04",
+      "category": "Binnenkort beschikbaar",
+      "status": "coming-soon",
+      "description": "Nieuw studiemateriaal is binnenkort beschikbaar.",
+      "image": "content/constructie/img/p01-2.jpg",
+      "imageAlt": "Historische architectuurtekening van een koepel",
+      "meta": [
+        {
+          "label": "Status",
+          "value": "Binnenkort beschikbaar"
+        }
+      ],
+      "hidden": true
+    },
+    {
+      "id": "course-05",
+      "title": "Cursus 05",
+      "category": "Binnenkort beschikbaar",
+      "status": "coming-soon",
+      "description": "Nieuw studiemateriaal is binnenkort beschikbaar.",
+      "image": "content/constructie/img/p37-2.jpg",
+      "imageAlt": "Minimalistisch houten interieur",
+      "meta": [
+        {
+          "label": "Status",
+          "value": "Binnenkort beschikbaar"
+        }
+      ],
+      "hidden": true
+    }
+  ]
+}

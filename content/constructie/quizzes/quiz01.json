@@ -1,0 +1,143 @@
+{
+  "id": "quiz01",
+  "courseId": "constructie",
+  "title": "Quiz 01 — Materialen, elementen, structuren",
+  "description": "Tien meerkeuzevragen over de omschrijving van constructie, de indeling van elementen en de soorten structuren.",
+  "questions": [
+    {
+      "id": "q01-01",
+      "question": "Wat is volgens de cursus de definitie van constructie?",
+      "options": [
+        "Het decoratief samenbrengen van interieurinrichting en oppervlakteafwerkingen in de ruimtes van een gebouw",
+        "Alle materialen, elementen en structuren die ervoor zorgen dat het geheel de krachten die erop inwerken kan weerstaan",
+        "Enkel het fysieke skelet dat tijdens de uitvoeringsfase op de werf wordt opgetrokken",
+        "De wiskundige berekening van thermische isolatie en akoestische prestaties in de architectuur"
+      ],
+      "answer": 1,
+      "explanation": "Constructie wordt omschreven als alle materialen, elementen en structuren die ervoor zorgen dat het geheel de krachten die erop inwerken kan weerstaan, en dit van bij de ontwerpfase, over de uitvoeringsfase, tot de gehele levensduur.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": { "lecture": "les02", "pages": [3] }
+    },
+    {
+      "id": "q01-02",
+      "question": "Hoe wordt een plaat ingedeeld volgens dimensie en richting?",
+      "options": [
+        "Horizontaal, ééndimensionaal element",
+        "Verticaal, tweedimensionaal element",
+        "Horizontaal, tweedimensionaal element",
+        "Verticaal, ééndimensionaal element"
+      ],
+      "answer": 2,
+      "explanation": "In het schema van de elementen is een plaat een horizontaal, tweedimensionaal (2D) element.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": { "lecture": "les02", "pages": [20, 29] }
+    },
+    {
+      "id": "q01-03",
+      "question": "Wat is het structurele onderscheid tussen een massieve structuur en een skeletstructuur, in functie van de elementen?",
+      "options": [
+        "In massieve structuren zijn de dragende en scheidende elementen dezelfde, terwijl het in skeletstructuren verschillende elementen zijn.",
+        "In massieve structuren wordt enkel hout gebruikt, terwijl skeletstructuren staal of gewapend beton vereisen.",
+        "In massieve structuren worden de krachten op enkele punten geconcentreerd, terwijl skeletstructuren de krachten gelijkmatig verdelen.",
+        "In massieve structuren zijn de elementen niet-dragend, terwijl skeletstructuren uitsluitend alle laterale windbelastingen dragen."
+      ],
+      "answer": 0,
+      "explanation": "Massieve structuren zijn structuren waarin de dragende en scheidende elementen dezelfde zijn; in skeletstructuren zijn de dragende en scheidende elementen verschillende elementen.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": { "lecture": "les02", "pages": [56] }
+    },
+    {
+      "id": "q01-04",
+      "question": "Hoe worden de krachten overgedragen in een skeletstructuur, in vergelijking met een massieve structuur?",
+      "options": [
+        "De krachten worden doorlopend over het volledige oppervlak van de structuur overgedragen.",
+        "De krachten worden slechts over enkele punten in de structuur overgedragen.",
+        "De krachten worden uitsluitend opgevangen door de gordijngevels aan de buitenzijde.",
+        "De krachten gaan voorbij aan de horizontale elementen en werken enkel in op de funderingen."
+      ],
+      "answer": 1,
+      "explanation": "In functie van de krachten worden in een skeletstructuur de krachten slechts overgedragen over enkele punten in de structuur, terwijl een massieve structuur de krachten over de ganse structuur overdraagt.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": { "lecture": "les02", "pages": [57] }
+    },
+    {
+      "id": "q01-05",
+      "question": "Welk gebouw wordt vermeld als voorbeeld van een gemengde structuur, die een betonnen kern combineert met een skeletstructuur?",
+      "options": [
+        "Farnsworth House van Ludwig Mies van der Rohe",
+        "Maison Domino van Le Corbusier",
+        "Seagram Building van Philip Johnson en Ludwig Mies van der Rohe",
+        "Leis House van Peter Zumthor"
+      ],
+      "answer": 2,
+      "explanation": "Het Seagram Building (1958) van Philip Johnson en Ludwig Mies van der Rohe is een voorbeeld van een gemengde structuur: de betonnen kern verzekert de laterale stijfheid, de skeletstructuur maakt een lichtere (en zo dus ook hogere) structuur mogelijk.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": { "lecture": "les02", "pages": [51, 52] }
+    },
+    {
+      "id": "q01-06",
+      "question": "Wat kenmerkt volgens de indeling een 1D-constructie-element (ééndimensionaal)?",
+      "options": [
+        "Eén van de afmetingen is veel kleiner t.o.v. de andere afmetingen.",
+        "De drie afmetingen zijn ongeveer even groot.",
+        "Eén van de afmetingen is veel groter t.o.v. de andere afmetingen.",
+        "Het element bestaat uitsluitend in één horizontaal vlak, zonder diepte."
+      ],
+      "answer": 2,
+      "explanation": "Een 1D-element heeft één afmeting die veel groter is dan de andere afmetingen: het gaat om slanke elementen zoals balken of kolommen.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": { "lecture": "les02", "pages": [29] }
+    },
+    {
+      "id": "q01-07",
+      "question": "Als je elementen definieert als de samenstellende delen van een constructie, wat vormt dan de facto een vijfde soort element?",
+      "options": ["Afwerkingen", "Verbindingen", "Funderingen", "Isolatielagen"],
+      "answer": 1,
+      "explanation": "De cursus stelt uitdrukkelijk dat, als je elementen definieert als de samenstellende delen van een constructie, de verbindingen de facto een vijfde soort element vormen.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": { "lecture": "les02", "pages": [32] }
+    },
+    {
+      "id": "q01-08",
+      "question": "Wie kreeg op 13 november 1962 het Amerikaanse octrooi nr. 3,063,521 voor ‘Tensile-Integrity Structures’?",
+      "options": ["Le Corbusier", "Ludwig Mies van der Rohe", "Peter Zumthor", "R. Buckminster Fuller"],
+      "answer": 3,
+      "explanation": "Het vermelde octrooi is ‘Tensile-Integrity Structures’ (Amerikaans octrooi nr. 3,063,521), uitgevonden door R. Buckminster Fuller en verleend op 13 november 1962.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": { "lecture": "les02", "pages": [2], "note": "Octrooitekening op de titelslide — uitvinder: R. Buckminster Fuller" }
+    },
+    {
+      "id": "q01-09",
+      "question": "Welk ontwerp wordt in de cursus vermeld als voorbeeld van een betonnen skeletstructuur?",
+      "options": [
+        "Maison Domino (1914) van Le Corbusier",
+        "Brick House van Caruso St. John Architects",
+        "Leeuwenpoort in Mycene, Griekenland",
+        "Portland Office Building (2015) van Works Partnership Architecture"
+      ],
+      "answer": 0,
+      "explanation": "Maison Domino (1914) van Le Corbusier en Huis Bernheimbeuk (2011) van de Vylder Vinck Tailleu worden uitdrukkelijk vermeld als voorbeelden van betonnen skeletstructuren.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": { "lecture": "les02", "pages": [45, 46] }
+    },
+    {
+      "id": "q01-10",
+      "question": "Welk element wordt in het schema van dimensie en richting ingedeeld als verticaal, tweedimensionaal (2D) element?",
+      "options": ["Balk", "Kolom", "Wand", "Plaat"],
+      "answer": 2,
+      "explanation": "Volgens de indelingstabel is een verticaal 2D-element een wand.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": { "lecture": "les02", "pages": [29] }
+    }
+  ]
+}

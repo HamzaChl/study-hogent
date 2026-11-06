@@ -1,0 +1,138 @@
+{
+  "id": "geschiedenis-architectuur",
+  "title": "Geschiedenis en actualiteit van Architectuur",
+  "subtitle": "Architectuurgeschiedenis",
+  "number": "02",
+  "heading": ["Geschiedenis", "en actualiteit", "van architectuur"],
+  "showMeta": true,
+  "layout": "history",
+  "meta": [
+    { "label": "", "value": "Architectuurgeschiedenis" },
+    { "label": "", "value": "HOGENT" },
+    { "label": "", "value": "Bachelor Interieurvormgeving" },
+    { "label": "Academiejaar", "value": "2026–2027" },
+    { "label": "Docent", "value": "Birgit Cleppe" },
+    { "label": "Studiepunten", "value": "3 ECTS" },
+    { "label": "Semester", "value": "01" },
+    { "label": "Totale studietijd", "value": "80 uur" }
+  ],
+  "provisional": {
+    "note": "Voorlopige chronologische indeling om je weg te vinden. Dit is géén officiële lijst van hoofdstukken: zodra de lessen van de docent beschikbaar zijn, wordt de indeling aangepast aan het lesmateriaal.",
+    "sections": [
+      { "id": "h01", "number": "01", "title": "Oudheid" },
+      { "id": "h02", "number": "02", "title": "Middeleeuwen" },
+      { "id": "h03", "number": "03", "title": "Renaissance" },
+      { "id": "h04", "number": "04", "title": "Barok" },
+      { "id": "h05", "number": "05", "title": "18e en 19e eeuw" },
+      { "id": "h06", "number": "06", "title": "Moderne architectuur" },
+      { "id": "h07", "number": "07", "title": "Hedendaagse architectuur" }
+    ]
+  },
+  "official": {
+    "source": "BaMaFlex — Geschiedenis en actualiteit van Architectuur (46113/5880/2627/1/80), HOGENT, academiejaar 2026-27",
+    "studyTime": { "total": 80, "lectures": 24, "selfStudy": 56 },
+    "description": [
+      "Hoorcolleges, geïllustreerd met slideshows en filmfragmenten, opdrachten.",
+      "De hoorcolleges en de syllabus bieden een inleiding tot de geschiedenis van de architectuur. Er wordt ingegaan op sleutelmomenten in de geschiedenis van de West-Europese architectuur, met een complexe waaier van verschillende denk- en bouwpraktijken die doorheen historische en maatschappelijke contexten evolueerden en wijzigden.",
+      "De belangrijkste periodes van de Oudheid tot nu worden duidelijk afgebakend. De student krijgt zo een basiskennis mee over de evolutie van de architectuur, maar wordt tegelijk bewust gemaakt van het feit dat er verschillende canons (hebben) bestaan."
+    ],
+    "parts": [],
+    "objectiveGroups": [
+      {
+        "number": "01",
+        "title": "Referentiekader",
+        "text": "De student maakt kennis met de geschiedenis van een discipline die vaak letterlijk als werkkader zal functioneren, laat zich erdoor inspireren en verhoudt zich er kritisch toe. Door denk- en bouwpraktijken van toen en nu, en hier en elders, naast elkaar te zien, groeit een dynamisch historisch besef.",
+        "items": [
+          "De belangrijkste periodes van de Oudheid tot nu herkennen en afbakenen.",
+          "Architectuurontwerpen op basis van stijlkenmerken situeren in plaats en tijd.",
+          "De krachtlijnen van verschillende stijlperiodes herkennen en vergelijken.",
+          "Dwarsverbanden herkennen tussen architectuur uit verschillende periodes en culturen.",
+          "Een reeks sleutelwerken herkennen, dateren en situeren in het oeuvre van de ontwerper.",
+          "Zich kritisch verhouden tot de architectuurgeschiedenis."
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Onderzoekscompetenties",
+        "text": "De student ziet hoe architectuur, interieurarchitectuur en interieurvormgeving elkaar door de eeuwen heen op verschillende manieren hebben overlapt, uitgedaagd en verrijkt, en ontwikkelt competenties om de geschiedenis van de architectuur zelf verder te verkennen.",
+        "items": [
+          "Informatie opzoeken over een specifiek gebouw of stijlperiode in betrouwbare bronnen.",
+          "Een correcte bronvermelding gebruiken.",
+          "De belangrijkste ontwerpkeuzes van sleutelwerken herkennen en begrijpen.",
+          "Inzien hoe architectuur, interieurarchitectuur en interieurvormgeving elkaar hebben beïnvloed.",
+          "De architectuurgeschiedenis op kritische wijze eigen maken, in opdrachten en in de eigen ontwerppraktijk."
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Observatie en kritische analyse",
+        "subtitle": "Observatievermogen en zelfstandig kritisch beoordelen van architectuur",
+        "text": "De student leert zelf kritisch naar gebouwen kijken en zich zelfstandig een oordeel te vormen over bestaande gebouwen en ontwerpen.",
+        "items": [
+          "De kernkwaliteiten of karakteristieke stijlkenmerken van een historisch ontwerp bestuderen met eigen tekenkundige middelen.",
+          "Die kernkwaliteiten of stijlkenmerken vatten in een tekening of foto.",
+          "Gebouwen helder met elkaar vergelijken.",
+          "Zich zelfstandig een onderbouwd oordeel vormen over bestaande gebouwen en ontwerpen."
+        ]
+      }
+    ],
+    "objectives": [
+      "Situeert architectuurontwerpen op basis van stijlkenmerken in plaats en tijd.",
+      "Herkent en vergelijkt de krachtlijnen van verschillende stijlperiodes.",
+      "Herkent en dateert een reeks sleutelwerken uit de architectuurgeschiedenis.",
+      "Situeert sleutelwerken uit de architectuurgeschiedenis en plaatst ze in het oeuvre van de ontwerper.",
+      "Herkent en begrijpt de belangrijkste ontwerpkeuzes van sleutelwerken uit de architectuurgeschiedenis.",
+      "Zoekt informatie op over een specifiek gebouw of stijlperiode in betrouwbare bronnen.",
+      "Gebruikt een correcte bronvermelding.",
+      "Bestudeert de kernkwaliteiten of karakteristieke stijlkenmerken van een historisch ontwerp met eigen tekenkundige middelen.",
+      "Vat de kernkwaliteiten of karakteristieke stijlkenmerken van een historisch ontwerp in een tekening of foto."
+    ],
+    "assessment": [
+      {
+        "id": "examen",
+        "title": "Schriftelijk examen",
+        "weight": 70,
+        "note": "Bij kleine studentengroepen kan dit een mondeling examen worden.",
+        "criteria": [
+          "Inzicht in de architectuurgeschiedenis: ontwerpen en ontwerpers situeren in de tijd en in hun socio-culturele context, met elkaar vergelijken en koppelen aan een stijlperiode.",
+          "Basisvocabularium: de juiste terminologie kennen om gebouwen en gebouwdelen te omschrijven.",
+          "Referentiekader punctueel — basiskennis sleutelprojecten: de ontwerpen herkennen op foto, met naam van het gebouw, ontwerper, eeuw waarin het werd ontworpen, plaats waar het gebouwd werd en stijlperiode.",
+          "Referentiekader overzicht — inzicht en toegepaste kennis: de specifieke context van de ontwerpen kennen, kernkwaliteiten en ontwerpkeuzes toelichten, de constructiemethode toelichten en linken aan de stijlperiode."
+        ]
+      },
+      {
+        "id": "tekeningen",
+        "title": "Tekenkundig onderzoek",
+        "weight": 20,
+        "note": "Reeks van tien tekeningen van gebouwen uit tien verschillende periodes, met bronvermelding en vijf kernwoorden per ontwerp.",
+        "criteria": [
+          "Volledigheid: de volledige reeks tekeningen is ingediend en betreft gebouwen uit 10 verschillende tijdsvakken.",
+          "Bronmateriaal: betrouwbare bronnen en correcte bronvermeldingen.",
+          "Precisie van het onderzoek: de tekeningen getuigen van een precieze observatie van het ontwerp.",
+          "Oordeelkundig vermogen: de vijf sleutelwoorden bij elke tekening getuigen van een precieze observatie van het ontwerp."
+        ]
+      },
+      {
+        "id": "wandelingen",
+        "title": "Observatiewandelingen",
+        "weight": 10,
+        "note": "Drie thematische wandelingen langs hedendaagse realisaties, fotoverslag en korte schriftelijke neerslag.",
+        "criteria": [
+          "Volledigheid: de volledige reeks wandelingen is afgewerkt en alle gebouwen zijn bezocht.",
+          "Selectie fotomateriaal: de kernkwaliteiten van het gebouw weergeven en koppelen aan de thematiek van de wandeling.",
+          "Schriftelijke neerslag: de gebouwen helder met elkaar vergelijken volgens de verschillende thema’s."
+        ]
+      }
+    ],
+    "evaluation": [
+      "Schriftelijk examen: 70% van de punten (bij kleine studentengroepen eventueel mondeling).",
+      "Tekenkundig onderzoek (reeks van 10 tekeningen): 20% van de punten.",
+      "Observatiewandelingen (3 wandelingen, fotoverslag en korte schriftelijke neerslag): 10% van de punten.",
+      "Gequoteerd op 20 (tot op een geheel getal). Tweede examenkans mogelijk voor alle onderdelen."
+    ],
+    "materials": "Hoorcolleges met beeldmateriaal; syllabus; studiehandleiding op digitaal platform; eigen lesnotities.",
+    "notes": [
+      "De precieze beschrijving van de opdrachten en de te kennen leerstof staat in de studiehandleiding, die beschikbaar is op Chamilo."
+    ]
+  }
+}
