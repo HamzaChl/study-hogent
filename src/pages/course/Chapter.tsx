@@ -1,6 +1,8 @@
+import { useCallback, useRef } from "react";
 import { Blocks } from "../../components/Blocks";
+import { Highlighter, type Span } from "../../components/Highlighter";
 import { Empty, Img, SourceTag } from "../../components/ui";
-import type { CourseBundle } from "../../lib/content";
+import { chapterCode, chaptersByLecture, lectureTitle, type CourseBundle } from "../../lib/content";
 import { useProgress } from "../../lib/progress";
 
 function pageRange(pages: number[]): string {
@@ -15,6 +17,12 @@ export default function ChapterView({ bundle, chapterId }: { bundle: CourseBundl
   const idx = chapters.findIndex((c) => c.id === chapterId);
   const ch = chapters[idx];
   const base = `#/course/${course.id}`;
+  const articleRef = useRef<HTMLElement>(null);
+  const spans = (get(course.id).highlights[chapterId] ?? []) as Span[];
+  const setSpans = useCallback(
+    (next: Span[]) => update(course.id, (p) => ({ ...p, highlights: { ...p.highlights, [chapterId]: next } })),
+    [update, course.id, chapterId],
+  );
   if (!ch) return <Empty>Dit hoofdstuk bestaat niet.</Empty>;
 
   const done = get(course.id).completed.includes(ch.id);
@@ -31,17 +39,32 @@ export default function ChapterView({ bundle, chapterId }: { bundle: CourseBundl
       <aside className="hidden lg:block">
         <div className="sticky top-8">
           <a href={`${base}/study`} className="meta link-u">← Inhoud</a>
-          <ol className="mt-6 border-t border-ink">
-            {chapters.map((c) => {
-              const d = get(course.id).completed.includes(c.id);
+          <ol className="mt-6 max-h-[calc(100dvh-8rem)] overflow-y-auto border-t border-ink">
+            {chaptersByLecture(bundle).map(({ lecture: l, chapters: lchs }) => {
+              const isCurrent = l.id === lecture?.id;
               return (
-                <li key={c.id} className="border-b border-line">
-                  <a href={`${base}/study/${c.id}`} aria-current={c.id === ch.id ? "page" : undefined} className={`flex items-baseline justify-between gap-3 py-3 text-[11px] font-semibold uppercase tracking-[0.06em] hover:bg-haze ${c.id === ch.id ? "text-ink" : "text-mute"}`}>
-                    <span>
-                      {c.number} — {c.title}
-                    </span>
-                    {d && <span aria-label="voltooid">●</span>}
+                <li key={l.id} className="border-b border-line">
+                  <a href={`${base}/study/${(isCurrent ? ch : lchs[0]).id}`} className={`flex items-baseline gap-2 py-3 text-[11px] font-bold uppercase tracking-[0.06em] hover:bg-haze ${isCurrent ? "text-ink" : "text-mute"}`}>
+                    <span className="shrink-0 tabular-nums">{l.id.replace("les", "Les ")}</span>
+                    <span className="font-semibold">{lectureTitle(l)}</span>
                   </a>
+                  {isCurrent && (
+                    <ol className="mb-2 ml-3 border-l border-line">
+                      {lchs.map((c) => {
+                        const d = get(course.id).completed.includes(c.id);
+                        return (
+                          <li key={c.id}>
+                            <a href={`${base}/study/${c.id}`} aria-current={c.id === ch.id ? "page" : undefined} className={`-ml-px flex items-baseline justify-between gap-3 border-l py-2 pl-3 text-[11px] font-semibold uppercase tracking-[0.06em] hover:bg-haze ${c.id === ch.id ? "border-ink text-ink" : "border-transparent text-mute"}`}>
+                              <span>
+                                {c.number} — {c.title}
+                              </span>
+                              {d && <span aria-label="voltooid">●</span>}
+                            </a>
+                          </li>
+                        );
+                      })}
+                    </ol>
+                  )}
                 </li>
               );
             })}
@@ -49,7 +72,7 @@ export default function ChapterView({ bundle, chapterId }: { bundle: CourseBundl
         </div>
       </aside>
 
-      <article className="min-w-0">
+      <article ref={articleRef} className="min-w-0">
         <a href={`${base}/study`} className="meta link-u lg:hidden">← Inhoud</a>
 
         <header className="mt-6 lg:mt-0">
@@ -113,13 +136,13 @@ export default function ChapterView({ bundle, chapterId }: { bundle: CourseBundl
           {prev ? (
             <a href={`${base}/study/${prev.id}`} className="group py-6 pr-4">
               <span className="meta-mute">← Vorige</span>
-              <span className="mt-2 block text-[15px] font-bold uppercase sm:text-[20px]"><span className="link-u group-hover:bg-[length:100%_1px]">{prev.number} {prev.title}</span></span>
+              <span className="mt-2 block text-[15px] font-bold uppercase sm:text-[20px]"><span className="link-u group-hover:bg-[length:100%_1px]">{chapterCode(bundle, prev)} {prev.title}</span></span>
             </a>
           ) : <span />}
           {next ? (
             <a href={`${base}/study/${next.id}`} className="group border-l border-line py-6 pl-4 text-right">
               <span className="meta-mute">Volgende →</span>
-              <span className="mt-2 block text-[15px] font-bold uppercase sm:text-[20px]"><span className="link-u group-hover:bg-[length:100%_1px]">{next.number} {next.title}</span></span>
+              <span className="mt-2 block text-[15px] font-bold uppercase sm:text-[20px]"><span className="link-u group-hover:bg-[length:100%_1px]">{chapterCode(bundle, next)} {next.title}</span></span>
             </a>
           ) : (
             <a href={`${base}/exam`} className="group border-l border-line py-6 pl-4 text-right">
@@ -129,6 +152,7 @@ export default function ChapterView({ bundle, chapterId }: { bundle: CourseBundl
           )}
         </nav>
       </article>
+      <Highlighter container={articleRef} spans={spans} onChange={setSpans} contentKey={ch.id} />
     </div>
   );
 }

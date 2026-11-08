@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { allBundles, catalog } from "../lib/content";
+import { allBundles, catalog, chapterCode } from "../lib/content";
 import { norm } from "../lib/text";
 
 type Hit = { kind: string; title: string; snippet: string; href: string };
@@ -11,7 +11,7 @@ function buildIndex(): (Hit & { hay: string })[] {
     const cid = b.course.id;
     for (const ch of b.chapters) {
       const text = ch.sections.flatMap((s) => [s.heading, ...s.blocks.map(blockText)]).join(" ");
-      out.push({ kind: "Les", title: `${ch.number} — ${ch.title}`, snippet: ch.kicker, href: `#/course/${cid}/study/${ch.id}`, hay: norm(`${ch.title} ${ch.kicker} ${ch.intro} ${text} ${ch.summary.join(" ")}`) });
+      out.push({ kind: "Les", title: `${chapterCode(b, ch)} — ${ch.title}`, snippet: ch.kicker, href: `#/course/${cid}/study/${ch.id}`, hay: norm(`${ch.title} ${ch.kicker} ${ch.intro} ${text} ${ch.summary.join(" ")}`) });
     }
     for (const f of b.flashcards) out.push({ kind: "Flashcard", title: f.front, snippet: f.back, href: `#/course/${cid}/flashcards?card=${f.id}`, hay: norm(`${f.front} ${f.back}`) });
     // Oefeningen, quiz en examens worden bewust niet geïndexeerd: ze moeten willekeurig blijven.

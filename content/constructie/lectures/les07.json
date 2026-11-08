@@ -1,0 +1,479 @@
+{
+  "id": "les07",
+  "courseId": "constructie",
+  "title": "Constructie — Enkele concepten: kettinglijn & zwaartepunt",
+  "file": "2026-27_1IV_CONSTRUCTIE_LES_07_-_Enkele_concepten-_kettinglijn_&_zwaartepunt.pdf",
+  "pages": 23,
+  "covers": [
+    "p1-06"
+  ],
+  "chapters": [
+    {
+      "id": "kettinglijn",
+      "number": "01",
+      "title": "Kettinglijn",
+      "kicker": "De ketting als constructief principe",
+      "topicIds": [
+        "p1-06"
+      ],
+      "cover": "img/les07-p04-2.jpg",
+      "intro": "Een ketting onder belasting zoekt evenwicht en kent enkel trekspanning. Keer je die vorm om, dan krijg je een parabole boog die enkel drukspanning ondervindt. De les toont dat principe in de Gateway Arch, in hangbruggen en in de Sagrada Familia.",
+      "sections": [
+        {
+          "heading": "Kettinglijn en omgekeerde kettinglijn",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Kettinglijn",
+              "text": "Een ketting, onderhevig aan belasting, zoekt evenwicht (zoals elke structuur). In de ketting kan enkel trekspanning bestaan.",
+              "page": 3
+            },
+            {
+              "type": "definition",
+              "term": "Omgekeerde kettinglijn: parabole boog",
+              "text": "Een perfect parabole boog zal, naar analogie met de kettinglijn, enkel drukspanning ondervinden.",
+              "page": 4
+            },
+            {
+              "type": "note",
+              "text": "Wel de spatkrachten niet vergeten (p. 4)!"
+            },
+            {
+              "type": "figure",
+              "src": "img/les07-p04-2.jpg",
+              "caption": "Gateway Arch, Saint-Louis, Missouri, USA — Eero Saarinen, Hannskarl Bandel, 1965.",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "heading": "Toepassingen",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Hangbrug (suspension bridge)",
+              "text": "Kabels zijn een vorm van kettingen: de hoofdkabels van een ophangbrug hebben de vorm van een parabolische boog onder invloed van het gewicht van het brugdek.",
+              "page": 6
+            },
+            {
+              "type": "figure",
+              "src": "img/les07-p06-2.jpg",
+              "caption": "Golden Gate Bridge, San Francisco, California, USA — Strauss, Morrow, Ellis, 1937.",
+              "page": 6
+            },
+            {
+              "type": "p",
+              "text": "De (hoofd)structuur van de Sagrada Familia is gebaseerd op de toepassing van de kettinglijn. Bijgevolg zijn alle gebruikte bogen parabolisch in plaats van circulair."
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "src": "img/les07-p08-2.jpg",
+                  "title": "Hangend kettingmodel",
+                  "caption": "Toepassing van de kettinglijn",
+                  "page": 8
+                },
+                {
+                  "src": "img/les07-p08-3.jpg",
+                  "title": "Sagrada Familia, Barcelona",
+                  "page": 8,
+                  "caption": "Antoni Gaudí"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Ketting onder belasting zoekt evenwicht; enkel trekspanning.",
+        "Omgekeerde kettinglijn = parabole boog: enkel drukspanning (maar spatkrachten!).",
+        "Gateway Arch (Saarinen & Bandel, 1965).",
+        "Hangbrug: hoofdkabels krijgen een parabolische vorm onder het gewicht van het brugdek (Golden Gate Bridge, 1937).",
+        "Sagrada Familia (Gaudí): kettinglijn → parabolische i.p.v. circulaire bogen."
+      ],
+      "source": {
+        "lecture": "les07",
+        "pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "id": "zwaartepunt",
+      "number": "02",
+      "title": "Zwaartepunt",
+      "kicker": "Sport als inspiratie",
+      "topicIds": [
+        "p1-06"
+      ],
+      "cover": "img/les07-p22-2.jpg",
+      "intro": "Via het hoogspringen, van de schaarsprong tot de Fosbury Flop (1968), komt de les bij het zwaartepunt. Het zwaartepunt is ook een stabiliteitsprincipe: zolang het boven het steunvlak ligt, blijft een structuur stabiel.",
+      "sections": [
+        {
+          "heading": "Wat is het zwaartepunt?",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Zwaartepunt of massamiddelpunt",
+              "text": "Het punt van een object waarrond alle massa in evenwicht is; het aangrijpingspunt van de zwaartekracht (als puntlast).",
+              "page": 12
+            },
+            {
+              "type": "p",
+              "text": "Het zwaartepunt van een lichaam verandert als de vorm van het lichaam verandert. Om een object in beweging te krijgen, moet met andere woorden het zwaartepunt in beweging gebracht worden."
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "src": "img/les07-p09-2.jpg",
+                  "title": "Schaarsprong",
+                  "page": 9
+                },
+                {
+                  "src": "img/les07-p10-2.jpg",
+                  "title": "Straddle",
+                  "page": 10
+                },
+                {
+                  "src": "img/les07-p11-2.jpg",
+                  "title": "Fosbury Flop (1968)",
+                  "caption": "Revolutie in het hoogspringen",
+                  "page": 11
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "text": "De Fosbury Flop is een toepassing van de kennis van het zwaartepunt in de sport (p. 14)."
+            }
+          ]
+        },
+        {
+          "heading": "Zwaartepunt als stabiliteitsprincipe",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Stabiliteitsprincipe",
+              "text": "Zolang het zwaartepunt van een structuur boven het steunvlak ligt, zal de structuur stabiel zijn.",
+              "page": 15
+            },
+            {
+              "type": "list",
+              "items": [
+                "Gewichtheffen (p. 15)",
+                "Michael Jackson — een patent voor schoenen die de drager toelaten voorbij zijn zwaartepunt naar voren te leunen, door in te haken in de vloer van het podium (US-patent US5255452 A) (p. 16–17)",
+                "Stokke, Gravity Chair (p. 20)",
+                "In structuren: uitkragingen — Fallingwater, Frank Lloyd Wright (p. 22)"
+              ]
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "src": "img/les07-p20-2.jpg",
+                  "title": "Stokke, Gravity Chair",
+                  "page": 20
+                },
+                {
+                  "src": "img/les07-p22-2.jpg",
+                  "title": "Fallingwater",
+                  "caption": "Frank Lloyd Wright — uitkragingen",
+                  "page": 22
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Zwaartepunt (massamiddelpunt): punt waarrond alle massa in evenwicht is; aangrijpingspunt van de zwaartekracht.",
+        "Het zwaartepunt verschuift als de vorm verandert; om een object te bewegen, beweeg je het zwaartepunt.",
+        "Hoogspringen: schaarsprong → straddle → Fosbury Flop (1968).",
+        "Stabiliteit: zolang het zwaartepunt boven het steunvlak ligt, is de structuur stabiel.",
+        "In structuren: uitkragingen, bv. Fallingwater (Frank Lloyd Wright)."
+      ],
+      "source": {
+        "lecture": "les07",
+        "pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ]
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "les07-f01",
+      "chapterId": "kettinglijn",
+      "front": "Welke spanning bestaat er in een ketting?",
+      "back": "Enkel trekspanning. Een ketting onder belasting zoekt evenwicht.",
+      "page": 3
+    },
+    {
+      "id": "les07-f02",
+      "chapterId": "kettinglijn",
+      "front": "Wat is een omgekeerde kettinglijn?",
+      "back": "Een parabole boog: die ondervindt — naar analogie met de kettinglijn — enkel drukspanning. Maar: spatkrachten niet vergeten!",
+      "page": 4
+    },
+    {
+      "id": "les07-f03",
+      "chapterId": "kettinglijn",
+      "front": "Gateway Arch: waar, wie, wanneer?",
+      "back": "Saint-Louis, Missouri, USA — Eero Saarinen en Hannskarl Bandel, 1965. Voorbeeld van een parabole boog.",
+      "page": 4,
+      "image": "img/les07-p04-2.jpg"
+    },
+    {
+      "id": "les07-f04",
+      "chapterId": "kettinglijn",
+      "front": "Waarom hebben de hoofdkabels van een hangbrug een parabolische vorm?",
+      "back": "Kabels zijn een vorm van kettingen: onder het gewicht van het brugdek nemen ze de vorm van een parabolische boog aan.",
+      "page": 6
+    },
+    {
+      "id": "les07-f05",
+      "chapterId": "kettinglijn",
+      "front": "Golden Gate Bridge: wie en wanneer?",
+      "back": "Strauss, Morrow, Ellis — 1937, San Francisco. Toepassing van de kettinglijn (hangbrug).",
+      "page": 6
+    },
+    {
+      "id": "les07-f06",
+      "chapterId": "kettinglijn",
+      "front": "Waarop is de hoofdstructuur van de Sagrada Familia gebaseerd?",
+      "back": "Op de kettinglijn (Gaudí). Daarom zijn alle bogen parabolisch in plaats van circulair.",
+      "page": 8,
+      "image": "img/les07-p08-3.jpg"
+    },
+    {
+      "id": "les07-f07",
+      "chapterId": "zwaartepunt",
+      "front": "Wat is het zwaartepunt?",
+      "back": "Het massamiddelpunt: het punt van een object waarrond alle massa in evenwicht is — het aangrijpingspunt van de zwaartekracht (als puntlast).",
+      "page": 12
+    },
+    {
+      "id": "les07-f08",
+      "chapterId": "zwaartepunt",
+      "front": "Wat gebeurt er met het zwaartepunt als een lichaam van vorm verandert?",
+      "back": "Het zwaartepunt verandert mee.",
+      "page": 13
+    },
+    {
+      "id": "les07-f09",
+      "chapterId": "zwaartepunt",
+      "front": "Welke sprongtechniek toont de les als toepassing van het zwaartepunt?",
+      "back": "De Fosbury Flop (1968) — na de schaarsprong en de straddle.",
+      "page": 14
+    },
+    {
+      "id": "les07-f10",
+      "chapterId": "zwaartepunt",
+      "front": "Zwaartepunt als stabiliteitsprincipe?",
+      "back": "Zolang het zwaartepunt van een structuur boven het steunvlak ligt, zal de structuur stabiel zijn.",
+      "page": 15
+    },
+    {
+      "id": "les07-f11",
+      "chapterId": "zwaartepunt",
+      "front": "Welk gebouw toont de les als voorbeeld van uitkragingen?",
+      "back": "Fallingwater van Frank Lloyd Wright.",
+      "page": 22,
+      "image": "img/les07-p22-2.jpg"
+    }
+  ],
+  "practice": [
+    {
+      "id": "les07-pr01",
+      "chapterId": "kettinglijn",
+      "type": "tf",
+      "statement": "In een ketting kan enkel drukspanning bestaan.",
+      "answer": false,
+      "explanation": "In een ketting kan enkel trekspanning bestaan; de omgekeerde vorm (parabole boog) kent enkel druk.",
+      "page": 3
+    },
+    {
+      "id": "les07-pr02",
+      "chapterId": "kettinglijn",
+      "type": "mc",
+      "prompt": "Welke spanning ondervindt een perfect parabole boog?",
+      "options": [
+        "Enkel trek",
+        "Enkel torsie",
+        "Enkel druk",
+        "Afwisselend trek en druk"
+      ],
+      "answer": 2,
+      "explanation": "Naar analogie met de kettinglijn: enkel drukspanning — maar spatkrachten niet vergeten.",
+      "page": 4
+    },
+    {
+      "id": "les07-pr03",
+      "chapterId": "kettinglijn",
+      "type": "mc",
+      "prompt": "Waarom zijn de bogen van de Sagrada Familia parabolisch in plaats van circulair?",
+      "options": [
+        "Omdat de hoofdstructuur gebaseerd is op de kettinglijn",
+        "Om esthetische redenen alleen",
+        "Omdat ze uit staal zijn",
+        "Omdat er geen steunberen zijn toegelaten"
+      ],
+      "answer": 0,
+      "explanation": "p. 8.",
+      "page": 8
+    },
+    {
+      "id": "les07-pr04",
+      "chapterId": "kettinglijn",
+      "type": "match",
+      "prompt": "Koppel het voorbeeld aan zijn ontwerper(s).",
+      "pairs": [
+        [
+          "Gateway Arch",
+          "Saarinen & Bandel"
+        ],
+        [
+          "Golden Gate Bridge",
+          "Strauss, Morrow, Ellis"
+        ],
+        [
+          "Sagrada Familia",
+          "Gaudí"
+        ],
+        [
+          "Fallingwater",
+          "Frank Lloyd Wright"
+        ]
+      ],
+      "explanation": "p. 4, 6, 8, 22.",
+      "page": 4
+    },
+    {
+      "id": "les07-pr05",
+      "chapterId": "zwaartepunt",
+      "type": "definition",
+      "definition": "Het punt van een object waarrond alle massa in evenwicht is.",
+      "accepted": [
+        "zwaartepunt",
+        "massamiddelpunt",
+        "het zwaartepunt"
+      ],
+      "explanation": "Zwaartepunt of massamiddelpunt (p. 12).",
+      "page": 12
+    },
+    {
+      "id": "les07-pr06",
+      "chapterId": "zwaartepunt",
+      "type": "tf",
+      "statement": "Een structuur is stabiel zolang haar zwaartepunt boven het steunvlak ligt.",
+      "answer": true,
+      "explanation": "Zwaartepunt als stabiliteitsprincipe (p. 15).",
+      "page": 15
+    },
+    {
+      "id": "les07-pr07",
+      "chapterId": "zwaartepunt",
+      "type": "open",
+      "prompt": "Leg uit hoe het zwaartepunt als stabiliteitsprincipe werkt, met een voorbeeld uit de les.",
+      "model": "Zolang het zwaartepunt van een structuur boven het steunvlak ligt, zal de structuur stabiel zijn. Voorbeelden: gewichtheffen, de Stokke Gravity Chair, of uitkragingen in structuren zoals Fallingwater van Frank Lloyd Wright.",
+      "keywords": [
+        "zwaartepunt",
+        "steunvlak",
+        "stabiel",
+        "uitkraging"
+      ],
+      "explanation": "p. 15–22.",
+      "page": 15
+    }
+  ],
+  "exam": [
+    {
+      "id": "les07-e01",
+      "chapterId": "kettinglijn",
+      "type": "mc",
+      "prompt": "Waar moet je bij een parabole boog nog rekening mee houden, ook al is er enkel druk?",
+      "options": [
+        "Torsie",
+        "Spatkrachten",
+        "Dwarscontractie",
+        "Resonantie"
+      ],
+      "answer": 1,
+      "explanation": "‘Wel spatkrachten niet vergeten!’ (p. 4).",
+      "page": 4
+    },
+    {
+      "id": "les07-e02",
+      "chapterId": "zwaartepunt",
+      "type": "mc",
+      "prompt": "Het zwaartepunt is het aangrijpingspunt van…",
+      "options": [
+        "de windbelasting",
+        "de normaalkracht in een kolom",
+        "een koppel",
+        "de zwaartekracht (als puntlast)"
+      ],
+      "answer": 3,
+      "explanation": "p. 12.",
+      "page": 12
+    },
+    {
+      "id": "les07-o01",
+      "chapterId": "kettinglijn",
+      "type": "open",
+      "prompt": "Leg de kettinglijn uit als constructief principe en geef twee toepassingen.",
+      "model": "Een ketting onder belasting zoekt evenwicht en kent enkel trekspanning. Keer je die vorm om, dan krijg je een parabole boog die enkel drukspanning ondervindt (spatkrachten niet vergeten). Toepassingen: de Gateway Arch (Saarinen & Bandel, 1965), de hoofdkabels van hangbruggen zoals de Golden Gate Bridge, en de Sagrada Familia van Gaudí met parabolische in plaats van circulaire bogen.",
+      "keywords": [
+        "evenwicht",
+        "trek",
+        "omgekeerd",
+        "parabole boog",
+        "druk",
+        "spatkrachten",
+        "Gateway Arch",
+        "hangbrug",
+        "Sagrada Familia"
+      ],
+      "explanation": "p. 3–8.",
+      "page": 3
+    },
+    {
+      "id": "les07-d01",
+      "chapterId": "zwaartepunt",
+      "type": "drawing",
+      "prompt": "Bespreek dit gebouw. Welk constructief concept uit de les illustreert het, en welke voorwaarde geldt voor de stabiliteit?",
+      "image": "img/les07-p22-2.jpg",
+      "imageCaption": "Fallingwater, Frank Lloyd Wright",
+      "model": "Fallingwater toont uitkragingen. Het hoort bij het zwaartepunt als stabiliteitsprincipe: zolang het zwaartepunt van de structuur boven het steunvlak ligt, blijft de structuur stabiel.",
+      "keywords": [
+        "uitkraging",
+        "zwaartepunt",
+        "steunvlak",
+        "stabiel"
+      ],
+      "explanation": "p. 22.",
+      "page": 22
+    }
+  ],
+  "buildings": []
+}

@@ -1,0 +1,444 @@
+{
+  "id": "les05",
+  "courseId": "constructie",
+  "title": "Constructie — Over krachten & vectoren",
+  "file": "2026-27_1IV_CONSTRUCTIE_LES_05_-_Over_krachten_&_vectoren.pdf",
+  "pages": 19,
+  "covers": [
+    "p1-01"
+  ],
+  "chapters": [
+    {
+      "id": "vectoren",
+      "number": "01",
+      "title": "Krachten als vectoren",
+      "kicker": "Grootte en richting",
+      "topicIds": [
+        "p1-01"
+      ],
+      "cover": "img/les05-p05-2.jpg",
+      "intro": "Een kracht is een fysische grootheid waarbij zowel de grootte als de richting van belang zijn: een vector. Krachten kan je samenstellen tot een resultante en omgekeerd opsplitsen in componenten, via het parallellogram van krachten.",
+      "sections": [
+        {
+          "heading": "Grootte en richting",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Kracht",
+              "text": "Een fysische grootheid waarbij zowel de grootte als de richting van belang zijn.",
+              "page": 3
+            },
+            {
+              "type": "list",
+              "items": [
+                "Krachten en grootte: als je meer kracht uitoefent, zal de verandering van beweging (versnelling) groter worden.",
+                "Krachten en richting: als je de kracht in een andere richting uitoefent, zal de beweging ook in die andere richting gebeuren."
+              ]
+            },
+            {
+              "type": "definition",
+              "term": "Vector",
+              "text": "Een fysische grootheid met een grootte en een richting.",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "heading": "Samenstellen en ontbinden",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Samenstelling van krachten",
+              "text": "Als je twee krachten tegelijk uitoefent, met een verschillende grootte en in een verschillende richting, zal de beweging gebeuren volgens de richting en de grootte van de resultante kracht.",
+              "page": 4
+            },
+            {
+              "type": "definition",
+              "term": "Parallellogram van krachten",
+              "text": "De som van een kracht F1 en een kracht F2 is de samengestelde resultante kracht Fnet.",
+              "page": 5
+            },
+            {
+              "type": "figure",
+              "src": "img/les05-p05-2.jpg",
+              "caption": "Parallellogram van krachten: F1 + F2 = Fnet.",
+              "page": 5
+            },
+            {
+              "type": "p",
+              "text": "Omgekeerd kan je de kracht Fr opsplitsen volgens eender welke combinatie van assen — in het bijzonder, voor constructies, de verticale en de horizontale as. Zo ontstaan een horizontale component Fw en een verticale component Fg."
+            },
+            {
+              "type": "figure",
+              "src": "img/les05-p08-2.jpg",
+              "caption": "Fr opgesplitst in een horizontale component Fw en een verticale component Fg.",
+              "page": 8
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Een kracht is een vector: grootte én richting tellen.",
+        "Meer kracht → grotere versnelling; andere richting → beweging in die richting.",
+        "Twee krachten samen → resultante (parallellogram van krachten).",
+        "Omgekeerd: een kracht opsplitsen in componenten, voor constructies vooral horizontaal en verticaal."
+      ],
+      "source": {
+        "lecture": "les05",
+        "pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "id": "grafisch-rekenen",
+      "number": "02",
+      "title": "Grafisch rekenen met krachten",
+      "kicker": "Spatkrachten, steunberen, bruggen",
+      "topicIds": [
+        "p1-01",
+        "p1-06"
+      ],
+      "cover": "img/les05-p11-2.jpg",
+      "intro": "Door krachten als vectoren te beschouwen, kan je op een intuïtieve, grafische manier inzicht krijgen in het hoe en waarom van structuren. De les past dat toe op spatkrachten, steunberen en pinakels, en op enkele bruggen.",
+      "sections": [
+        {
+          "heading": "Spatkrachten",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Spatkrachten",
+              "text": "De horizontale component van een schuinaangrijpende kracht (bij bogen, bij bruggen, …) doet de constructie uit elkaar ‘spatten’.",
+              "page": 9
+            },
+            {
+              "type": "figure",
+              "src": "img/les05-p09-2.jpg",
+              "caption": "Spatkrachten.",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "heading": "Steunberen verklaard",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "De schuinaangrijpende kracht van de boog wordt opgesplitst volgens de as van de muur en de as van de steunbeer. Daardoor verkleinen de spatkrachten tot een aanvaardbaar niveau (krachten splitsen volgens parallellogram van krachten)."
+            },
+            {
+              "type": "figure",
+              "src": "img/les05-p11-2.jpg",
+              "caption": "Steunbeer: de kracht van de boog opgesplitst volgens de as van de muur en de as van de steunbeer.",
+              "page": 11
+            },
+            {
+              "type": "p",
+              "text": "Het pinakel zorgt voor een bijkomende verticale belasting; daardoor verkleinen de overblijvende spatkrachten nog meer (krachten optellen volgens parallellogram van krachten)."
+            },
+            {
+              "type": "figure",
+              "src": "img/les05-p12-fig.jpg",
+              "caption": "Pinakel: bijkomende verticale belasting.",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "heading": "Bruggen",
+          "blocks": [
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "src": "img/les05-p14-2.jpg",
+                  "title": "Golden Gate Bridge (1937)",
+                  "page": 14
+                },
+                {
+                  "src": "img/les05-p16-2.jpg",
+                  "title": "Forth Bridge, Firth of Forth, Schotland, 1890",
+                  "page": 16
+                },
+                {
+                  "src": "img/les05-p17-2.jpg",
+                  "title": "Forth Bridge",
+                  "page": 17
+                }
+              ]
+            },
+            {
+              "type": "missing",
+              "text": "De les toont deze bruggen als voorbeelden van grafisch rekenen met krachten, zonder verdere uitleg in tekst."
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Krachten als vectoren geven grafisch inzicht in het hoe en waarom van structuren.",
+        "Spatkrachten: horizontale component van een schuine kracht (bogen, bruggen) die de constructie uit elkaar duwt.",
+        "Steunbeer: splitst de boogkracht volgens muur en steunbeer → spatkrachten worden aanvaardbaar.",
+        "Pinakel: extra verticale last → spatkrachten nog kleiner."
+      ],
+      "source": {
+        "lecture": "les05",
+        "pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "les05-f01",
+      "chapterId": "vectoren",
+      "front": "Wat is een kracht (in termen van grootheid)?",
+      "back": "Een fysische grootheid waarbij zowel de grootte als de richting van belang zijn — een vector.",
+      "page": 3
+    },
+    {
+      "id": "les05-f02",
+      "chapterId": "vectoren",
+      "front": "Wat gebeurt er als je meer kracht uitoefent?",
+      "back": "De verandering van beweging (versnelling) wordt groter.",
+      "page": 3
+    },
+    {
+      "id": "les05-f03",
+      "chapterId": "vectoren",
+      "front": "Wat is de resultante kracht?",
+      "back": "De samengestelde kracht van twee (of meer) krachten; de beweging gebeurt volgens haar richting en grootte.",
+      "page": 4
+    },
+    {
+      "id": "les05-f04",
+      "chapterId": "vectoren",
+      "front": "Parallellogram van krachten?",
+      "back": "Grafische methode: de som van F1 en F2 is de samengestelde resultante Fnet (de diagonaal van het parallellogram).",
+      "page": 5
+    },
+    {
+      "id": "les05-f05",
+      "chapterId": "vectoren",
+      "front": "Volgens welke assen splits je een kracht bij constructies meestal op?",
+      "back": "Volgens de verticale en de horizontale as (bv. Fr → Fw horizontaal en Fg verticaal).",
+      "page": 7
+    },
+    {
+      "id": "les05-f06",
+      "chapterId": "grafisch-rekenen",
+      "front": "Spatkrachten?",
+      "back": "De horizontale component van een schuinaangrijpende kracht (bij bogen, bruggen…) die de constructie uit elkaar doet ‘spatten’.",
+      "page": 9
+    },
+    {
+      "id": "les05-f07",
+      "chapterId": "grafisch-rekenen",
+      "front": "Hoe werkt een steunbeer?",
+      "back": "De schuinaangrijpende kracht van de boog wordt opgesplitst volgens de as van de muur en de as van de steunbeer; zo verkleinen de spatkrachten tot een aanvaardbaar niveau.",
+      "page": 11,
+      "image": "img/les05-p11-2.jpg"
+    },
+    {
+      "id": "les05-f08",
+      "chapterId": "grafisch-rekenen",
+      "front": "Waarvoor dient een pinakel?",
+      "back": "Het zorgt voor een bijkomende verticale belasting; daardoor verkleinen de overblijvende spatkrachten nog meer.",
+      "page": 12
+    },
+    {
+      "id": "les05-f09",
+      "chapterId": "grafisch-rekenen",
+      "front": "Welke bruggen toont de les als voorbeeld van grafisch rekenen met krachten?",
+      "back": "Golden Gate Bridge (1937) en Forth Bridge (Firth of Forth, Schotland, 1890).",
+      "page": 14
+    }
+  ],
+  "practice": [
+    {
+      "id": "les05-pr01",
+      "chapterId": "vectoren",
+      "type": "tf",
+      "statement": "Bij een kracht is enkel de grootte van belang.",
+      "answer": false,
+      "explanation": "Zowel grootte als richting zijn van belang: een kracht is een vector.",
+      "page": 3
+    },
+    {
+      "id": "les05-pr02",
+      "chapterId": "vectoren",
+      "type": "definition",
+      "definition": "Een fysische grootheid met een grootte en een richting.",
+      "accepted": [
+        "vector",
+        "een vector"
+      ],
+      "explanation": "Vector (p. 9).",
+      "page": 9
+    },
+    {
+      "id": "les05-pr03",
+      "chapterId": "vectoren",
+      "type": "mc",
+      "prompt": "Met welke grafische methode tel je twee krachten op?",
+      "options": [
+        "Parallellogram van krachten",
+        "Spanning-rek-diagram",
+        "Wet van Hooke",
+        "Lastendaling"
+      ],
+      "answer": 0,
+      "explanation": "Parallellogram van krachten: F1 + F2 = Fnet.",
+      "page": 5
+    },
+    {
+      "id": "les05-pr04",
+      "chapterId": "vectoren",
+      "type": "tf",
+      "statement": "Een kracht kan je opsplitsen volgens eender welke combinatie van assen.",
+      "answer": true,
+      "explanation": "Voor constructies vooral de verticale en de horizontale as (p. 7).",
+      "page": 7
+    },
+    {
+      "id": "les05-pr05",
+      "chapterId": "grafisch-rekenen",
+      "type": "mc",
+      "prompt": "Welke component van een schuinaangrijpende kracht veroorzaakt spatkrachten?",
+      "options": [
+        "De horizontale component",
+        "De verticale component",
+        "De resultante",
+        "Het moment"
+      ],
+      "answer": 0,
+      "explanation": "De horizontale component doet de constructie uit elkaar spatten.",
+      "page": 9
+    },
+    {
+      "id": "les05-pr06",
+      "chapterId": "grafisch-rekenen",
+      "type": "match",
+      "prompt": "Koppel het element aan zijn rol.",
+      "pairs": [
+        [
+          "Steunbeer",
+          "splitst de boogkracht volgens muur en steunbeer"
+        ],
+        [
+          "Pinakel",
+          "voegt een verticale belasting toe"
+        ],
+        [
+          "Boog",
+          "geeft een schuinaangrijpende kracht"
+        ]
+      ],
+      "explanation": "p. 9–12.",
+      "page": 11
+    },
+    {
+      "id": "les05-pr07",
+      "chapterId": "grafisch-rekenen",
+      "type": "open",
+      "prompt": "Leg uit hoe een steunbeer en een pinakel samen de spatkrachten van een boog beperken.",
+      "model": "De schuinaangrijpende kracht van de boog wordt volgens het parallellogram van krachten opgesplitst volgens de as van de muur en de as van de steunbeer; zo verkleinen de spatkrachten tot een aanvaardbaar niveau. Het pinakel voegt een bijkomende verticale belasting toe; opgeteld (parallellogram) verkleinen de overblijvende spatkrachten nog meer.",
+      "keywords": [
+        "schuin",
+        "opsplitsen",
+        "steunbeer",
+        "parallellogram",
+        "pinakel",
+        "verticale belasting",
+        "spatkrachten"
+      ],
+      "explanation": "p. 11–12.",
+      "page": 11
+    }
+  ],
+  "exam": [
+    {
+      "id": "les05-e01",
+      "chapterId": "vectoren",
+      "type": "mc",
+      "prompt": "Je oefent twee krachten tegelijk uit, met verschillende grootte en richting. Volgens wat gebeurt de beweging?",
+      "options": [
+        "Volgens de grootste kracht",
+        "Volgens de richting en grootte van de resultante",
+        "Volgens de eerste kracht",
+        "Er is geen beweging"
+      ],
+      "answer": 1,
+      "explanation": "De beweging volgt de resultante kracht (p. 4).",
+      "page": 4
+    },
+    {
+      "id": "les05-e02",
+      "chapterId": "grafisch-rekenen",
+      "type": "mc",
+      "prompt": "Wat doet een pinakel boven een steunbeer?",
+      "options": [
+        "Het verhoogt de spatkrachten",
+        "Het voegt een bijkomende verticale belasting toe, waardoor de spatkrachten verder verkleinen",
+        "Het vervangt de steunbeer",
+        "Het is louter decoratief volgens de les"
+      ],
+      "answer": 1,
+      "explanation": "p. 12.",
+      "page": 12
+    },
+    {
+      "id": "les05-o01",
+      "chapterId": "vectoren",
+      "type": "open",
+      "prompt": "Waarom beschouwen we krachten als vectoren, en wat kan je ermee doen?",
+      "model": "Een kracht is een fysische grootheid waarbij grootte én richting van belang zijn — een vector. Krachten kan je samenstellen tot een resultante (parallellogram van krachten) en omgekeerd opsplitsen in componenten, voor constructies vooral horizontaal en verticaal. Zo krijg je op een intuïtieve, grafische manier inzicht in het hoe en waarom van structuren.",
+      "keywords": [
+        "grootte",
+        "richting",
+        "vector",
+        "resultante",
+        "parallellogram",
+        "opsplitsen",
+        "grafisch"
+      ],
+      "explanation": "p. 3–10.",
+      "page": 5
+    },
+    {
+      "id": "les05-d01",
+      "chapterId": "grafisch-rekenen",
+      "type": "drawing",
+      "prompt": "Bespreek deze tekening. Welk probleem lost de steunbeer op, en hoe?",
+      "image": "img/les05-p11-2.jpg",
+      "imageCaption": "Steunbeer",
+      "model": "De boog oefent een schuinaangrijpende kracht uit; de horizontale component daarvan (spatkracht) wil de muur naar buiten duwen. De steunbeer splitst die kracht volgens het parallellogram van krachten op volgens de as van de muur en de as van de steunbeer, zodat de spatkrachten tot een aanvaardbaar niveau verkleinen.",
+      "keywords": [
+        "boog",
+        "schuin",
+        "spatkracht",
+        "horizontaal",
+        "steunbeer",
+        "parallellogram"
+      ],
+      "explanation": "p. 9–11.",
+      "page": 11
+    }
+  ],
+  "buildings": []
+}

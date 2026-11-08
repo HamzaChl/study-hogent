@@ -1,0 +1,209 @@
+{
+  "id": "quiz08",
+  "courseId": "constructie",
+  "title": "Quiz 08 — Bouwfysica 1: duurzaamheid & EPB",
+  "description": "Tien meerkeuzevragen over energie in de bouw, cradle to cradle, de Trias Energetica, EPB-eisen en λ, R en U.",
+  "questions": [
+    {
+      "id": "q08-01",
+      "question": "Wat betekent ‘cradle to cradle’?",
+      "options": [
+        "Een gebouw wordt op dezelfde plaats heropgebouwd",
+        "Een product wordt na gebruik als afval weggegooid",
+        "Materialen worden enkel lokaal geproduceerd",
+        "Afval wordt beschouwd als bron, via biodegradatie of recyclage"
+      ],
+      "answer": 3,
+      "explanation": "Cradle to cradle: afval als bron (McDonough & Braungart, 2002).",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les09",
+        "pages": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "id": "q08-02",
+      "question": "Wanneer kunnen elementen hergebruikt worden in 4D-design?",
+      "options": [
+        "Als ze uit meerdere materialen bestaan",
+        "Als ze in hun geheel ontmanteld kunnen worden",
+        "Als ze aanpasbaar en multifunctioneel zijn",
+        "Als ze gerecycleerd kunnen worden tot grondstof"
+      ],
+      "answer": 1,
+      "explanation": "Structuren: aanpasbaar; elementen: ontmantelbaar; materialen: recycleerbaar.",
+      "course": "Constructie",
+      "difficulty": "moeilijk",
+      "source": {
+        "lecture": "les09",
+        "pages": [
+          12
+        ]
+      }
+    },
+    {
+      "id": "q08-03",
+      "question": "Wat is stap 1 van de Trias Energetica?",
+      "options": [
+        "Gebruik fossiele brandstoffen efficiënt",
+        "Plaats balansventilatie",
+        "Beperk de energievraag",
+        "Gebruik hernieuwbare energiebronnen"
+      ],
+      "answer": 2,
+      "explanation": "1. Beperk de energievraag (compact bouwen, goed isoleren).",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les09",
+        "pages": [
+          17
+        ]
+      }
+    },
+    {
+      "id": "q08-04",
+      "question": "Waarvoor staat EPB?",
+      "options": [
+        "Energiepeil en Bouwfysica",
+        "Energieprestatiecertificaat Bouw",
+        "Europese Prestatienorm Bouw",
+        "Energieprestatie en Binnenklimaat"
+      ],
+      "answer": 3,
+      "explanation": "EPB-regelgeving van de Vlaamse Overheid.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les09",
+        "pages": [
+          19
+        ]
+      }
+    },
+    {
+      "id": "q08-05",
+      "question": "Wanneer wordt een EPC opgemaakt?",
+      "options": [
+        "Na een brandveiligheidscontrole",
+        "Bij elke bouwaanvraag voor nieuwbouw",
+        "Bij verkoop of verhuur van een woning",
+        "Bij de oplevering van de ruwbouw"
+      ],
+      "answer": 2,
+      "explanation": "EPC: geschat jaarlijks energieverbruik per m² (kWh/m²).",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les09",
+        "pages": [
+          21
+        ]
+      }
+    },
+    {
+      "id": "q08-06",
+      "question": "Wat is het maximale E-peil vanaf 2021?",
+      "options": [
+        "E30",
+        "E60",
+        "E80",
+        "E0"
+      ],
+      "answer": 0,
+      "explanation": "Vanaf 2021 max. E30 → BEN-woning.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les09",
+        "pages": [
+          27
+        ]
+      }
+    },
+    {
+      "id": "q08-07",
+      "question": "Welk ventilatiesysteem heeft mechanische toevoer én mechanische afvoer?",
+      "options": [
+        "Systeem A",
+        "Systeem B",
+        "Systeem C",
+        "Systeem D"
+      ],
+      "answer": 3,
+      "explanation": "Systeem D: balansventilatie.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les09",
+        "pages": [
+          30
+        ]
+      }
+    },
+    {
+      "id": "q08-08",
+      "question": "Wat meet het S-peil?",
+      "options": [
+        "De luchtdichtheid van een ruimte",
+        "De energetische prestatie van de gebouwenschil",
+        "Het aandeel hernieuwbare energie",
+        "De algemene energieprestatie inclusief installaties"
+      ],
+      "answer": 1,
+      "explanation": "Het S-peil vervangt sinds 2018 het K-peil; max. S28 (2023).",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les09",
+        "pages": [
+          40
+        ]
+      }
+    },
+    {
+      "id": "q08-09",
+      "question": "Een laag van 0,10 m heeft λ = 0,025 W/mK. Hoe groot is R?",
+      "options": [
+        "4 m²K/W",
+        "40 m²K/W",
+        "0,0025 m²K/W",
+        "0,25 m²K/W"
+      ],
+      "answer": 0,
+      "explanation": "R = d / λ = 0,10 / 0,025 = 4 m²K/W.",
+      "course": "Constructie",
+      "difficulty": "moeilijk",
+      "source": {
+        "lecture": "les09",
+        "pages": [
+          47
+        ]
+      }
+    },
+    {
+      "id": "q08-10",
+      "question": "Wat moet je hebben voor een goede isolatie?",
+      "options": [
+        "Een lage λ, een lage R en een lage U",
+        "Een hoge λ, een hoge R en een hoge U",
+        "Een hoge λ, een lage R en een hoge U",
+        "Een lage λ, een hoge R en een lage U"
+      ],
+      "answer": 3,
+      "explanation": "p. 51.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les09",
+        "pages": [
+          51
+        ]
+      }
+    }
+  ]
+}

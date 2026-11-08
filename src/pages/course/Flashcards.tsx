@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import FlashcardPdfExport from "../../components/FlashcardPdfExport";
 import { Empty, Img, SourceTag } from "../../components/ui";
 import { FLASHCARD_CATEGORIES, FLASHCARD_CATEGORY_LABEL } from "../../lib/schema";
-import type { CourseBundle } from "../../lib/content";
+import { lectureLabel, lectureTitle, type CourseBundle } from "../../lib/content";
 import { useProgress } from "../../lib/progress";
 import type { Flashcard } from "../../lib/schema";
 import { shuffle } from "../../lib/text";
@@ -15,8 +15,11 @@ export default function Flashcards({ bundle, params }: { bundle: CourseBundle; p
   const status = get(courseId).cards;
   const startCard = params.get("card");
 
-  const chaptersWithCards = bundle.chapters.filter((c) => bundle.flashcards.some((f) => f.chapterId === c.id));
-  const [chapter, setChapter] = useState<string>(params.get("chapter") ?? "all");
+  // Filter per les (“les03”), niet per hoofdstuk. Een ?chapter=… uit een hoofdstuk opent de bijhorende les.
+  const lectureIdOf = (chapterId: string) => bundle.lectureOf.get(chapterId)?.id;
+  const lecturesWithCards = bundle.lectures.filter((l) => bundle.flashcards.some((f) => lectureIdOf(f.chapterId) === l.id));
+  const initialChapter = params.get("chapter");
+  const [chapter, setChapter] = useState<string>((initialChapter && lectureIdOf(initialChapter)) || "all");
   const [deck, setDeck] = useState<Deck>("all");
   const [shuffled, setShuffled] = useState(false);
   const [category, setCategory] = useState<string>("all");
@@ -30,7 +33,7 @@ export default function Flashcards({ bundle, params }: { bundle: CourseBundle; p
   const build = useCallback(
     (ch: string, d: Deck, sh: boolean, cat: string) => {
       const st = get(courseId).cards;
-      let cards = bundle.flashcards.filter((f) => (ch === "all" || f.chapterId === ch) && (cat === "all" || f.category === cat));
+      let cards = bundle.flashcards.filter((f) => (ch === "all" || lectureIdOf(f.chapterId) === ch) && (cat === "all" || f.category === cat));
       if (d === "review") cards = cards.filter((f) => st[f.id] === "review");
       if (d === "unmastered") cards = cards.filter((f) => st[f.id] !== "mastered");
       return sh ? shuffle(cards) : cards;
@@ -96,7 +99,7 @@ export default function Flashcards({ bundle, params }: { bundle: CourseBundle; p
   });
 
   const counts = useMemo(() => {
-    const cards = bundle.flashcards.filter((f) => chapter === "all" || f.chapterId === chapter);
+    const cards = bundle.flashcards.filter((f) => chapter === "all" || lectureIdOf(f.chapterId) === chapter);
     return {
       total: cards.length,
       mastered: cards.filter((f) => status[f.id] === "mastered").length,
@@ -110,12 +113,12 @@ export default function Flashcards({ bundle, params }: { bundle: CourseBundle; p
     <div className="pt-10">
       {/* Filters */}
       <div className="flex flex-col gap-4 border-b border-line pb-6 md:flex-row md:items-center md:justify-between">
-        <div className="flex flex-wrap gap-1.5" role="group" aria-label="Hoofdstuk">
+        <div className="flex flex-wrap gap-1.5" role="group" aria-label="Les">
           <button className={`pill ${chapter === "all" ? "pill-active" : "hover:border-ink"}`} aria-pressed={chapter === "all"} onClick={() => { setChapter("all"); restart("all"); }}>Alle</button>
-          {chaptersWithCards.map((c) => {
-            // Groen zodra elke kaart van het hoofdstuk als "beheerst" gemarkeerd is.
-            const complete = bundle.flashcards.filter((f) => f.chapterId === c.id).every((f) => status[f.id] === "mastered");
-            const active = chapter === c.id;
+          {lecturesWithCards.map((l) => {
+            // Groen zodra elke kaart van de les als "beheerst" gemarkeerd is.
+            const complete = bundle.flashcards.filter((f) => lectureIdOf(f.chapterId) === l.id).every((f) => status[f.id] === "mastered");
+            const active = chapter === l.id;
             const tone = complete
               ? active
                 ? "border-ok bg-ok text-paper"
@@ -124,9 +127,9 @@ export default function Flashcards({ bundle, params }: { bundle: CourseBundle; p
                 ? "pill-active"
                 : "hover:border-ink";
             return (
-              <button key={c.id} className={`pill ${tone}`} aria-pressed={active} onClick={() => { setChapter(c.id); restart(c.id); }} title={complete ? "Volledig gekend" : undefined}>
+              <button key={l.id} className={`pill ${tone}`} aria-pressed={active} onClick={() => { setChapter(l.id); restart(l.id); }} title={complete ? `${lectureTitle(l)} — volledig gekend` : lectureTitle(l)}>
                 {complete && <span aria-hidden className="mr-1">✓</span>}
-                {c.number} {c.title}
+                {l.id.replace("les", "Les ")}
                 {complete && <span className="sr-only"> — volledig gekend</span>}
               </button>
             );
@@ -156,7 +159,7 @@ export default function Flashcards({ bundle, params }: { bundle: CourseBundle; p
       )}
 
       <div className="flex flex-wrap items-center justify-between gap-3 py-5">
-        <SourceTag kind="ai">op basis van Les 02</SourceTag>
+        <SourceTag kind="ai">{chapter === "all" ? "op basis van het lesmateriaal" : `op basis van ${chapter.replace("les", "Les ")}`}</SourceTag>
         <span className="flex items-center gap-5">
           <span className="meta tabular-nums">
             {counts.mastered} / {counts.total} beheerst
@@ -211,7 +214,7 @@ export default function Flashcards({ bundle, params }: { bundle: CourseBundle; p
                   {card.image && <Img courseId={courseId} src={card.image} alt="Afbeelding bij de vraag" className="mx-auto mb-6 max-h-56 w-auto object-contain" />}
                   <p className="text-[26px] font-bold leading-[1.15] tracking-[-0.025em] sm:text-[40px]">{card.front}</p>
                 </Face>
-                <Face label="Antwoord" sub={card.page ? `Les 02 · p. ${card.page}` : undefined} back hidden={!flipped}>
+                <Face label="Antwoord" sub={card.page ? `${lectureLabel(bundle, card.chapterId)} · p. ${card.page}` : undefined} back hidden={!flipped}>
                   <p className="text-[19px] font-medium leading-[1.4] tracking-[-0.01em] sm:text-[27px]">{card.back}</p>
                 </Face>
               </button>

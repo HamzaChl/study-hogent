@@ -1,0 +1,631 @@
+{
+  "id": "les11",
+  "courseId": "constructie",
+  "title": "Constructie — Funderingen",
+  "file": "2026-27_1IV_CONSTRUCTIE_LES_11_-_Funderingen.pdf",
+  "pages": 30,
+  "covers": [
+    "p2-01"
+  ],
+  "chapters": [
+    {
+      "id": "funderingen-doel",
+      "number": "01",
+      "title": "Doel van funderingen",
+      "kicker": "De onmisbare basis van elke constructie",
+      "topicIds": [
+        "p2-01"
+      ],
+      "cover": "img/les11-p06-2.jpg",
+      "intro": "Een fundering verzekert de stabiliteit van het gebouw door de lasten van de constructie over te dragen op de draagkrachtige grondlaag, zonder dat er zettingen optreden. Waar die laag ligt, bepaalt een grondsondering.",
+      "sections": [
+        {
+          "heading": "Wat doet een fundering?",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Fundering",
+              "text": "Verzekert de stabiliteit van het gebouw door de lasten van de constructie over te dragen op de draagkrachtige grondlaag zonder dat er zettingen optreden.",
+              "page": 3
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Begrip",
+                "Betekenis"
+              ],
+              "rows": [
+                [
+                  "Stabiliteit verzekeren",
+                  "krachten weerstaan, beweging tegengaan"
+                ],
+                [
+                  "Lasten",
+                  "eigengewicht en gebruikslasten"
+                ],
+                [
+                  "Zettingen",
+                  "(grond)verzakkingen die aanleiding geven tot scheuren enz."
+                ]
+              ],
+              "page": 4
+            }
+          ]
+        },
+        {
+          "heading": "Grondsondering",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Grondsondering",
+              "text": "Een bodemproef die de draagkracht en toestand (bodemgesteldheid) van de grond bepaalt. De draagkrachtige grondlaag wordt bepaald door een grondsondering.",
+              "page": 6
+            },
+            {
+              "type": "definition",
+              "term": "Sonderingsverslag",
+              "text": "Resultaat van een grondsondering: drukt onder meer de draagkracht en de grondsoort uit in functie van de diepte onder het maaiveld, over het ganse perceel.",
+              "page": 7
+            },
+            {
+              "type": "figure",
+              "src": "img/les11-p06-2.jpg",
+              "caption": "Grondsondering.",
+              "page": 6
+            },
+            {
+              "type": "p",
+              "text": "De ingenieur stabiliteit berekent uit het ontwerp en uit de normen de minimale benodigde draagkracht en formuleert in functie daarvan een voorstel voor de fundering."
+            }
+          ]
+        },
+        {
+          "heading": "Randvoorwaarden bij de keuze",
+          "blocks": [
+            {
+              "type": "table",
+              "headers": [
+                "Constructie",
+                "Grond",
+                "Omgeving"
+              ],
+              "rows": [
+                [
+                  "aard en bestemming van het gebouw; eigengewicht en gebruikslasten",
+                  "draagkracht; bodemgesteldheid (soort grond, toestand, grondwater, …)",
+                  "trillingsgevoelig?"
+                ]
+              ],
+              "page": 29
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Fundering: lasten overdragen op de draagkrachtige grondlaag, zonder zettingen → stabiliteit.",
+        "Zettingen = grondverzakkingen die scheuren veroorzaken.",
+        "Grondsondering → sonderingsverslag: draagkracht en grondsoort in functie van de diepte.",
+        "De ingenieur stabiliteit stelt de fundering voor.",
+        "Keuze hangt af van constructie, grond en omgeving (trillingsgevoelig?)."
+      ],
+      "source": {
+        "lecture": "les11",
+        "pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          29
+        ]
+      }
+    },
+    {
+      "id": "soorten-funderingen",
+      "number": "02",
+      "title": "Soorten funderingen",
+      "kicker": "Op staal, op putten, op palen",
+      "topicIds": [
+        "p2-01"
+      ],
+      "cover": "img/les11-p20-2.jpg",
+      "intro": "Hoe dieper de draagkrachtige laag ligt, hoe dieper de fundering moet reiken. Bij een ondiepe laag fundeer je op staal (strook of plaat). Ligt ze tot ongeveer 10 m diep, dan op putten. Ligt ze erg diep, dan op palen.",
+      "sections": [
+        {
+          "heading": "Fundering op staal (zool- of strookfundering)",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "De fundering op staal probeert de belasting zo gelijkmatig mogelijk over te dragen op de draagkrachtige grondlaag. De strookfundering wordt toegepast als de draagkrachtige laag niet te diep ligt (wel min. 80 cm om vorstvrij te zijn)."
+            },
+            {
+              "type": "definition",
+              "term": "Funderingszool of funderingsvoet",
+              "text": "Een verbreding van het ondergrondse metselwerk (min. 30 cm breed of 2× de breedte van de muur die erop komt), uitgevoerd in beton (gewapend of ongewapend).",
+              "page": 11
+            },
+            {
+              "type": "list",
+              "items": [
+                "De betonstroken worden gegoten in funderingssleuven (p. 12).",
+                "Het ondergronds metselwerk moet beschermd worden tegen ondergrond en grondwater door een folie en/of een teerlaag (p. 12).",
+                "De fundering wordt uitgevoerd onder het dragende metselwerk (p. 13).",
+                "Zijn er te veel steunmuren, of wordt de tussenafstand te klein, dan kan er ook op plaat (= doorlopende zool) gefundeerd worden (p. 14)."
+              ]
+            },
+            {
+              "type": "figure",
+              "src": "img/les11-p11-2.jpg",
+              "caption": "Strookfundering met funderingszool.",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "heading": "Fundering op putten",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Bij de fundering op putten steunt de draagstructuur op een balkenrooster. Dat rooster steunt op bepaalde punten op dikke betonnen kolommen. De putfundering wordt toegepast bij een minder goede grond, als de draagkrachtige laag tot ca. 10 m diep ligt."
+            },
+            {
+              "type": "definition",
+              "term": "Put",
+              "text": "Een dikke betonnen kolom, al dan niet gewapend, die met wachtstaven wordt verankerd aan het balkenrooster.",
+              "page": 19
+            },
+            {
+              "type": "figure",
+              "src": "img/les11-p16-2.jpg",
+              "caption": "Fundering op putten.",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "heading": "Fundering op palen",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Bij de fundering op palen steunt de draagstructuur op een balkenrooster dat op bepaalde punten op lange, smalle kolommen steunt. De paalfundering wordt toegepast bij slechte grond, als de draagkrachtige laag erg diep ligt. Palen in hout (historisch), beton (gebruikelijk) of staal (zelden) worden in de grond geboord, geschroefd of geheid."
+            },
+            {
+              "type": "definition",
+              "term": "Puntweerstand",
+              "text": "De punt van de paal steunt op de draagkrachtige grond.",
+              "page": 21
+            },
+            {
+              "type": "definition",
+              "term": "Kleefwerking",
+              "text": "De wrijving van de schacht van de paal met de omliggende grond. Een paal op stuit heeft geen kleefwerking, enkel puntweerstand.",
+              "page": 21
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Paal",
+                "Werkwijze",
+                "Trillingen"
+              ],
+              "rows": [
+                [
+                  "Boorpaal",
+                  "dunne, holle buis met boorkop de grond in; overtollige grond wordt opgeboord en afgevoerd; beton via de buis gepompt terwijl de boorkop opgetrokken wordt",
+                  "trillingsvrij"
+                ],
+                [
+                  "Schroefpaal",
+                  "dikke buis met boorkop verdringt de grond zijdelings en drukt ze samen; beton via de buis gepompt; de boorkop blijft verloren",
+                  "veel trillingen"
+                ],
+                [
+                  "Heipaal",
+                  "(prefab) palen tot op de goede diepte de grond in gedreven met een dynamisch valblok",
+                  "veel trillingen"
+                ]
+              ],
+              "page": 23
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "src": "img/les11-p23-2.jpg",
+                  "title": "Boorpalen",
+                  "page": 23
+                },
+                {
+                  "src": "img/les11-p25-2.jpg",
+                  "title": "Schroefpalen",
+                  "page": 25
+                },
+                {
+                  "src": "img/les11-p27-2.jpg",
+                  "title": "Heipalen",
+                  "page": 27
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Op staal (strook): draagkrachtige laag niet te diep; min. 80 cm (vorstvrij); zool min. 30 cm of 2× muurbreedte, in beton.",
+        "Ondergronds metselwerk beschermen met folie en/of teerlaag; bij veel steunmuren: fundering op plaat.",
+        "Op putten: minder goede grond, laag tot ca. 10 m; balkenrooster op dikke betonnen kolommen met wachtstaven.",
+        "Op palen: slechte grond, laag erg diep; puntweerstand + kleefwerking (paal op stuit: enkel puntweerstand).",
+        "Boorpalen trillingsvrij; schroef- en heipalen veroorzaken veel trillingen."
+      ],
+      "source": {
+        "lecture": "les11",
+        "pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ]
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "les11-f01",
+      "chapterId": "funderingen-doel",
+      "front": "Wat is het doel van een fundering?",
+      "back": "De stabiliteit van het gebouw verzekeren door de lasten van de constructie over te dragen op de draagkrachtige grondlaag, zonder dat er zettingen optreden.",
+      "page": 3
+    },
+    {
+      "id": "les11-f02",
+      "chapterId": "funderingen-doel",
+      "front": "Zettingen?",
+      "back": "(Grond)verzakkingen die aanleiding geven tot scheuren enz.",
+      "page": 4
+    },
+    {
+      "id": "les11-f03",
+      "chapterId": "funderingen-doel",
+      "front": "Grondsondering?",
+      "back": "Een bodemproef die de draagkracht en toestand (bodemgesteldheid) van de grond bepaalt.",
+      "page": 6
+    },
+    {
+      "id": "les11-f04",
+      "chapterId": "funderingen-doel",
+      "front": "Wat staat in een sonderingsverslag?",
+      "back": "Onder meer de draagkracht en de grondsoort in functie van de diepte onder het maaiveld, over het ganse perceel.",
+      "page": 7
+    },
+    {
+      "id": "les11-f05",
+      "chapterId": "funderingen-doel",
+      "front": "Wie stelt de fundering voor?",
+      "back": "De ingenieur stabiliteit, op basis van het ontwerp, de normen (minimale benodigde draagkracht) en het sonderingsverslag.",
+      "page": 8
+    },
+    {
+      "id": "les11-f06",
+      "chapterId": "funderingen-doel",
+      "front": "Randvoorwaarden bij de keuze van een fundering?",
+      "back": "Constructie (aard, bestemming, eigengewicht, gebruikslasten), grond (draagkracht, bodemgesteldheid, grondwater) en omgeving (trillingsgevoelig?).",
+      "page": 29
+    },
+    {
+      "id": "les11-f07",
+      "chapterId": "soorten-funderingen",
+      "front": "Wanneer fundeer je op staal (strookfundering)?",
+      "back": "Als de draagkrachtige laag niet te diep ligt — wel min. 80 cm om vorstvrij te zijn.",
+      "page": 10
+    },
+    {
+      "id": "les11-f08",
+      "chapterId": "soorten-funderingen",
+      "front": "Funderingszool: afmetingen en materiaal?",
+      "back": "Verbreding van het ondergrondse metselwerk: min. 30 cm breed of 2× de breedte van de muur; in (on)gewapend beton.",
+      "page": 11
+    },
+    {
+      "id": "les11-f09",
+      "chapterId": "soorten-funderingen",
+      "front": "Hoe bescherm je ondergronds metselwerk?",
+      "back": "Met een folie en/of een teerlaag, tegen ondergrond en grondwater.",
+      "page": 12
+    },
+    {
+      "id": "les11-f10",
+      "chapterId": "soorten-funderingen",
+      "front": "Wanneer fundeer je op plaat?",
+      "back": "Als er te veel steunmuren zijn, of als de tussenafstand ertussen te klein zou worden (plaat = doorlopende zool).",
+      "page": 14
+    },
+    {
+      "id": "les11-f11",
+      "chapterId": "soorten-funderingen",
+      "front": "Fundering op putten: wanneer en hoe?",
+      "back": "Bij minder goede grond, draagkrachtige laag tot ca. 10 m diep. De draagstructuur steunt op een balkenrooster op dikke betonnen kolommen, verankerd met wachtstaven.",
+      "page": 16
+    },
+    {
+      "id": "les11-f12",
+      "chapterId": "soorten-funderingen",
+      "front": "Fundering op palen: wanneer?",
+      "back": "Bij slechte grond, als de draagkrachtige laag erg diep ligt. Palen in hout (historisch), beton (gebruikelijk) of staal (zelden).",
+      "page": 22
+    },
+    {
+      "id": "les11-f13",
+      "chapterId": "soorten-funderingen",
+      "front": "Puntweerstand vs. kleefwerking?",
+      "back": "Puntweerstand: de punt van de paal steunt op de draagkrachtige grond. Kleefwerking: wrijving van de schacht met de omliggende grond. Paal op stuit: enkel puntweerstand.",
+      "page": 21
+    },
+    {
+      "id": "les11-f14",
+      "chapterId": "soorten-funderingen",
+      "front": "Boorpalen?",
+      "back": "Dunne, holle buis met boorkop; grond wordt opgeboord en afgevoerd; beton gepompt terwijl de boorkop opgetrokken wordt. Trillingsvrij.",
+      "page": 23
+    },
+    {
+      "id": "les11-f15",
+      "chapterId": "soorten-funderingen",
+      "front": "Schroefpalen?",
+      "back": "Dikke buis met boorkop die de grond zijdelings verdringt en samendrukt; beton via de buis; boorkop blijft verloren. Veel trillingen.",
+      "page": 25
+    },
+    {
+      "id": "les11-f16",
+      "chapterId": "soorten-funderingen",
+      "front": "Heipalen?",
+      "back": "(Prefab) palen worden met een dynamisch valblok de grond in gedreven. Veel trillingen.",
+      "page": 27
+    }
+  ],
+  "practice": [
+    {
+      "id": "les11-pr01",
+      "chapterId": "funderingen-doel",
+      "type": "definition",
+      "definition": "Bodemproef die de draagkracht en toestand van de grond bepaalt.",
+      "accepted": [
+        "grondsondering",
+        "sondering",
+        "een grondsondering"
+      ],
+      "explanation": "Grondsondering (p. 6).",
+      "page": 6
+    },
+    {
+      "id": "les11-pr02",
+      "chapterId": "funderingen-doel",
+      "type": "tf",
+      "statement": "Een fundering moet de lasten overdragen op de draagkrachtige grondlaag zonder dat er zettingen optreden.",
+      "answer": true,
+      "explanation": "p. 3.",
+      "page": 3
+    },
+    {
+      "id": "les11-pr03",
+      "chapterId": "soorten-funderingen",
+      "type": "match",
+      "prompt": "Koppel de fundering aan de diepte van de draagkrachtige laag.",
+      "pairs": [
+        [
+          "Op staal",
+          "niet te diep (min. 80 cm)"
+        ],
+        [
+          "Op putten",
+          "tot ca. 10 m"
+        ],
+        [
+          "Op palen",
+          "erg diep"
+        ]
+      ],
+      "explanation": "p. 10, 16, 20.",
+      "page": 10
+    },
+    {
+      "id": "les11-pr04",
+      "chapterId": "soorten-funderingen",
+      "type": "mc",
+      "prompt": "Waarom moet een strookfundering minstens 80 cm diep liggen?",
+      "options": [
+        "Om vorstvrij te zijn",
+        "Om de grondwatertafel te bereiken",
+        "Om trillingen te vermijden",
+        "Om de boorkop te verankeren"
+      ],
+      "answer": 0,
+      "explanation": "Min. 80 cm om vorstvrij te zijn (p. 10).",
+      "page": 10
+    },
+    {
+      "id": "les11-pr05",
+      "chapterId": "soorten-funderingen",
+      "type": "mc",
+      "prompt": "Een muur is 20 cm breed. Hoe breed moet de funderingszool minstens zijn?",
+      "options": [
+        "20 cm",
+        "30 cm",
+        "40 cm",
+        "80 cm"
+      ],
+      "answer": 2,
+      "explanation": "Min. 30 cm of 2× de breedte van de muur: 2 × 20 = 40 cm.",
+      "page": 11
+    },
+    {
+      "id": "les11-pr06",
+      "chapterId": "soorten-funderingen",
+      "type": "mc",
+      "prompt": "Je bouwt naast een trillingsgevoelig gebouw en de draagkrachtige laag ligt erg diep. Welke paal kies je?",
+      "options": [
+        "Heipaal",
+        "Schroefpaal",
+        "Strookfundering",
+        "Boorpaal"
+      ],
+      "answer": 3,
+      "explanation": "Boorpalen zijn trillingsvrij; schroef- en heipalen veroorzaken veel trillingen.",
+      "page": 23
+    },
+    {
+      "id": "les11-pr07",
+      "chapterId": "soorten-funderingen",
+      "type": "tf",
+      "statement": "Een paal op stuit werkt via kleefwerking en puntweerstand.",
+      "answer": false,
+      "explanation": "Een paal op stuit heeft geen kleefwerking, enkel puntweerstand.",
+      "page": 21
+    },
+    {
+      "id": "les11-pr08",
+      "chapterId": "soorten-funderingen",
+      "type": "open",
+      "prompt": "Vergelijk boorpalen, schroefpalen en heipalen.",
+      "model": "Boorpalen: een dunne, holle buis met boorkop wordt de grond in gedreven, de overtollige grond wordt opgeboord en afgevoerd, en beton wordt via de buis gepompt terwijl de boorkop opgetrokken wordt — trillingsvrij. Schroefpalen: een dikke buis met boorkop verdringt de grond zijdelings en drukt ze samen; beton via de buis; de boorkop blijft verloren — veel trillingen. Heipalen: prefab palen worden met een dynamisch valblok de grond in gedreven — veel trillingen.",
+      "keywords": [
+        "boorpaal",
+        "opgeboord",
+        "trillingsvrij",
+        "schroefpaal",
+        "verdringen",
+        "boorkop verloren",
+        "heipaal",
+        "valblok",
+        "trillingen"
+      ],
+      "explanation": "p. 23–28.",
+      "page": 23
+    }
+  ],
+  "exam": [
+    {
+      "id": "les11-e01",
+      "chapterId": "funderingen-doel",
+      "type": "mc",
+      "prompt": "Wat zijn zettingen?",
+      "options": [
+        "(Grond)verzakkingen die scheuren veroorzaken",
+        "Wapeningsstaven in een fundering",
+        "Lagen van een sonderingsverslag",
+        "De voegen van ondergronds metselwerk"
+      ],
+      "answer": 0,
+      "explanation": "p. 4.",
+      "page": 4
+    },
+    {
+      "id": "les11-e02",
+      "chapterId": "soorten-funderingen",
+      "type": "mc",
+      "prompt": "Waarop steunt de draagstructuur bij een fundering op putten?",
+      "options": [
+        "Rechtstreeks op de grond",
+        "Op een doorlopende plaat",
+        "Op een balkenrooster dat op dikke betonnen kolommen steunt",
+        "Op heipalen"
+      ],
+      "answer": 2,
+      "explanation": "p. 16.",
+      "page": 16
+    },
+    {
+      "id": "les11-e03",
+      "chapterId": "soorten-funderingen",
+      "type": "mc",
+      "prompt": "Uit welk materiaal zijn palen gebruikelijk?",
+      "options": [
+        "Hout",
+        "Beton",
+        "Staal",
+        "Baksteen"
+      ],
+      "answer": 1,
+      "explanation": "Hout (historisch), beton (gebruikelijk), staal (zelden).",
+      "page": 22
+    },
+    {
+      "id": "les11-o01",
+      "chapterId": "soorten-funderingen",
+      "type": "open",
+      "prompt": "Bespreek de drie soorten funderingen: wanneer pas je ze toe en hoe werken ze?",
+      "model": "Fundering op staal (strook- of zoolfundering): als de draagkrachtige laag niet te diep ligt (min. 80 cm, vorstvrij); een funderingszool in beton (min. 30 cm of 2× de muurbreedte) onder het dragende metselwerk verdeelt de belasting zo gelijkmatig mogelijk; bij veel steunmuren: fundering op plaat. Fundering op putten: bij minder goede grond met de draagkrachtige laag tot ca. 10 m; een balkenrooster steunt op dikke betonnen kolommen, verankerd met wachtstaven. Fundering op palen: bij slechte grond en een erg diepe draagkrachtige laag; een balkenrooster op lange, smalle palen die werken via puntweerstand en kleefwerking.",
+      "keywords": [
+        "staal",
+        "strook",
+        "80 cm",
+        "zool",
+        "putten",
+        "10 m",
+        "balkenrooster",
+        "palen",
+        "puntweerstand",
+        "kleefwerking"
+      ],
+      "explanation": "p. 10–22.",
+      "page": 10
+    },
+    {
+      "id": "les11-o02",
+      "chapterId": "funderingen-doel",
+      "type": "open",
+      "prompt": "Welke randvoorwaarden bepalen de keuze van een fundering?",
+      "model": "Constructie: aard en bestemming van het gebouw, eigengewicht en gebruikslasten. Grond: draagkracht en bodemgesteldheid (soort grond, toestand, grondwater, …), bepaald via een grondsondering. Omgeving: is ze trillingsgevoelig?",
+      "keywords": [
+        "constructie",
+        "bestemming",
+        "lasten",
+        "grond",
+        "draagkracht",
+        "bodemgesteldheid",
+        "omgeving",
+        "trillingsgevoelig"
+      ],
+      "explanation": "p. 29.",
+      "page": 29
+    },
+    {
+      "id": "les11-d01",
+      "chapterId": "soorten-funderingen",
+      "type": "drawing",
+      "prompt": "Bespreek deze tekening. Welk type fundering is dit, wanneer pas je het toe en waaruit bestaat het?",
+      "image": "img/les11-p11-2.jpg",
+      "imageCaption": "Detail van een fundering",
+      "model": "Een fundering op staal of strookfundering: toegepast als de draagkrachtige laag niet te diep ligt (min. 80 cm om vorstvrij te zijn). Onder het dragende metselwerk ligt een funderingszool of -voet, een verbreding van min. 30 cm of 2× de muurbreedte, in (on)gewapend beton, gegoten in een funderingssleuf. Het ondergronds metselwerk wordt beschermd met folie en/of teerlaag.",
+      "keywords": [
+        "strookfundering",
+        "op staal",
+        "80 cm",
+        "vorstvrij",
+        "zool",
+        "30 cm",
+        "beton",
+        "folie"
+      ],
+      "explanation": "p. 10–12.",
+      "page": 11
+    }
+  ],
+  "buildings": []
+}

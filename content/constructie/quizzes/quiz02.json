@@ -1,0 +1,211 @@
+{
+  "id": "quiz02",
+  "courseId": "constructie",
+  "title": "Quiz 02 — Over krachten",
+  "description": "Tien meerkeuzevragen over de 3 × S, de wetten van Newton, lasten en de krachten ten opzichte van een element.",
+  "questions": [
+    {
+      "id": "q02-01",
+      "question": "Wat is volgens de les de doelstelling van constructies?",
+      "options": [
+        "Beweging mogelijk maken, via scharnieren en rolopleggingen",
+        "Zo weinig mogelijk materiaal gebruiken, via de lastendaling",
+        "Vervorming toelaten, via de wet van Hooke",
+        "Krachten weerstaan, via sterkte, stijfheid en stabiliteit"
+      ],
+      "answer": 3,
+      "explanation": "Doelstelling van constructies: krachten weerstaan — de 3 × S: sterkte, stijfheid, stabiliteit.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les03",
+        "pages": [
+          3,
+          25
+        ]
+      }
+    },
+    {
+      "id": "q02-02",
+      "question": "Op welk niveau situeert de les sterkte (weerstand tegen doorbuiging)?",
+      "options": [
+        "Structuur-niveau",
+        "Element-niveau",
+        "Verbindingsniveau",
+        "Materiaal-niveau"
+      ],
+      "answer": 1,
+      "explanation": "Sterkte = weerstand tegen doorbuiging, element-niveau; stijfheid = materiaal-niveau; stabiliteit = structuur-niveau.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les03",
+        "pages": [
+          25
+        ]
+      }
+    },
+    {
+      "id": "q02-03",
+      "question": "Wat toont een spanning-rek-diagram?",
+      "options": [
+        "Hoe de spanning verdeeld is over de doorsnede van een balk",
+        "Hoe een structuur beweegt onder windbelasting",
+        "Hoe de lasten van een gebouw naar de fundering dalen",
+        "Hoe een materiaal reageert op belasting, hoeveel het vervormt en wanneer het breekt"
+      ],
+      "answer": 3,
+      "explanation": "Het spanning-rek-diagram geeft de resultaten van een trekproef weer: reactie, vervorming en breukpunt.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les03",
+        "pages": [
+          11,
+          16
+        ]
+      }
+    },
+    {
+      "id": "q02-04",
+      "question": "Welke kernwoorden noemt de les bij de Tacoma Narrows Bridge (1940)?",
+      "options": [
+        "Spatkrachten en steunberen",
+        "Dwarscontractie en Poisson-factor",
+        "Eigenfrequentie en resonantie",
+        "Knik en kniklengte"
+      ],
+      "answer": 2,
+      "explanation": "De windbelasting bracht de brug in beweging; kernwoorden: eigenfrequentie en resonantie.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les03",
+        "pages": [
+          24
+        ]
+      }
+    },
+    {
+      "id": "q02-05",
+      "question": "Wat zegt de 1ste wet van Newton (traagheidswet)?",
+      "options": [
+        "Een kracht is gelijk aan massa maal valversnelling",
+        "Elke actie gaat gepaard met een even grote, tegengestelde reactie",
+        "Zonder kracht blijft een voorwerp in rust of beweegt het met constante snelheid",
+        "De verandering van beweging is evenredig met de inwerkende kracht"
+      ],
+      "answer": 2,
+      "explanation": "1ste wet: een voorwerp waarop geen kracht inwerkt, is in rust of beweegt met constante snelheid.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les03",
+        "pages": [
+          27
+        ]
+      }
+    },
+    {
+      "id": "q02-06",
+      "question": "Een massa van 80 kg oefent ongeveer welke zwaartekracht uit?",
+      "options": [
+        "Ongeveer 800 N",
+        "Ongeveer 8 N",
+        "Ongeveer 8000 N",
+        "Ongeveer 80 N"
+      ],
+      "answer": 0,
+      "explanation": "Fz = m × g ≈ 10 × m = 10 × 80 = 800 N.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les03",
+        "pages": [
+          31,
+          32
+        ]
+      }
+    },
+    {
+      "id": "q02-07",
+      "question": "Wind en sneeuw op een gebouw zijn volgens de les…",
+      "options": [
+        "Interne krachten of reactiekrachten",
+        "Gebruikslasten of veranderlijke lasten",
+        "Koppels die enkel rotatie veroorzaken",
+        "Dode lasten of eigengewicht"
+      ],
+      "answer": 1,
+      "explanation": "Weersbelasting (regen, wind, sneeuw) hoort bij de gebruikslasten of veranderlijke lasten.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les03",
+        "pages": [
+          38
+        ]
+      }
+    },
+    {
+      "id": "q02-08",
+      "question": "Wat is een koppel?",
+      "options": [
+        "Twee krachten die in dezelfde richting op één punt inwerken",
+        "Twee even grote, tegengestelde krachten met niet-samenvallende werklijnen",
+        "Een kracht die over een zekere lengte verdeeld is",
+        "Een kracht die volgens de as van een element inwerkt"
+      ],
+      "answer": 1,
+      "explanation": "Een koppel geeft aanleiding tot rotatie, niet tot translatie.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les03",
+        "pages": [
+          44
+        ]
+      }
+    },
+    {
+      "id": "q02-09",
+      "question": "Een dwarskracht werkt loodrecht op de as van een element. Waartoe geeft ze aanleiding?",
+      "options": [
+        "Afschuiving",
+        "Torsie",
+        "Knik",
+        "Trek en druk"
+      ],
+      "answer": 0,
+      "explanation": "Dwarskracht (Fd) → afschuiving (shear). Normaalkracht → trek en/of druk.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les03",
+        "pages": [
+          47
+        ]
+      }
+    },
+    {
+      "id": "q02-10",
+      "question": "Een kracht van 150 N werkt op 4 m van het steunpunt. Hoe groot is het moment?",
+      "options": [
+        "37,5 Nm",
+        "600 N",
+        "600 Nm",
+        "154 Nm"
+      ],
+      "answer": 2,
+      "explanation": "M0 = F × L = 150 N × 4 m = 600 Nm.",
+      "course": "Constructie",
+      "difficulty": "moeilijk",
+      "source": {
+        "lecture": "les03",
+        "pages": [
+          49
+        ]
+      }
+    }
+  ]
+}

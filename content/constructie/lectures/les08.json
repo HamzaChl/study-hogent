@@ -1,0 +1,744 @@
+{
+  "id": "les08",
+  "courseId": "constructie",
+  "title": "Constructie — Verbindingen",
+  "file": "2026-27_1IV_CONSTRUCTIE_LES_08_-_Verbindingen.pdf",
+  "pages": 46,
+  "covers": [
+    "p1-05",
+    "p1-06"
+  ],
+  "chapters": [
+    {
+      "id": "vrijheidsgraden",
+      "number": "01",
+      "title": "Vrijheidsgraden",
+      "kicker": "Verbindingen hebben te maken met beweging",
+      "topicIds": [
+        "p1-05"
+      ],
+      "cover": "img/les08-p09-2.jpg",
+      "intro": "Inwerkende krachten willen elementen doen bewegen. Verbindingen helpen om die beweging te weerstaan, en hebben daar krachten voor nodig: reactiekrachten. Om te weten welke bewegingen mogelijk zijn, telt de les de vrijheidsgraden van een element.",
+      "sections": [
+        {
+          "heading": "Krachten, constructie, verbindingen",
+          "blocks": [
+            {
+              "type": "table",
+              "headers": [
+                "",
+                "Rol"
+              ],
+              "rows": [
+                [
+                  "Krachten",
+                  "Inwerkende krachten willen elementen doen bewegen."
+                ],
+                [
+                  "Constructie",
+                  "De doelstelling van constructie is om krachten te weerstaan."
+                ],
+                [
+                  "Verbindingen",
+                  "Verbindingen helpen om beweging te weerstaan — en hebben daar krachten voor nodig: reactiekrachten."
+                ]
+              ],
+              "page": 4
+            }
+          ]
+        },
+        {
+          "heading": "Wat zijn vrijheidsgraden?",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Vrijheidsgraden (degrees of freedom, dof)",
+              "text": "Het aantal mogelijke bewegingen van een onvervormbaar element.",
+              "page": 5
+            },
+            {
+              "type": "note",
+              "text": "Waarom onvervormbaar? Opdat alle energie (kracht) naar de beweging zou gaan (p. 5)."
+            },
+            {
+              "type": "definition",
+              "term": "Translaties of verschuivingen",
+              "text": "Volgens de 3 assen, telkens in positieve of in negatieve richting.",
+              "page": 6
+            },
+            {
+              "type": "definition",
+              "term": "Rotaties of draaiingen",
+              "text": "Rond de 3 assen, telkens in positieve of negatieve zin.",
+              "page": 7
+            },
+            {
+              "type": "figure",
+              "src": "img/les08-p09-2.jpg",
+              "caption": "3 vrijheidsgraden van translatie en 3 van rotatie.",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "heading": "In 3D en in vlakke systemen",
+          "blocks": [
+            {
+              "type": "table",
+              "headers": [
+                "Systeem",
+                "Translaties",
+                "Rotaties",
+                "Totaal"
+              ],
+              "rows": [
+                [
+                  "3 dimensies",
+                  "3 (volgens x, y, z)",
+                  "3 (rond x, y, z)",
+                  "6 vrijheidsgraden"
+                ],
+                [
+                  "Vlak systeem (2 dimensies)",
+                  "2 (volgens de x-as en de y-as)",
+                  "1 (in het (x,y)-vlak)",
+                  "3 vrijheidsgraden"
+                ]
+              ],
+              "page": 11
+            },
+            {
+              "type": "figure",
+              "src": "img/les08-p11-2.jpg",
+              "caption": "3 vrijheidsgraden in een vlak systeem.",
+              "page": 11
+            },
+            {
+              "type": "p",
+              "text": "Vrijheidsgraden worden beperkt door verbindingen. Vrijheidsgraden zijn mogelijke bewegingen; krachten houden bewegingen tegen."
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Krachten willen doen bewegen; verbindingen weerstaan beweging met reactiekrachten.",
+        "Vrijheidsgraden = aantal mogelijke bewegingen van een onvervormbaar element.",
+        "Translaties volgens en rotaties rond de 3 assen → 6 vrijheidsgraden in 3D.",
+        "Vlak systeem: translatie x, translatie y, rotatie in het (x,y)-vlak → 3 vrijheidsgraden.",
+        "Verbindingen beperken de vrijheidsgraden."
+      ],
+      "source": {
+        "lecture": "les08",
+        "pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "id": "soorten-verbindingen",
+      "number": "02",
+      "title": "Soorten verbindingen",
+      "kicker": "Roloplegging, scharnier, inklemming",
+      "topicIds": [
+        "p1-05"
+      ],
+      "cover": "img/les08-p26-fig.jpg",
+      "intro": "Verbindingen beperken de vrijheidsgraden van constructie-elementen. Afhankelijk van het type worden sommige bewegingen geblokkeerd en andere doorgelaten. Per geblokkeerde beweging ontstaat één reactiekracht. Roloplegging, scharnier en inklemming blokkeren er respectievelijk 1, 2 en 3.",
+      "sections": [
+        {
+          "heading": "Verbindingen tegen beweging",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Soorten verbindingen worden onderscheiden in functie van de vrijheidsgraden die beperkt worden: translatie(s) beperken, rotatie(s) beperken, of translatie(s) en rotatie(s) beperken."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Afhankelijk van het type verbinding zullen bepaalde bewegingen geblokkeerd of tegengehouden worden, en andere net doorgelaten of doorgegeven.",
+                "Bepaalde inwerkende krachten worden opgevangen (= beweging blokkeren); andere krachten geven wel nog aanleiding tot beweging en moeten dus elders in de structuur opgevangen worden.",
+                "Om beweging tegen te gaan moet je kracht uitoefenen: verbindingen ‘wekken’ krachten op om beweging te blokkeren → reactiekrachten."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Drie verbindingen in het vlak",
+          "blocks": [
+            {
+              "type": "table",
+              "headers": [
+                "Verbinding",
+                "Blokkeert",
+                "Laat toe",
+                "Vangt op",
+                "Reactiekrachten"
+              ],
+              "rows": [
+                [
+                  "Roloplegging",
+                  "1 translatie (bv. verticaal)",
+                  "horizontale translatie en rotatie",
+                  "verticale kracht — geen horizontale kracht, geen moment",
+                  "1"
+                ],
+                [
+                  "Scharnier",
+                  "2 translaties (verticaal en horizontaal)",
+                  "rotatie",
+                  "verticale en horizontale kracht — geen moment",
+                  "2"
+                ],
+                [
+                  "Inklemming",
+                  "alle translaties en de rotatie",
+                  "niets (in het vlakke systeem)",
+                  "verticale en horizontale krachten én momenten",
+                  "3"
+                ]
+              ],
+              "page": 17
+            },
+            {
+              "type": "note",
+              "text": "Om één beweging tegen te gaan, hebben we één kracht nodig (p. 20, 26, 33)."
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "src": "img/les08-p20-fig.jpg",
+                  "title": "Roloplegging",
+                  "caption": "1 reactiekracht",
+                  "page": 20
+                },
+                {
+                  "src": "img/les08-p26-fig.jpg",
+                  "title": "Scharnier",
+                  "caption": "2 reactiekrachten",
+                  "page": 26
+                },
+                {
+                  "src": "img/les08-p33-fig.jpg",
+                  "title": "Inklemming",
+                  "caption": "3 reactiekrachten",
+                  "page": 33
+                }
+              ]
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "src": "img/les08-p22-2.jpg",
+                  "title": "Roloplegging in de praktijk",
+                  "page": 22
+                },
+                {
+                  "src": "img/les08-p28-2.jpg",
+                  "title": "Scharnier in de praktijk",
+                  "page": 28
+                },
+                {
+                  "src": "img/les08-p35-2.jpg",
+                  "title": "Inklemming in de praktijk",
+                  "page": 35
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Verbindingen beperken vrijheidsgraden: sommige bewegingen worden geblokkeerd, andere doorgelaten.",
+        "Niet-opgevangen krachten moeten elders in de structuur opgevangen worden.",
+        "Per geblokkeerde beweging: één reactiekracht.",
+        "Roloplegging: 1 translatie geblokkeerd → 1 reactiekracht; horizontale kracht en moment niet opgevangen.",
+        "Scharnier: 2 translaties geblokkeerd → 2 reactiekrachten; rotatie blijft mogelijk.",
+        "Inklemming: alles geblokkeerd (in het vlak) → 3 reactiekrachten, ook momenten."
+      ],
+      "source": {
+        "lecture": "les08",
+        "pages": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          23,
+          24,
+          25,
+          26,
+          30,
+          31,
+          32,
+          33
+        ]
+      }
+    },
+    {
+      "id": "statisch",
+      "number": "03",
+      "title": "Isostatisch, hyperstatisch, hypostatisch",
+      "kicker": "Soorten structuren volgens de evenwichtsvergelijkingen",
+      "topicIds": [
+        "p1-05",
+        "p1-06"
+      ],
+      "cover": "img/les08-p44-2.jpg",
+      "intro": "Naast massief, skelet en gemengd kan je structuren ook indelen volgens de evenwichtsvergelijkingen van de ingenieur. Zo onderscheidt de les drie soorten: structureel bepaald, structureel onbepaald en het mechanisme.",
+      "sections": [
+        {
+          "heading": "Evenwichtsvergelijkingen",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Σ Fhor = 0",
+                "Σ Fver = 0",
+                "Σ M = 0"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Soorten structuren kan je indelen in functie van de soort draagstructuur (massief/skelet/gemengd) of in functie van de evenwichtsvergelijkingen (voor de ingenieur)."
+            }
+          ]
+        },
+        {
+          "heading": "Drie soorten",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Structureel bepaald (isostatisch)",
+              "text": "Alle krachten (intern en extern) kunnen berekend worden vanuit de evenwichtsvergelijkingen. Een stabiele structuur.",
+              "page": 40
+            },
+            {
+              "type": "definition",
+              "term": "Structureel onbepaald (hyperstatisch)",
+              "text": "De krachten (intern en extern) kunnen niet enkel berekend worden vanuit de evenwichtsvergelijkingen; extra informatie is nodig. Een stabiele structuur met veiligheidsmarge.",
+              "page": 42
+            },
+            {
+              "type": "definition",
+              "term": "Mechanisme (hypostatisch)",
+              "text": "Structureel instabiel. Deze structuur kan evenwel (tijdelijk) in evenwicht zijn (labiel evenwicht), bv. een skateboard op de grond.",
+              "page": 44
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "src": "img/les08-p40-2.jpg",
+                  "title": "Isostatisch",
+                  "page": 40
+                },
+                {
+                  "src": "img/les08-p42-2.jpg",
+                  "title": "Hyperstatisch",
+                  "page": 42
+                },
+                {
+                  "src": "img/les08-p44-2.jpg",
+                  "title": "Hypostatisch (mechanisme)",
+                  "page": 44
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Evenwichtsvergelijkingen: Σ Fhor = 0, Σ Fver = 0, Σ M = 0.",
+        "Isostatisch: alle krachten berekenbaar uit de evenwichtsvergelijkingen — stabiel.",
+        "Hyperstatisch: extra informatie nodig — stabiel met veiligheidsmarge.",
+        "Hypostatisch (mechanisme): instabiel; hooguit labiel evenwicht (skateboard op de grond)."
+      ],
+      "source": {
+        "lecture": "les08",
+        "pages": [
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45
+        ]
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "les08-f01",
+      "chapterId": "vrijheidsgraden",
+      "front": "Wat doen verbindingen in constructies?",
+      "back": "Ze helpen om beweging te weerstaan — en hebben daar krachten voor nodig: reactiekrachten.",
+      "page": 4
+    },
+    {
+      "id": "les08-f02",
+      "chapterId": "vrijheidsgraden",
+      "front": "Vrijheidsgraden?",
+      "back": "Het aantal mogelijke bewegingen van een onvervormbaar element (degrees of freedom, dof).",
+      "page": 5
+    },
+    {
+      "id": "les08-f03",
+      "chapterId": "vrijheidsgraden",
+      "front": "Waarom spreken we over een onvervormbaar element bij vrijheidsgraden?",
+      "back": "Opdat alle energie (kracht) naar de beweging zou gaan.",
+      "page": 5
+    },
+    {
+      "id": "les08-f04",
+      "chapterId": "vrijheidsgraden",
+      "front": "Hoeveel vrijheidsgraden heeft een element in 3D?",
+      "back": "6: 3 translaties (volgens de 3 assen) en 3 rotaties (rond de 3 assen).",
+      "page": 9
+    },
+    {
+      "id": "les08-f05",
+      "chapterId": "vrijheidsgraden",
+      "front": "Hoeveel vrijheidsgraden in een vlak systeem? Welke?",
+      "back": "3: translatie volgens de x-as, translatie volgens de y-as, rotatie in het (x,y)-vlak.",
+      "page": 11
+    },
+    {
+      "id": "les08-f06",
+      "chapterId": "soorten-verbindingen",
+      "front": "Wat gebeurt er met krachten die een verbinding niet opvangt?",
+      "back": "Ze geven nog aanleiding tot beweging en moeten dus elders in de structuur opgevangen worden.",
+      "page": 15
+    },
+    {
+      "id": "les08-f07",
+      "chapterId": "soorten-verbindingen",
+      "front": "Roloplegging?",
+      "back": "Beperkt één vrijheidsgraad van translatie (bv. verticaal). Horizontale translatie en rotatie blijven mogelijk. Vangt een verticale kracht op, geen horizontale kracht of moment → 1 reactiekracht.",
+      "page": 18
+    },
+    {
+      "id": "les08-f08",
+      "chapterId": "soorten-verbindingen",
+      "front": "Scharnier?",
+      "back": "Beperkt twee vrijheidsgraden van translatie (verticaal en horizontaal). Rotatie blijft mogelijk. Vangt verticale en horizontale kracht op, geen moment → 2 reactiekrachten.",
+      "page": 24
+    },
+    {
+      "id": "les08-f09",
+      "chapterId": "soorten-verbindingen",
+      "front": "Inklemming?",
+      "back": "Beperkt alle vrijheidsgraden van translatie en rotatie (in het vlak). Vangt verticale en horizontale krachten én momenten op → 3 reactiekrachten.",
+      "page": 31
+    },
+    {
+      "id": "les08-f10",
+      "chapterId": "soorten-verbindingen",
+      "front": "Hoeveel krachten heb je nodig om één beweging tegen te gaan?",
+      "back": "Eén kracht — één reactiekracht per geblokkeerde beweging.",
+      "page": 20
+    },
+    {
+      "id": "les08-f11",
+      "chapterId": "statisch",
+      "front": "De drie evenwichtsvergelijkingen?",
+      "back": "Σ Fhor = 0, Σ Fver = 0, Σ M = 0.",
+      "page": 38
+    },
+    {
+      "id": "les08-f12",
+      "chapterId": "statisch",
+      "front": "Isostatisch (structureel bepaald)?",
+      "back": "Alle krachten (intern en extern) kunnen berekend worden vanuit de evenwichtsvergelijkingen. Stabiele structuur.",
+      "page": 40
+    },
+    {
+      "id": "les08-f13",
+      "chapterId": "statisch",
+      "front": "Hyperstatisch (structureel onbepaald)?",
+      "back": "De krachten kunnen niet enkel uit de evenwichtsvergelijkingen berekend worden (extra informatie nodig). Stabiel, met veiligheidsmarge.",
+      "page": 42
+    },
+    {
+      "id": "les08-f14",
+      "chapterId": "statisch",
+      "front": "Hypostatisch (mechanisme)?",
+      "back": "Structureel instabiel; kan hooguit (tijdelijk) in labiel evenwicht zijn — bv. een skateboard op de grond.",
+      "page": 44
+    }
+  ],
+  "practice": [
+    {
+      "id": "les08-pr01",
+      "chapterId": "vrijheidsgraden",
+      "type": "mc",
+      "prompt": "Hoeveel vrijheidsgraden heeft een element in een vlak (2D) systeem?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "Translatie x, translatie y en rotatie in het (x,y)-vlak = 3.",
+      "page": 11
+    },
+    {
+      "id": "les08-pr02",
+      "chapterId": "vrijheidsgraden",
+      "type": "tf",
+      "statement": "Een element in 3D heeft 6 vrijheidsgraden.",
+      "answer": true,
+      "explanation": "3 translaties + 3 rotaties.",
+      "page": 9
+    },
+    {
+      "id": "les08-pr03",
+      "chapterId": "vrijheidsgraden",
+      "type": "definition",
+      "definition": "Het aantal mogelijke bewegingen van een onvervormbaar element.",
+      "accepted": [
+        "vrijheidsgraden",
+        "vrijheidsgraad",
+        "degrees of freedom",
+        "dof"
+      ],
+      "explanation": "Vrijheidsgraden (p. 5).",
+      "page": 5
+    },
+    {
+      "id": "les08-pr04",
+      "chapterId": "soorten-verbindingen",
+      "type": "match",
+      "prompt": "Koppel de verbinding aan het aantal reactiekrachten (vlak systeem).",
+      "pairs": [
+        [
+          "Roloplegging",
+          "1"
+        ],
+        [
+          "Scharnier",
+          "2"
+        ],
+        [
+          "Inklemming",
+          "3"
+        ]
+      ],
+      "explanation": "Eén reactiekracht per geblokkeerde beweging.",
+      "page": 20
+    },
+    {
+      "id": "les08-pr05",
+      "chapterId": "soorten-verbindingen",
+      "type": "mc",
+      "prompt": "Welke verbinding vangt een moment op?",
+      "options": [
+        "Roloplegging",
+        "Scharnier",
+        "Inklemming",
+        "Geen enkele"
+      ],
+      "answer": 2,
+      "explanation": "Enkel de inklemming blokkeert ook de rotatie en vangt dus momenten op.",
+      "page": 32
+    },
+    {
+      "id": "les08-pr06",
+      "chapterId": "soorten-verbindingen",
+      "type": "tf",
+      "statement": "Bij een scharnier blijft de rotatie mogelijk.",
+      "answer": true,
+      "explanation": "Een scharnier blokkeert de verticale en horizontale translatie; de rotatie blijft mogelijk.",
+      "page": 24
+    },
+    {
+      "id": "les08-pr07",
+      "chapterId": "soorten-verbindingen",
+      "type": "mc",
+      "prompt": "Een roloplegging blokkeert de verticale translatie. Welke kracht vangt ze NIET op?",
+      "options": [
+        "Een verticale kracht",
+        "Het eigengewicht van de balk",
+        "Een horizontale kracht",
+        "Een puntlast loodrecht op de oplegging"
+      ],
+      "answer": 2,
+      "explanation": "Een horizontale kracht of een moment worden niet opgevangen.",
+      "page": 19
+    },
+    {
+      "id": "les08-pr08",
+      "chapterId": "soorten-verbindingen",
+      "type": "open",
+      "prompt": "Waarom wekken verbindingen reactiekrachten op?",
+      "model": "Verbindingen willen beweging tegengaan. Om beweging tegen te gaan moet je kracht uitoefenen. Dus wekken verbindingen krachten op om beweging te blokkeren: reactiekrachten — één per geblokkeerde beweging.",
+      "keywords": [
+        "beweging",
+        "tegengaan",
+        "kracht",
+        "reactiekracht",
+        "blokkeren"
+      ],
+      "explanation": "p. 16.",
+      "page": 16
+    },
+    {
+      "id": "les08-pr09",
+      "chapterId": "statisch",
+      "type": "match",
+      "prompt": "Koppel het type structuur aan zijn eigenschap.",
+      "pairs": [
+        [
+          "Isostatisch",
+          "stabiel, alle krachten berekenbaar"
+        ],
+        [
+          "Hyperstatisch",
+          "stabiel met veiligheidsmarge"
+        ],
+        [
+          "Hypostatisch",
+          "instabiel (mechanisme)"
+        ]
+      ],
+      "explanation": "p. 45.",
+      "page": 45
+    },
+    {
+      "id": "les08-pr10",
+      "chapterId": "statisch",
+      "type": "mc",
+      "prompt": "Een skateboard op de grond is een voorbeeld van…",
+      "options": [
+        "een isostatische structuur",
+        "een hyperstatische structuur",
+        "een mechanisme in labiel evenwicht",
+        "een inklemming"
+      ],
+      "answer": 2,
+      "explanation": "p. 44.",
+      "page": 44
+    }
+  ],
+  "exam": [
+    {
+      "id": "les08-e01",
+      "chapterId": "vrijheidsgraden",
+      "type": "mc",
+      "prompt": "Welke drie vrijheidsgraden heeft een element in een vlak systeem?",
+      "options": [
+        "3 rotaties",
+        "Translatie x, translatie y, rotatie in het (x,y)-vlak",
+        "Translatie x, y en z",
+        "2 rotaties en 1 translatie"
+      ],
+      "answer": 1,
+      "explanation": "p. 11.",
+      "page": 11
+    },
+    {
+      "id": "les08-e02",
+      "chapterId": "soorten-verbindingen",
+      "type": "mc",
+      "prompt": "Welke verbinding blokkeert de verticale en horizontale translatie, maar laat rotatie toe?",
+      "options": [
+        "Roloplegging",
+        "Scharnier",
+        "Inklemming",
+        "Kruisverband"
+      ],
+      "answer": 1,
+      "explanation": "Het scharnier (p. 24).",
+      "page": 24
+    },
+    {
+      "id": "les08-e03",
+      "chapterId": "statisch",
+      "type": "mc",
+      "prompt": "Bij welke structuur kan je de krachten NIET enkel uit de evenwichtsvergelijkingen berekenen?",
+      "options": [
+        "Isostatisch",
+        "Hyperstatisch",
+        "Hypostatisch",
+        "Bij alle drie"
+      ],
+      "answer": 1,
+      "explanation": "Structureel onbepaald (hyperstatisch): extra informatie nodig.",
+      "page": 42
+    },
+    {
+      "id": "les08-o01",
+      "chapterId": "soorten-verbindingen",
+      "type": "open",
+      "prompt": "Vergelijk roloplegging, scharnier en inklemming: welke bewegingen worden geblokkeerd, welke krachten opgevangen, en hoeveel reactiekrachten zijn er?",
+      "model": "Roloplegging: blokkeert één translatie (bv. verticaal); horizontale translatie en rotatie blijven mogelijk; vangt enkel de verticale kracht op → 1 reactiekracht. Scharnier: blokkeert verticale en horizontale translatie; rotatie blijft mogelijk; vangt verticale en horizontale kracht op, geen moment → 2 reactiekrachten. Inklemming: blokkeert alle translaties en de rotatie (in het vlak); vangt verticale en horizontale krachten én momenten op → 3 reactiekrachten.",
+      "keywords": [
+        "roloplegging",
+        "1",
+        "scharnier",
+        "2",
+        "rotatie",
+        "inklemming",
+        "3",
+        "moment",
+        "reactiekracht"
+      ],
+      "explanation": "p. 17–33.",
+      "page": 17
+    },
+    {
+      "id": "les08-o02",
+      "chapterId": "statisch",
+      "type": "open",
+      "prompt": "Bespreek de drie soorten structuren in functie van de evenwichtsvergelijkingen.",
+      "model": "De evenwichtsvergelijkingen zijn Σ Fhor = 0, Σ Fver = 0 en Σ M = 0. Een structureel bepaalde (isostatische) structuur: alle krachten kunnen uit de evenwichtsvergelijkingen berekend worden — stabiel. Een structureel onbepaalde (hyperstatische) structuur: extra informatie nodig — stabiel met veiligheidsmarge. Een mechanisme (hypostatisch): structureel instabiel, hooguit tijdelijk in labiel evenwicht (bv. skateboard op de grond).",
+      "keywords": [
+        "Σ Fhor",
+        "Σ Fver",
+        "Σ M",
+        "isostatisch",
+        "hyperstatisch",
+        "veiligheidsmarge",
+        "hypostatisch",
+        "instabiel"
+      ],
+      "explanation": "p. 38–45.",
+      "page": 38
+    },
+    {
+      "id": "les08-d01",
+      "chapterId": "soorten-verbindingen",
+      "type": "drawing",
+      "prompt": "Welk type verbinding toont deze tekening? Welke bewegingen worden geblokkeerd, en hoeveel reactiekrachten zijn er?",
+      "image": "img/les08-p26-fig.jpg",
+      "imageCaption": "Verbinding met reactiekrachten",
+      "model": "Een scharnier: de verticale en de horizontale translatie worden tegengehouden, de rotatie blijft mogelijk. Er zijn dus 2 reactiekrachten (verticaal en horizontaal); een moment wordt niet opgevangen.",
+      "keywords": [
+        "scharnier",
+        "verticaal",
+        "horizontaal",
+        "rotatie",
+        "2 reactiekrachten"
+      ],
+      "explanation": "p. 26.",
+      "page": 26
+    }
+  ],
+  "buildings": []
+}

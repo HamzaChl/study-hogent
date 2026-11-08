@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { Bar, Empty, FitText, SectionLabel } from "../components/ui";
-import { allBundles } from "../lib/content";
+import { allBundles, chapterCode } from "../lib/content";
 import { historyStats, stats, useProgress } from "../lib/progress";
 import type { CourseBundle } from "../lib/content";
 
@@ -81,7 +81,7 @@ export default function ProgressPage() {
                 <ul className="border-t border-ink">
                   {b.chapters.map((c) => (
                     <li key={c.id} className="flex justify-between border-b border-line py-3 text-[14px]">
-                      <a className="link-u" href={`#/course/${b.course.id}/study/${c.id}`}>{c.number} — {c.title}</a>
+                      <a className="link-u" href={`#/course/${b.course.id}/study/${c.id}`}>{chapterCode(b, c)} — {c.title}</a>
                       <span className="meta">{get(b.course.id).completed.includes(c.id) ? "● Voltooid" : "○"}</span>
                     </li>
                   ))}

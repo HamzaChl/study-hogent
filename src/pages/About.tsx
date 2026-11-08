@@ -37,7 +37,7 @@ export default function About() {
         <SectionLabel>Bronnen</SectionLabel>
         <ul className="border-t border-ink text-[14px]">
           <li className="grid gap-1 border-b border-line py-4 sm:grid-cols-[240px_1fr]"><span className="meta-mute">Curriculum</span><span>BaMaFlex — Constructie, Bachelor in de interieurvormgeving, HOGENT, academiejaar 2026-27</span></li>
-          <li className="grid gap-1 border-b border-line py-4 sm:grid-cols-[240px_1fr]"><span className="meta-mute">Les 02</span><span>Constructie — Materialen, elementen, structuren (59 pagina’s)</span></li>
+          <li className="grid gap-1 border-b border-line py-4 sm:grid-cols-[240px_1fr]"><span className="meta-mute">Les 02 – Les 11</span><span>Constructie — tien les-PDF’s: materialen, krachten, spanning, vectoren, balk &amp; kolom, kettinglijn &amp; zwaartepunt, verbindingen, bouwfysica, funderingen</span></li>
           <li className="grid gap-1 border-b border-line py-4 sm:grid-cols-[240px_1fr]"><span className="meta-mute">Afbeeldingen</span><span>Uit de lesslides — enkel voor persoonlijk studiegebruik. Deze website is niet openbaar.</span></li>
         </ul>
       </section>

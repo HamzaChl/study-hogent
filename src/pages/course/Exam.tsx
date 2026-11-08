@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { FitText, Img, SectionLabel, SourceTag } from "../../components/ui";
-import type { CourseBundle } from "../../lib/content";
+import { chapterCode, lectureLabel, type CourseBundle } from "../../lib/content";
 import { useProgress } from "../../lib/progress";
 import type { ExamQuestion } from "../../lib/schema";
 import { keywordHits, shuffle } from "../../lib/text";
@@ -108,8 +108,8 @@ export default function Exam({ bundle }: { bundle: CourseBundle }) {
           </div>
 
           <div className="mt-10 space-y-3 border-t border-line pt-6 text-[12.5px] leading-relaxed text-mute">
-            <p>De vragen zijn oefenvragen, door AI opgesteld op basis van het lesmateriaal (Les 02). Het zijn geen echte examenvragen.</p>
-            <p>Het officiële examen omvat de bespreking van constructieve detailtekeningen. Het huidige lesmateriaal bevat (nog) geen detailtekeningen; de tekenvragen gebruiken daarom architectuurtekeningen uit de les (Maison Domino, Farnsworth House, Seagram Building).</p>
+            <p>De vragen zijn oefenvragen, door AI opgesteld op basis van het lesmateriaal ({bundle.lectures.map((l) => l.id.replace("les", "Les ")).join(", ")}). Het zijn geen echte examenvragen.</p>
+            <p>Het officiële examen omvat de bespreking van constructieve detailtekeningen. De tekenvragen hier gebruiken tekeningen en beelden uit de lesslides.</p>
             <p>Werk zoals op het examen: gesloten boek, zonder notities. Antwoorden worden pas na het indienen getoond.</p>
           </div>
 
@@ -203,7 +203,7 @@ export default function Exam({ bundle }: { bundle: CourseBundle }) {
                 const v = r.byChapter.get(id)!;
                 return (
                   <li key={id} className="flex items-baseline justify-between border-b border-line py-3">
-                    <a href={`#/course/${courseId}/study/${id}`} className="text-[15px] font-bold uppercase link-u">{c?.number} {c?.title} →</a>
+                    <a href={`#/course/${courseId}/study/${id}`} className="text-[15px] font-bold uppercase link-u">{c && chapterCode(bundle, c)} {c?.title} →</a>
                     <span className="meta tabular-nums">{fmt(v.got)} / {v.max} pt</span>
                   </li>
                 );
@@ -259,7 +259,7 @@ export default function Exam({ bundle }: { bundle: CourseBundle }) {
               )}
               <p className="mt-4 max-w-[70ch] text-[13.5px] leading-relaxed text-[#444]">{q.explanation}</p>
               <p className="mt-2 meta-mute">
-                Bron: Les 02{q.page ? ` · p. ${q.page}` : ""} · <a className="link-u text-ink" href={`#/course/${courseId}/study/${q.chapterId}`}>Les {chapterOf(q.chapterId)?.number}</a>
+                Bron: {lectureLabel(bundle, q.chapterId)}{q.page ? ` · p. ${q.page}` : ""} · <a className="link-u text-ink" href={`#/course/${courseId}/study/${q.chapterId}`}>{chapterOf(q.chapterId)?.number} {chapterOf(q.chapterId)?.title}</a>
               </p>
             </li>
           );

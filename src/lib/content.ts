@@ -96,4 +96,26 @@ export function asset(courseId: string, src: string): string {
   return `${import.meta.env.BASE_URL}content/${courseId}/${src.replace(/^\.\//, "")}`;
 }
 
+/** “Les 03” voor het hoofdstuk, op basis van het lesbestand waaruit het komt. */
+export function lectureLabel(bundle: CourseBundle, chapterId: string): string {
+  const l = bundle.lectureOf.get(chapterId);
+  return l ? l.id.replace("les", "Les ") : "Lesmateriaal";
+}
+
+/** Titel van een les zonder het cursusvoorvoegsel (“Constructie — Over krachten” → “Over krachten”). */
+export function lectureTitle(lecture: Lecture): string {
+  return lecture.title.replace(/^[^—]+—\s*/, "");
+}
+
+/** “Les 07 · 01” — hoofdstuknummers lopen per les. */
+export function chapterCode(bundle: CourseBundle, chapter: Chapter): string {
+  const l = bundle.lectureOf.get(chapter.id);
+  return l ? `${l.id.replace("les", "Les ")} · ${chapter.number}` : chapter.number;
+}
+
+/** Hoofdstukken gegroepeerd per les, in volgorde. */
+export function chaptersByLecture(bundle: CourseBundle): { lecture: Lecture; chapters: Chapter[] }[] {
+  return bundle.lectures.filter((l) => l.chapters.length).map((lecture) => ({ lecture, chapters: lecture.chapters }));
+}
+
 export const pad2 = (n: number) => String(n).padStart(2, "0");

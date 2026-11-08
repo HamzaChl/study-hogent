@@ -1,0 +1,1136 @@
+{
+  "id": "les03",
+  "courseId": "constructie",
+  "title": "Constructie — Over krachten",
+  "file": "2026-27_1IV_CONSTRUCTIE_LES_03_-_Over_krachten.pdf",
+  "pages": 55,
+  "covers": [
+    "p1-01",
+    "p1-02"
+  ],
+  "chapters": [
+    {
+      "id": "drie-s",
+      "number": "01",
+      "title": "Sterkte, stijfheid, stabiliteit",
+      "kicker": "De 3 × S",
+      "topicIds": [
+        "p1-02"
+      ],
+      "cover": "img/les03-p05-2.jpg",
+      "intro": "De doelstelling van constructies is krachten weerstaan. De les vat dat samen in drie S’en: sterkte, stijfheid en stabiliteit. Elke S hoort bij een ander niveau: het element, het materiaal en de structuur.",
+      "sections": [
+        {
+          "heading": "Drie keer S",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Doelstelling van constructies: krachten weerstaan. Dat gebeurt op drie manieren, de ‘3 × S’."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "S",
+                "Weerstand tegen…",
+                "Niveau"
+              ],
+              "rows": [
+                [
+                  "Sterkte",
+                  "doorbuiging",
+                  "element-niveau"
+                ],
+                [
+                  "Stijfheid",
+                  "vervorming",
+                  "materiaal-niveau"
+                ],
+                [
+                  "Stabiliteit",
+                  "beweging",
+                  "structuur-niveau"
+                ]
+              ],
+              "page": 25
+            }
+          ]
+        },
+        {
+          "heading": "Sterkte — weerstand tegen doorbuiging",
+          "blocks": [
+            {
+              "type": "figure",
+              "src": "img/les03-p05-2.jpg",
+              "caption": "Een balk onder belasting zal doorbuigen…",
+              "page": 5
+            },
+            {
+              "type": "definition",
+              "term": "Sterkte",
+              "text": "Weerstand tegen doorbuiging. Weerstand tegen doorbuiging is een kwestie van materiaal en element.",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "heading": "Stijfheid — weerstand tegen vervorming",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Stijfheid",
+              "text": "Weerstand tegen vervorming.",
+              "page": 8
+            },
+            {
+              "type": "figure",
+              "src": "img/les03-p09-2.jpg",
+              "caption": "Opstelling voor een trekproef.",
+              "page": 9
+            },
+            {
+              "type": "figure",
+              "src": "img/les03-p10-2.jpg",
+              "caption": "Proefstaaltjes uit een trekproef.",
+              "page": 10
+            },
+            {
+              "type": "definition",
+              "term": "Spanning-rek-diagram",
+              "text": "De resultaten van een trekproef worden weergegeven in een diagram: de vervorming wordt uitgezet ten opzichte van de spanning (uitgeoefende kracht).",
+              "page": 11
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Engels",
+                "Nederlands"
+              ],
+              "rows": [
+                [
+                  "Stress",
+                  "spanning"
+                ],
+                [
+                  "Strain",
+                  "vervorming, rek"
+                ]
+              ],
+              "page": 11
+            },
+            {
+              "type": "figure",
+              "src": "img/les03-p11-2.jpg",
+              "caption": "Spanning-rek-diagram.",
+              "page": 11
+            },
+            {
+              "type": "figure",
+              "src": "img/les03-p13-2.jpg",
+              "caption": "Vergelijking van materialen.",
+              "page": 13
+            },
+            {
+              "type": "p",
+              "text": "Het spanning-rek-diagram vertelt ons hoe een materiaal zal reageren op belasting, welke vervorming er zal optreden, hoeveel vervorming, en wanneer het materiaal zal falen (breken)."
+            }
+          ]
+        },
+        {
+          "heading": "Stabiliteit — weerstand tegen beweging",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Stabiliteit",
+              "text": "Weerstand tegen beweging. Een instabiele structuur zal onder invloed van belasting gaan bewegen.",
+              "page": 17
+            },
+            {
+              "type": "p",
+              "text": "Stabiliteit is een complexe problematiek die te maken heeft met de ganse structuur: de gebruikte elementen, verbindingen, materialen, maar ook de belasting zelf speelt een rol."
+            },
+            {
+              "type": "figure",
+              "src": "img/les03-p18-2.jpg",
+              "caption": "Kruisverbanden zorgen voor de laterale stabiliteit.",
+              "page": 18
+            },
+            {
+              "type": "figure",
+              "src": "img/les03-p20-3.jpg",
+              "caption": "In een gemengde structuur zorgen de massieve elementen voor de laterale stabiliteit.",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "heading": "Case study: Tacoma Narrows Bridge (1940)",
+          "blocks": [
+            {
+              "type": "figure",
+              "src": "img/les03-p23-2.jpg",
+              "caption": "Tacoma Narrows Bridge (1940).",
+              "page": 23
+            },
+            {
+              "type": "p",
+              "text": "De specificiteit van de windbelasting bracht de brug in beweging; de materiaalkeuze en het (relatief) beperkte gewicht maakten het onmogelijk om die beweging te dempen."
+            },
+            {
+              "type": "note",
+              "text": "Kernwoorden in dit alles: ‘eigenfrequentie’ en ‘resonantie’ (p. 24)."
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Doelstelling van constructies: krachten weerstaan → 3 × S.",
+        "Sterkte = weerstand tegen doorbuiging (element-niveau).",
+        "Stijfheid = weerstand tegen vervorming (materiaal-niveau); af te lezen uit het spanning-rek-diagram van een trekproef.",
+        "Stabiliteit = weerstand tegen beweging (structuur-niveau); bv. kruisverbanden of massieve elementen voor laterale stabiliteit.",
+        "Tacoma Narrows Bridge: windbelasting, beperkt gewicht → eigenfrequentie en resonantie."
+      ],
+      "source": {
+        "lecture": "les03",
+        "pages": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          13,
+          16,
+          17,
+          18,
+          20,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    {
+      "id": "newton",
+      "number": "02",
+      "title": "Wetten van Newton",
+      "kicker": "Krachten in constructies",
+      "topicIds": [
+        "p1-01"
+      ],
+      "intro": "Om krachten in constructies te begrijpen vertrekt de les van de drie wetten van Newton. De tweede wet levert de formule F = m × a en, toegepast op de zwaartekracht, het verschil tussen massa en gewicht.",
+      "sections": [
+        {
+          "heading": "De drie wetten",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "1ste wet — Traagheidswet",
+              "text": "Een voorwerp waarop geen kracht inwerkt, is in rust of beweegt zich met een constante snelheid voort. Anders geformuleerd: om een object in beweging te brengen (of beweging te veranderen), is er een kracht nodig.",
+              "page": 27
+            },
+            {
+              "type": "definition",
+              "term": "2de wet — Kracht verandert de snelheid",
+              "text": "De verandering van beweging is rechtevenredig met de inwerkende kracht en volgt de rechte lijn waarin de kracht werkt. Dus: een kracht heeft een grootte en een richting; en beiden hebben invloed op de verandering van beweging.",
+              "page": 28
+            },
+            {
+              "type": "definition",
+              "term": "3de wet — Actie & reactie",
+              "text": "Als een voorwerp A een kracht uitoefent op een voorwerp B (actie), gaat deze gepaard met een even grote maar tegengestelde kracht van B op A (reactie).",
+              "page": 29
+            },
+            {
+              "type": "figure",
+              "src": "img/les03-p34-2.jpg",
+              "caption": "3de wet — actie & reactie.",
+              "page": 34
+            }
+          ]
+        },
+        {
+          "heading": "F = m × a",
+          "blocks": [
+            {
+              "type": "table",
+              "headers": [
+                "Formule",
+                "Betekenis",
+                "Eenheid"
+              ],
+              "rows": [
+                [
+                  "F = m × a",
+                  "kracht = massa × versnelling",
+                  "newton: 1 N = 1 kg · m/s²"
+                ],
+                [
+                  "Fz = m × g",
+                  "kracht = massa × valversnelling, met g = 9,81 m/s²",
+                  "N"
+                ]
+              ],
+              "page": 30
+            },
+            {
+              "type": "note",
+              "text": "Let op: Fz = 9,81 × m ≈ 10 × m. Dus 1 kg ≈ 10 N (kg als eenheid van kracht) (p. 32)."
+            },
+            {
+              "type": "definition",
+              "term": "Massa ≠ gewicht",
+              "text": "Massa (kg) is een eigenschap van materie; gewicht (N) is een maat voor de aantrekking van massa.",
+              "page": 33
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "1ste wet (traagheid): zonder kracht blijft een voorwerp in rust of in eenparige beweging.",
+        "2de wet: F = m × a; een kracht heeft een grootte en een richting. Eenheid newton (1 N = 1 kg · m/s²).",
+        "Zwaartekracht: Fz = m × g met g = 9,81 m/s² — dus 1 kg ≈ 10 N.",
+        "Massa (kg) ≠ gewicht (N).",
+        "3de wet: actie = reactie, even groot maar tegengesteld."
+      ],
+      "source": {
+        "lecture": "les03",
+        "pages": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      }
+    },
+    {
+      "id": "lasten",
+      "number": "03",
+      "title": "Lasten en soorten krachten",
+      "kicker": "Externe en interne krachten",
+      "topicIds": [
+        "p1-01"
+      ],
+      "cover": "img/les03-p42-2.jpg",
+      "intro": "Krachten in constructies zijn extern (lasten) of intern (reacties). Externe lasten zijn gebruikslasten of dode lasten. Naar vorm onderscheidt de les puntlasten, verdeelde lasten en koppels.",
+      "sections": [
+        {
+          "heading": "Externe en interne krachten",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Externe krachten of lasten",
+              "text": "Krachten uitwendig aan de structuur.",
+              "page": 36
+            },
+            {
+              "type": "definition",
+              "term": "Interne krachten",
+              "text": "Reactiekrachten: reacties in de structuur/het element/het materiaal op de uitwendige krachten.",
+              "page": 36
+            }
+          ]
+        },
+        {
+          "heading": "Externe lasten",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Gebruikslasten of veranderlijke lasten",
+              "text": "Alle inwerkende krachten bij gebruik: mensen, meubels, installaties, machines, … én weersbelasting: regen, wind, sneeuw, …",
+              "page": 38
+            },
+            {
+              "type": "definition",
+              "term": "Dode lasten of eigengewicht",
+              "text": "Het gewicht van de ganse constructie (alle materialen, elementen, structuren) onderhevig aan de zwaartekracht.",
+              "page": 38
+            },
+            {
+              "type": "note",
+              "text": "Het berekenen hiervan gebeurt via de ‘lastendaling’ en de ‘Eurocodes’ — het werk van de stabiliteitsingenieur (p. 39)."
+            }
+          ]
+        },
+        {
+          "heading": "Soorten krachten",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Puntlast",
+              "text": "De kracht werkt op het element in op één punt.",
+              "page": 41
+            },
+            {
+              "type": "definition",
+              "term": "Verdeelde last",
+              "text": "De kracht werkt op het element in over een zekere lengte. Ze kan evenredig verdeeld (p. 42) of lineair verdeeld (p. 43) zijn.",
+              "page": 42
+            },
+            {
+              "type": "definition",
+              "term": "Koppel",
+              "text": "Samenstel van twee even grote maar tegengestelde krachten waarvan de werklijnen niet samenvallen. Geeft aanleiding tot rotatie (en niet tot translatie).",
+              "page": 44
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "src": "img/les03-p41-2.jpg",
+                  "title": "Puntlast",
+                  "page": 41
+                },
+                {
+                  "src": "img/les03-p42-2.jpg",
+                  "title": "Evenredig verdeelde last",
+                  "page": 42
+                },
+                {
+                  "src": "img/les03-p43-2.jpg",
+                  "title": "Lineair verdeelde last",
+                  "page": 43
+                },
+                {
+                  "src": "img/les03-p44-2.jpg",
+                  "title": "Koppel",
+                  "page": 44
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Externe krachten (lasten) werken uitwendig in; interne krachten zijn de reacties in structuur, element of materiaal.",
+        "Gebruikslasten (veranderlijk): mensen, meubels, installaties, weer. Dode lasten: eigengewicht van de constructie.",
+        "Lastendaling en Eurocodes: werk van de stabiliteitsingenieur.",
+        "Puntlast (één punt), verdeelde last (over een lengte; evenredig of lineair), koppel (rotatie, geen translatie)."
+      ],
+      "source": {
+        "lecture": "les03",
+        "pages": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ]
+      }
+    },
+    {
+      "id": "krachten-element",
+      "number": "04",
+      "title": "Normaalkracht, dwarskracht, moment",
+      "kicker": "Krachten ten opzichte van het element",
+      "topicIds": [
+        "p1-01",
+        "p1-02"
+      ],
+      "cover": "img/les03-p52-2.jpg",
+      "intro": "Ten opzichte van de as van een element onderscheidt de les drie krachten: de normaalkracht (volgens de as), de dwarskracht (loodrecht op de as) en het moment (een kracht op afstand van het steunpunt).",
+      "sections": [
+        {
+          "heading": "Normaalkracht en dwarskracht",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Normaalkracht (Fn)",
+              "text": "Kracht die inwerkt volgens de as van een element. Geeft (onder meer) aanleiding tot trek (tension) en/of druk (compression).",
+              "page": 46
+            },
+            {
+              "type": "figure",
+              "src": "img/les03-p46-2.jpg",
+              "caption": "Normaalkracht: trek en druk.",
+              "page": 46
+            },
+            {
+              "type": "definition",
+              "term": "Dwarskracht (Fd)",
+              "text": "Kracht die inwerkt loodrecht op de as van een element. Geeft (onder meer) aanleiding tot afschuiving (shear).",
+              "page": 47
+            },
+            {
+              "type": "figure",
+              "src": "img/les03-p47-2.jpg",
+              "caption": "Dwarskracht: afschuiving.",
+              "page": 47
+            }
+          ]
+        },
+        {
+          "heading": "Moment of hefboomkracht",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Moment (M0)",
+              "text": "Interne kracht ten gevolge van een kracht die inwerkt op een afstand van het steunpunt. Een moment geeft aanleiding tot rotatie.",
+              "page": 48
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Formule",
+                "Betekenis",
+                "Eenheid"
+              ],
+              "rows": [
+                [
+                  "M0 = F × L",
+                  "moment = kracht × afstand (afstand = hefboomarm)",
+                  "Nm"
+                ]
+              ],
+              "page": 49
+            },
+            {
+              "type": "list",
+              "items": [
+                "De hefboomarm vergroot de kracht (p. 50).",
+                "Moment ontstaat bij elke kracht die inwerkt op een afstand van het steunpunt (p. 51).",
+                "Door een lange hefboom moet je minder kracht zetten om het rotsblok te verplaatsen (p. 52).",
+                "Momenten/hefbomen worden toegepast in het dagelijkse leven (p. 53)."
+              ]
+            },
+            {
+              "type": "figure",
+              "src": "img/les03-p52-2.jpg",
+              "caption": "Een lange hefboom: minder kracht nodig om het rotsblok te verplaatsen.",
+              "page": 52
+            }
+          ]
+        },
+        {
+          "heading": "Buigmoment en torsiemoment",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Buigmoment",
+              "text": "Krachten (of koppels krachten) die dwars op de as van het element inwerken, doen de balk buigen.",
+              "page": 54
+            },
+            {
+              "type": "definition",
+              "term": "Torsie of wringing",
+              "text": "Een torsiemoment of een koppel krachten dat rondom de as van een element werkt, doet de balk torderen.",
+              "page": 54
+            },
+            {
+              "type": "figure",
+              "src": "img/les03-p54-2.jpg",
+              "caption": "Links: buigmoment. Rechts: torsiemoment.",
+              "page": 54
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Normaalkracht: volgens de as → trek en/of druk.",
+        "Dwarskracht: loodrecht op de as → afschuiving.",
+        "Moment: kracht op afstand van het steunpunt → rotatie. M0 = F × L, eenheid Nm.",
+        "Hoe langer de hefboomarm, hoe groter het moment (en hoe minder kracht nodig).",
+        "Buigmoment doet buigen (dwars op de as); torsiemoment doet torderen (rond de as)."
+      ],
+      "source": {
+        "lecture": "les03",
+        "pages": [
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54
+        ]
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "les03-f01",
+      "chapterId": "drie-s",
+      "front": "Wat is de doelstelling van constructies?",
+      "back": "Krachten weerstaan — via de 3 × S: sterkte, stijfheid en stabiliteit.",
+      "page": 3
+    },
+    {
+      "id": "les03-f02",
+      "chapterId": "drie-s",
+      "front": "Sterkte = weerstand tegen…?",
+      "back": "Doorbuiging (element-niveau). Een kwestie van materiaal en element.",
+      "page": 25
+    },
+    {
+      "id": "les03-f03",
+      "chapterId": "drie-s",
+      "front": "Stijfheid = weerstand tegen…?",
+      "back": "Vervorming (materiaal-niveau).",
+      "page": 25
+    },
+    {
+      "id": "les03-f04",
+      "chapterId": "drie-s",
+      "front": "Stabiliteit = weerstand tegen…?",
+      "back": "Beweging (structuur-niveau).",
+      "page": 25
+    },
+    {
+      "id": "les03-f05",
+      "chapterId": "drie-s",
+      "front": "Wat toont een spanning-rek-diagram?",
+      "back": "De resultaten van een trekproef: de vervorming uitgezet t.o.v. de spanning. Het vertelt hoe een materiaal reageert op belasting, hoeveel het vervormt en wanneer het faalt (breekt).",
+      "page": 16
+    },
+    {
+      "id": "les03-f06",
+      "chapterId": "drie-s",
+      "front": "Stress en strain?",
+      "back": "Stress = spanning; strain = vervorming, rek.",
+      "page": 11
+    },
+    {
+      "id": "les03-f07",
+      "chapterId": "drie-s",
+      "front": "Twee manieren om laterale stabiliteit te verzekeren uit de les?",
+      "back": "Kruisverbanden, of — in een gemengde structuur — de massieve elementen.",
+      "page": 20
+    },
+    {
+      "id": "les03-f08",
+      "chapterId": "drie-s",
+      "front": "Waarom bezweek de Tacoma Narrows Bridge (1940)?",
+      "back": "De specificiteit van de windbelasting bracht de brug in beweging; materiaalkeuze en (relatief) beperkt gewicht maakten dempen onmogelijk. Kernwoorden: eigenfrequentie en resonantie.",
+      "page": 23,
+      "image": "img/les03-p23-2.jpg"
+    },
+    {
+      "id": "les03-f09",
+      "chapterId": "newton",
+      "front": "1ste wet van Newton?",
+      "back": "Traagheidswet: een voorwerp waarop geen kracht inwerkt, is in rust of beweegt met constante snelheid. Om beweging te starten of te veranderen is een kracht nodig.",
+      "page": 27
+    },
+    {
+      "id": "les03-f10",
+      "chapterId": "newton",
+      "front": "2de wet van Newton (formule)?",
+      "back": "F = m × a — kracht = massa × versnelling. Eenheid: newton, 1 N = 1 kg · m/s².",
+      "page": 30
+    },
+    {
+      "id": "les03-f11",
+      "chapterId": "newton",
+      "front": "3de wet van Newton?",
+      "back": "Actie & reactie: oefent A een kracht uit op B, dan oefent B een even grote maar tegengestelde kracht uit op A.",
+      "page": 29
+    },
+    {
+      "id": "les03-f12",
+      "chapterId": "newton",
+      "front": "Formule zwaartekracht?",
+      "back": "Fz = m × g, met g = 9,81 m/s² (≈ 10). Dus 1 kg ≈ 10 N.",
+      "page": 31
+    },
+    {
+      "id": "les03-f13",
+      "chapterId": "newton",
+      "front": "Verschil massa en gewicht?",
+      "back": "Massa (kg) is een eigenschap van materie; gewicht (N) is een maat voor de aantrekking van massa.",
+      "page": 33
+    },
+    {
+      "id": "les03-f14",
+      "chapterId": "lasten",
+      "front": "Externe vs. interne krachten?",
+      "back": "Extern (lasten): krachten uitwendig aan de structuur. Intern: reactiekrachten in structuur/element/materiaal op die uitwendige krachten.",
+      "page": 36
+    },
+    {
+      "id": "les03-f15",
+      "chapterId": "lasten",
+      "front": "Gebruikslasten (veranderlijke lasten)?",
+      "back": "Alle inwerkende krachten bij gebruik: mensen, meubels, installaties, machines… en weersbelasting (regen, wind, sneeuw).",
+      "page": 38
+    },
+    {
+      "id": "les03-f16",
+      "chapterId": "lasten",
+      "front": "Dode lasten (eigengewicht)?",
+      "back": "Het gewicht van de ganse constructie (alle materialen, elementen, structuren) onderhevig aan de zwaartekracht.",
+      "page": 38
+    },
+    {
+      "id": "les03-f17",
+      "chapterId": "lasten",
+      "front": "Puntlast?",
+      "back": "De kracht werkt op het element in op één punt.",
+      "page": 41
+    },
+    {
+      "id": "les03-f18",
+      "chapterId": "lasten",
+      "front": "Verdeelde last?",
+      "back": "De kracht werkt in over een zekere lengte — evenredig of lineair verdeeld.",
+      "page": 42
+    },
+    {
+      "id": "les03-f19",
+      "chapterId": "lasten",
+      "front": "Koppel?",
+      "back": "Twee even grote, tegengestelde krachten waarvan de werklijnen niet samenvallen. Geeft rotatie, geen translatie.",
+      "page": 44
+    },
+    {
+      "id": "les03-f20",
+      "chapterId": "krachten-element",
+      "front": "Normaalkracht?",
+      "back": "Kracht volgens de as van een element (Fn) → trek en/of druk.",
+      "page": 46
+    },
+    {
+      "id": "les03-f21",
+      "chapterId": "krachten-element",
+      "front": "Dwarskracht?",
+      "back": "Kracht loodrecht op de as van een element (Fd) → afschuiving (shear).",
+      "page": 47
+    },
+    {
+      "id": "les03-f22",
+      "chapterId": "krachten-element",
+      "front": "Moment (hefboomkracht)?",
+      "back": "Interne kracht t.g.v. een kracht op afstand van het steunpunt → rotatie. M0 = F × L (Nm).",
+      "page": 49
+    },
+    {
+      "id": "les03-f23",
+      "chapterId": "krachten-element",
+      "front": "Buigmoment vs. torsiemoment?",
+      "back": "Buigmoment: krachten dwars op de as doen de balk buigen. Torsiemoment: een koppel rond de as doet de balk torderen (wringing).",
+      "page": 54
+    }
+  ],
+  "practice": [
+    {
+      "id": "les03-pr01",
+      "chapterId": "drie-s",
+      "type": "match",
+      "prompt": "Koppel elke S aan wat ze weerstaat.",
+      "pairs": [
+        [
+          "Sterkte",
+          "doorbuiging"
+        ],
+        [
+          "Stijfheid",
+          "vervorming"
+        ],
+        [
+          "Stabiliteit",
+          "beweging"
+        ]
+      ],
+      "explanation": "Samenvatting p. 25: sterkte → doorbuiging, stijfheid → vervorming, stabiliteit → beweging.",
+      "page": 25
+    },
+    {
+      "id": "les03-pr02",
+      "chapterId": "drie-s",
+      "type": "mc",
+      "prompt": "Op welk niveau situeert de les stijfheid?",
+      "options": [
+        "Materiaal-niveau",
+        "Element-niveau",
+        "Structuur-niveau",
+        "Verbindingsniveau"
+      ],
+      "answer": 0,
+      "explanation": "Stijfheid = weerstand tegen vervorming, op materiaal-niveau.",
+      "page": 25
+    },
+    {
+      "id": "les03-pr03",
+      "chapterId": "drie-s",
+      "type": "tf",
+      "statement": "Stabiliteit hangt enkel af van het gekozen materiaal.",
+      "answer": false,
+      "explanation": "Stabiliteit heeft te maken met de ganse structuur: elementen, verbindingen, materialen én de belasting zelf.",
+      "page": 17
+    },
+    {
+      "id": "les03-pr04",
+      "chapterId": "drie-s",
+      "type": "definition",
+      "definition": "Diagram waarin de resultaten van een trekproef worden weergegeven: de vervorming uitgezet t.o.v. de spanning.",
+      "accepted": [
+        "spanning-rek-diagram",
+        "spanning rek diagram",
+        "spanningrekdiagram",
+        "stress-strain diagram"
+      ],
+      "explanation": "Het spanning-rek-diagram (p. 11).",
+      "page": 11
+    },
+    {
+      "id": "les03-pr05",
+      "chapterId": "drie-s",
+      "type": "open",
+      "prompt": "Waarom bezweek de Tacoma Narrows Bridge? Gebruik de kernwoorden uit de les.",
+      "model": "De specificiteit van de windbelasting bracht de brug in beweging. Door de materiaalkeuze en het relatief beperkte gewicht kon die beweging niet gedempt worden. Kernwoorden: eigenfrequentie en resonantie.",
+      "keywords": [
+        "wind",
+        "beweging",
+        "gewicht",
+        "dempen",
+        "eigenfrequentie",
+        "resonantie"
+      ],
+      "explanation": "Case study p. 22–24.",
+      "page": 23
+    },
+    {
+      "id": "les03-pr06",
+      "chapterId": "newton",
+      "type": "mc",
+      "prompt": "Welke formule hoort bij de 2de wet van Newton?",
+      "options": [
+        "F = m × a",
+        "M = F × L",
+        "σ = F / A",
+        "E = m × c²"
+      ],
+      "answer": 0,
+      "explanation": "F = m × a: kracht = massa × versnelling.",
+      "page": 30
+    },
+    {
+      "id": "les03-pr07",
+      "chapterId": "newton",
+      "type": "mc",
+      "prompt": "Een massa van 50 kg oefent ongeveer welke zwaartekracht uit?",
+      "options": [
+        "5 N",
+        "50 N",
+        "500 N",
+        "5000 N"
+      ],
+      "answer": 2,
+      "explanation": "Fz = m × g ≈ 10 × m = 10 × 50 = 500 N.",
+      "page": 32
+    },
+    {
+      "id": "les03-pr08",
+      "chapterId": "newton",
+      "type": "tf",
+      "statement": "Massa en gewicht zijn hetzelfde.",
+      "answer": false,
+      "explanation": "Massa (kg) is een eigenschap van materie; gewicht (N) is een maat voor de aantrekking van massa.",
+      "page": 33
+    },
+    {
+      "id": "les03-pr09",
+      "chapterId": "newton",
+      "type": "match",
+      "prompt": "Koppel de wet van Newton aan haar inhoud.",
+      "pairs": [
+        [
+          "1ste wet",
+          "traagheid: zonder kracht geen verandering van beweging"
+        ],
+        [
+          "2de wet",
+          "F = m × a"
+        ],
+        [
+          "3de wet",
+          "actie = reactie"
+        ]
+      ],
+      "explanation": "p. 27–29.",
+      "page": 27
+    },
+    {
+      "id": "les03-pr10",
+      "chapterId": "lasten",
+      "type": "mc",
+      "prompt": "Sneeuw op een dak is een…",
+      "options": [
+        "gebruikslast of veranderlijke last",
+        "dode last",
+        "interne kracht",
+        "koppel"
+      ],
+      "answer": 0,
+      "explanation": "Weersbelasting (regen, wind, sneeuw) hoort bij de gebruikslasten of veranderlijke lasten.",
+      "page": 38
+    },
+    {
+      "id": "les03-pr11",
+      "chapterId": "lasten",
+      "type": "tf",
+      "statement": "Een koppel brengt een element in translatie.",
+      "answer": false,
+      "explanation": "Een koppel geeft aanleiding tot rotatie, niet tot translatie.",
+      "page": 44
+    },
+    {
+      "id": "les03-pr12",
+      "chapterId": "lasten",
+      "type": "definition",
+      "definition": "Het gewicht van de ganse constructie (alle materialen, elementen, structuren) onderhevig aan de zwaartekracht.",
+      "accepted": [
+        "dode last",
+        "dode lasten",
+        "eigengewicht",
+        "dode last of eigengewicht"
+      ],
+      "explanation": "Dode lasten of eigengewicht (p. 38).",
+      "page": 38
+    },
+    {
+      "id": "les03-pr13",
+      "chapterId": "krachten-element",
+      "type": "match",
+      "prompt": "Koppel de kracht aan haar gevolg.",
+      "pairs": [
+        [
+          "Normaalkracht",
+          "trek en/of druk"
+        ],
+        [
+          "Dwarskracht",
+          "afschuiving"
+        ],
+        [
+          "Moment",
+          "rotatie"
+        ]
+      ],
+      "explanation": "p. 46–48.",
+      "page": 46
+    },
+    {
+      "id": "les03-pr14",
+      "chapterId": "krachten-element",
+      "type": "mc",
+      "prompt": "Een kracht van 200 N werkt op 3 m van het steunpunt. Hoe groot is het moment?",
+      "options": [
+        "66,7 Nm",
+        "203 Nm",
+        "600 Nm",
+        "600 N"
+      ],
+      "answer": 2,
+      "explanation": "M0 = F × L = 200 N × 3 m = 600 Nm. De eenheid is Nm.",
+      "page": 49
+    },
+    {
+      "id": "les03-pr15",
+      "chapterId": "krachten-element",
+      "type": "tf",
+      "statement": "Een torsiemoment werkt rondom de as van het element en doet de balk torderen.",
+      "answer": true,
+      "explanation": "Torsie of wringing: een koppel rond de as doet de balk torderen.",
+      "page": 54
+    },
+    {
+      "id": "les03-pr16",
+      "chapterId": "krachten-element",
+      "type": "open",
+      "prompt": "Leg uit waarom je met een lange hefboom minder kracht moet zetten om een rotsblok te verplaatsen.",
+      "model": "Moment = kracht × afstand (hefboomarm). Voor hetzelfde moment heb je bij een grotere hefboomarm een kleinere kracht nodig: de hefboomarm vergroot de kracht.",
+      "keywords": [
+        "moment",
+        "kracht",
+        "afstand",
+        "hefboomarm"
+      ],
+      "explanation": "p. 49–52.",
+      "page": 52
+    }
+  ],
+  "exam": [
+    {
+      "id": "les03-e01",
+      "chapterId": "drie-s",
+      "type": "mc",
+      "prompt": "Welke van de drie S’en situeert de les op structuur-niveau?",
+      "options": [
+        "Sterkte",
+        "Stijfheid",
+        "Stabiliteit",
+        "Geen van de drie"
+      ],
+      "answer": 2,
+      "explanation": "Stabiliteit = weerstand tegen beweging, structuur-niveau.",
+      "page": 25
+    },
+    {
+      "id": "les03-e02",
+      "chapterId": "drie-s",
+      "type": "mc",
+      "prompt": "Wat is het doel van een trekproef in de les?",
+      "options": [
+        "De stabiliteit van een gebouw bepalen",
+        "De relatie tussen spanning en vervorming (rek) van een materiaal bepalen",
+        "Het eigengewicht van een structuur berekenen",
+        "De eigenfrequentie van een brug meten"
+      ],
+      "answer": 1,
+      "explanation": "De resultaten van een trekproef worden in een spanning-rek-diagram weergegeven.",
+      "page": 11
+    },
+    {
+      "id": "les03-e03",
+      "chapterId": "newton",
+      "type": "mc",
+      "prompt": "1 N is gelijk aan…",
+      "options": [
+        "1 kg",
+        "1 kg · m/s²",
+        "9,81 kg",
+        "1 kg · m"
+      ],
+      "answer": 1,
+      "explanation": "Eenheid newton: 1 N = 1 kg · m/s².",
+      "page": 30
+    },
+    {
+      "id": "les03-e04",
+      "chapterId": "lasten",
+      "type": "mc",
+      "prompt": "Wie berekent de lastendaling volgens de Eurocodes?",
+      "options": [
+        "De aannemer",
+        "De stabiliteitsingenieur",
+        "De interieurarchitect",
+        "De EPB-verslaggever"
+      ],
+      "answer": 1,
+      "explanation": "Lastendaling / Eurocodes → stabiliteitsingenieur (p. 39).",
+      "page": 39
+    },
+    {
+      "id": "les03-e05",
+      "chapterId": "krachten-element",
+      "type": "mc",
+      "prompt": "Een kracht loodrecht op de as van een element is een…",
+      "options": [
+        "normaalkracht",
+        "dwarskracht",
+        "koppel",
+        "torsiemoment"
+      ],
+      "answer": 1,
+      "explanation": "Dwarskracht: loodrecht op de as → afschuiving.",
+      "page": 47
+    },
+    {
+      "id": "les03-e06",
+      "chapterId": "krachten-element",
+      "type": "mc",
+      "prompt": "Wat is de eenheid van een moment?",
+      "options": [
+        "N",
+        "kg",
+        "Nm",
+        "N/m²"
+      ],
+      "answer": 2,
+      "explanation": "M0 = F × L → newton × meter = Nm.",
+      "page": 49
+    },
+    {
+      "id": "les03-o01",
+      "chapterId": "drie-s",
+      "type": "open",
+      "prompt": "Bespreek de 3 × S. Geef per S de omschrijving en het niveau waarop ze speelt.",
+      "model": "Doelstelling van constructies: krachten weerstaan. Sterkte = weerstand tegen doorbuiging (element-niveau). Stijfheid = weerstand tegen vervorming (materiaal-niveau). Stabiliteit = weerstand tegen beweging (structuur-niveau).",
+      "keywords": [
+        "sterkte",
+        "doorbuiging",
+        "element",
+        "stijfheid",
+        "vervorming",
+        "materiaal",
+        "stabiliteit",
+        "beweging",
+        "structuur"
+      ],
+      "explanation": "Samenvatting p. 25.",
+      "page": 25
+    },
+    {
+      "id": "les03-o02",
+      "chapterId": "newton",
+      "type": "open",
+      "prompt": "Formuleer de drie wetten van Newton zoals in de les.",
+      "model": "1ste wet (traagheidswet): een voorwerp waarop geen kracht inwerkt, is in rust of beweegt met constante snelheid. 2de wet: de verandering van beweging is rechtevenredig met de inwerkende kracht en volgt de rechte lijn waarin de kracht werkt (F = m × a). 3de wet: actie & reactie — A op B gaat gepaard met een even grote, tegengestelde kracht van B op A.",
+      "keywords": [
+        "traagheid",
+        "rust",
+        "constante snelheid",
+        "F = m × a",
+        "richting",
+        "actie",
+        "reactie",
+        "tegengesteld"
+      ],
+      "explanation": "p. 27–30.",
+      "page": 27
+    },
+    {
+      "id": "les03-o03",
+      "chapterId": "lasten",
+      "type": "open",
+      "prompt": "Wat is het verschil tussen gebruikslasten en dode lasten? Geef bij elk voorbeelden.",
+      "model": "Gebruikslasten of veranderlijke lasten zijn alle inwerkende krachten bij gebruik: mensen, meubels, installaties, machines, en weersbelasting zoals regen, wind en sneeuw. Dode lasten of eigengewicht zijn het gewicht van de ganse constructie (alle materialen, elementen, structuren) onderhevig aan de zwaartekracht.",
+      "keywords": [
+        "gebruik",
+        "veranderlijk",
+        "mensen",
+        "meubels",
+        "wind",
+        "sneeuw",
+        "eigengewicht",
+        "zwaartekracht"
+      ],
+      "explanation": "p. 38.",
+      "page": 38
+    },
+    {
+      "id": "les03-d01",
+      "chapterId": "krachten-element",
+      "type": "drawing",
+      "prompt": "Bespreek deze tekening. Welke twee soorten moment zie je? Hoe werken de krachten telkens t.o.v. de as van het element?",
+      "image": "img/les03-p54-2.jpg",
+      "imageCaption": "Buigmoment en torsiemoment",
+      "model": "Links een buigmoment: krachten (of koppels) dwars op de as van het element doen de balk buigen. Rechts een torsiemoment: een koppel krachten rondom de as van het element doet de balk torderen (wringing).",
+      "keywords": [
+        "buigmoment",
+        "dwars",
+        "buigen",
+        "torsie",
+        "rond de as",
+        "torderen"
+      ],
+      "explanation": "p. 54.",
+      "page": 54
+    }
+  ],
+  "buildings": []
+}

@@ -1,0 +1,208 @@
+{
+  "id": "quiz03",
+  "courseId": "constructie",
+  "title": "Quiz 03 — Over krachten & spanning",
+  "description": "Tien meerkeuzevragen over spanning, soorten spanning, de wet van Hooke en vervorming.",
+  "questions": [
+    {
+      "id": "q03-01",
+      "question": "Hoe omschrijft de les spanning?",
+      "options": [
+        "De weerstand van een element tegen beweging",
+        "De totale kracht die op een element inwerkt, los van de doorsnede",
+        "De verandering van lengte gedeeld door de oorspronkelijke lengte",
+        "De evenredige verdeling van de inwerkende kracht over de doorsnede van het element"
+      ],
+      "answer": 3,
+      "explanation": "Spanning = inwerkende kracht / oppervlakte (p. 4).",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les04",
+        "pages": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "q03-02",
+      "question": "Welke uitspraak staat letterlijk in de les?",
+      "options": [
+        "Kracht en spanning doen allebei vervormen",
+        "Kracht doet bewegen, spanning doet vervormen",
+        "Spanning doet bewegen, kracht doet vervormen",
+        "Spanning doet bewegen en vervormen"
+      ],
+      "answer": 1,
+      "explanation": "‘Kracht doet bewegen, spanning doet vervormen’ (p. 4).",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les04",
+        "pages": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "q03-03",
+      "question": "Wat doet trekspanning met een element?",
+      "options": [
+        "Het rekt uit en snoert daardoor ook in",
+        "Het tordeert rond zijn as",
+        "Het verkort en zet daardoor ook uit",
+        "De delen verschuiven ten opzichte van elkaar"
+      ],
+      "answer": 0,
+      "explanation": "Trekspanning: uitrekken en insnoeren; drukspanning: verkorten en uitzetten.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les04",
+        "pages": [
+          6
+        ]
+      }
+    },
+    {
+      "id": "q03-04",
+      "question": "Wat is de eenheid van spanning?",
+      "options": [
+        "Nm",
+        "N",
+        "kg/m³",
+        "N/m² of Pa"
+      ],
+      "answer": 3,
+      "explanation": "σ = F / A → N/m² = Pascal.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les04",
+        "pages": [
+          10
+        ]
+      }
+    },
+    {
+      "id": "q03-05",
+      "question": "Een kracht van 3000 N werkt op een doorsnede van 0,2 m². Hoe groot is de normaalspanning?",
+      "options": [
+        "600 Pa",
+        "1500 Pa",
+        "15 000 Pa",
+        "3000,2 Pa"
+      ],
+      "answer": 2,
+      "explanation": "σ = F / A = 3000 / 0,2 = 15 000 N/m².",
+      "course": "Constructie",
+      "difficulty": "moeilijk",
+      "source": {
+        "lecture": "les04",
+        "pages": [
+          10
+        ]
+      }
+    },
+    {
+      "id": "q03-06",
+      "question": "Welke formule is de wet van Hooke voor normaalspanning?",
+      "options": [
+        "σ = F / A",
+        "ν = – εd / εl",
+        "τ = G · γ",
+        "σ = E · ε"
+      ],
+      "answer": 3,
+      "explanation": "Verband normaalspanning en vervorming: σ = E · ε.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les04",
+        "pages": [
+          12
+        ]
+      }
+    },
+    {
+      "id": "q03-07",
+      "question": "Waarvoor staat E in de wet van Hooke?",
+      "options": [
+        "De elasticiteits- of Youngmodulus",
+        "De rek of compressie",
+        "De glijdings- of schuifmodulus",
+        "De Poisson-factor"
+      ],
+      "answer": 0,
+      "explanation": "E = elasticiteits- of Youngmodulus, eenheid Pa.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les04",
+        "pages": [
+          12
+        ]
+      }
+    },
+    {
+      "id": "q03-08",
+      "question": "Een staaf van 4 m wordt 2 mm langer. Hoe groot is de rek?",
+      "options": [
+        "0,5",
+        "0,0005",
+        "0,002",
+        "2 mm"
+      ],
+      "answer": 1,
+      "explanation": "ε = ΔL / L0 = 0,002 m / 4 m = 0,0005 (geen eenheid).",
+      "course": "Constructie",
+      "difficulty": "moeilijk",
+      "source": {
+        "lecture": "les04",
+        "pages": [
+          15
+        ]
+      }
+    },
+    {
+      "id": "q03-09",
+      "question": "Wat is dwarscontractie?",
+      "options": [
+        "Het verschuiven van delen van het materiaal",
+        "De draaiing van een deel van het element om zijn as",
+        "De vervorming loodrecht op de as van de belasting",
+        "De vervorming volgens de as van de belasting"
+      ],
+      "answer": 2,
+      "explanation": "Dwarscontractie = de verandering van de doorsnede, uitgedrukt met de Poisson-factor.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les04",
+        "pages": [
+          16
+        ]
+      }
+    },
+    {
+      "id": "q03-10",
+      "question": "Waarom is γ ≈ a / h slechts een benadering?",
+      "options": [
+        "Omdat G geen materiaalconstante is",
+        "Omdat a en h verschillende eenheden hebben",
+        "De afronding is enkel geldig voor kleine hoeken",
+        "Omdat afschuiving altijd ook torsie geeft"
+      ],
+      "answer": 2,
+      "explanation": "‘Afronding enkel geldig voor kleine hoeken’ (p. 14).",
+      "course": "Constructie",
+      "difficulty": "moeilijk",
+      "source": {
+        "lecture": "les04",
+        "pages": [
+          14
+        ]
+      }
+    }
+  ]
+}

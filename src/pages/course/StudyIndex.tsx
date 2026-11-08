@@ -1,4 +1,4 @@
-import type { CourseBundle } from "../../lib/content";
+import { chapterCode, chaptersByLecture, lectureTitle, type CourseBundle } from "../../lib/content";
 import { stats, useProgress } from "../../lib/progress";
 
 /** Eenvoudige startpagina van een cursus: voortgang in één regel, de hoofdstukken, en het curriculum ingeklapt. */
@@ -24,31 +24,59 @@ export default function StudyIndex({ bundle }: { bundle: CourseBundle }) {
         </div>
         {nextChapter && (
           <a href={`${base}/study/${nextChapter.id}`} className="btn-solid">
-            {p.completed.length ? "Verder studeren" : "Beginnen"} → {nextChapter.number} {nextChapter.title}
+            {p.completed.length ? "Verder studeren" : "Beginnen"} → {chapterCode(bundle, nextChapter)} {nextChapter.title}
           </a>
         )}
       </div>
 
-      {/* Hoofdstukken */}
-      <ol className="border-t border-ink">
-        {chapters.map((ch) => {
-          const done = p.completed.includes(ch.id);
+      {/* Hoofdstukken, gegroepeerd per les. Standaard open; elke les kan dichtgeklapt worden. */}
+      <div className="border-t border-ink">
+        {chaptersByLecture(bundle).map(({ lecture, chapters: lchs }) => {
+          const doneCount = lchs.filter((c) => p.completed.includes(c.id)).length;
+          const complete = doneCount === lchs.length;
           return (
-            <li key={ch.id} className="border-b border-line">
-              <a href={`${base}/study/${ch.id}`} className="group grid grid-cols-[56px_1fr_auto] items-baseline gap-4 py-6 transition-colors hover:bg-haze sm:grid-cols-[110px_1fr_auto] sm:py-8">
-                <span className="text-[28px] font-extrabold tabular-nums tracking-[-0.04em] sm:text-[44px]">{ch.number}</span>
+            <details key={lecture.id} open className="group/les border-b border-line">
+              <summary className="grid cursor-pointer list-none grid-cols-[56px_1fr_auto] items-baseline gap-4 py-6 transition-colors hover:bg-haze sm:grid-cols-[110px_1fr_auto] sm:py-7 [&::-webkit-details-marker]:hidden">
                 <span>
-                  <span className="block text-[18px] font-bold uppercase sm:text-[26px]">
-                    <span className="link-u group-hover:bg-[length:100%_1px]">{ch.title}</span>
-                  </span>
-                  <span className="mt-1 block text-[13px] text-mute">{ch.kicker}</span>
+                  <span className="meta-mute block">Les</span>
+                  <span className="text-[28px] font-extrabold tabular-nums tracking-[-0.04em] sm:text-[44px]">{lecture.id.replace("les", "")}</span>
                 </span>
-                <span className={`meta text-[10px] ${done ? "text-ink" : "text-line"}`}>{done ? "● Voltooid" : "→"}</span>
-              </a>
-            </li>
+                <span>
+                  <span className="block text-[18px] font-bold uppercase sm:text-[26px]">{lectureTitle(lecture)}</span>
+                  <span className="mt-1 block text-[13px] text-mute">
+                    {lchs.length} {lchs.length === 1 ? "hoofdstuk" : "hoofdstukken"}
+                  </span>
+                </span>
+                <span className="flex items-center gap-4">
+                  <span className={`meta tabular-nums text-[10px] ${complete ? "text-ok-ink" : doneCount ? "text-ink" : "text-mute"}`}>
+                    {complete ? "● Voltooid" : `${doneCount} / ${lchs.length}`}
+                  </span>
+                  <span className="meta-mute transition-transform duration-200 group-open/les:rotate-45" aria-hidden>+</span>
+                </span>
+              </summary>
+              <ol className="mb-4 ml-[56px] border-t border-line sm:ml-[110px]">
+                {lchs.map((ch) => {
+                  const done = p.completed.includes(ch.id);
+                  return (
+                    <li key={ch.id} className="border-b border-line last:border-b-0">
+                      <a href={`${base}/study/${ch.id}`} className="group grid grid-cols-[40px_1fr_auto] items-baseline gap-4 py-4 pl-2 transition-colors hover:bg-haze sm:grid-cols-[64px_1fr_auto]">
+                        <span className="text-[18px] font-extrabold tabular-nums tracking-[-0.03em] sm:text-[24px]">{ch.number}</span>
+                        <span>
+                          <span className="block text-[15px] font-bold uppercase sm:text-[18px]">
+                            <span className="link-u group-hover:bg-[length:100%_1px]">{ch.title}</span>
+                          </span>
+                          <span className="mt-0.5 block text-[12.5px] text-mute">{ch.kicker}</span>
+                        </span>
+                        <span className={`meta pr-2 text-[10px] ${done ? "text-ink" : "text-line"}`}>{done ? "● Voltooid" : "→"}</span>
+                      </a>
+                    </li>
+                  );
+                })}
+              </ol>
+            </details>
           );
         })}
-      </ol>
+      </div>
 
       {/* Officieel curriculum: standaard ingeklapt */}
       <details className="group mt-16 border-y border-line">

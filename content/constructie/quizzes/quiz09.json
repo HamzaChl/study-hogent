@@ -1,0 +1,208 @@
+{
+  "id": "quiz09",
+  "courseId": "constructie",
+  "title": "Quiz 09 — Bouwfysica 2",
+  "description": "Tien meerkeuzevragen over condensatie, capillariteit, akoestiek en brandveiligheid.",
+  "questions": [
+    {
+      "id": "q09-01",
+      "question": "Wat is de verzadigingsdampdruk?",
+      "options": [
+        "De effectieve hoeveelheid waterdamp in de lucht",
+        "De maximale hoeveelheid waterdamp die lucht kan bevatten",
+        "De druk die water uitoefent op een muur",
+        "De verhouding tussen vocht en temperatuur in %"
+      ],
+      "answer": 1,
+      "explanation": "Hoe hoger de temperatuur, hoe hoger de verzadigingsdampdruk.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les10",
+        "pages": [
+          7
+        ]
+      }
+    },
+    {
+      "id": "q09-02",
+      "question": "Bij welke relatieve luchtvochtigheid treedt condensatie op?",
+      "options": [
+        "0%",
+        "100%",
+        "75%",
+        "50%"
+      ],
+      "answer": 1,
+      "explanation": "Dauwpunt bereikt of overschreden: RV = 100%.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les10",
+        "pages": [
+          10
+        ]
+      }
+    },
+    {
+      "id": "q09-03",
+      "question": "De temperatuur daalt, er komt geen vocht bij. Wat gebeurt er met de relatieve luchtvochtigheid?",
+      "options": [
+        "Ze daalt",
+        "Ze stijgt",
+        "Ze wordt nul",
+        "Ze blijft gelijk"
+      ],
+      "answer": 1,
+      "explanation": "De verzadigingsdampdruk daalt, het absolute vochtgehalte niet.",
+      "course": "Constructie",
+      "difficulty": "moeilijk",
+      "source": {
+        "lecture": "les10",
+        "pages": [
+          11
+        ]
+      }
+    },
+    {
+      "id": "q09-04",
+      "question": "Wat is een koudebrug?",
+      "options": [
+        "Een deel van de buitenschil waar de isolatie doorbroken is",
+        "Een verbinding tussen twee verwarmde ruimtes",
+        "Een brug uit staal zonder isolatie",
+        "Een koude kamer zonder ventilatie"
+      ],
+      "answer": 0,
+      "explanation": "Ook thermische brug of warmtebrug; te veel warmteverlies (p. 15).",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les10",
+        "pages": [
+          15
+        ]
+      }
+    },
+    {
+      "id": "q09-05",
+      "question": "Waarom helpt verwarmen tegen condensatie?",
+      "options": [
+        "Het lost koudebruggen op",
+        "Het verlaagt het absolute vochtgehalte",
+        "Het verhoogt de verzadigingsdampdruk",
+        "Het voert vocht af naar buiten"
+      ],
+      "answer": 2,
+      "explanation": "Verwarmen = hogere verzadigingsdampdruk (p. 18).",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les10",
+        "pages": [
+          18
+        ]
+      }
+    },
+    {
+      "id": "q09-06",
+      "question": "Welk fenomeen ligt aan de basis van opstijgend vocht?",
+      "options": [
+        "Resonantie",
+        "Diffusie",
+        "Condensatie",
+        "Capillariteit"
+      ],
+      "answer": 3,
+      "explanation": "Vloeistof opgezogen in kleine kanaaltjes (poreuze materialen).",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les10",
+        "pages": [
+          20
+        ]
+      }
+    },
+    {
+      "id": "q09-07",
+      "question": "Welke drie maatregelen noemt de les voor geluidsisolatie?",
+      "options": [
+        "Massa, luchtdichtheid en demping",
+        "Detectie, sprinklers en blussers",
+        "Isoleren, ventileren en verwarmen",
+        "Reflectie, diffusie en absorptie"
+      ],
+      "answer": 0,
+      "explanation": "p. 26.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les10",
+        "pages": [
+          26
+        ]
+      }
+    },
+    {
+      "id": "q09-08",
+      "question": "Wat is de nagalmtijd?",
+      "options": [
+        "De tijd waarin een geluid met 10 dB stijgt",
+        "De tijd waarin een geluid met 60 dB vermindert",
+        "De duur van een geluid aan de bron",
+        "De tijd tot een geluid de andere kant van de ruimte bereikt"
+      ],
+      "answer": 1,
+      "explanation": "RT, reverberation time (p. 30).",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les10",
+        "pages": [
+          30
+        ]
+      }
+    },
+    {
+      "id": "q09-09",
+      "question": "Wat hoort niet bij de branddriehoek?",
+      "options": [
+        "Zuurstof",
+        "Brandstof",
+        "Warmte",
+        "Rook"
+      ],
+      "answer": 3,
+      "explanation": "Brandstof, zuurstof en warmte.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les10",
+        "pages": [
+          32
+        ]
+      }
+    },
+    {
+      "id": "q09-10",
+      "question": "Een element haalt R120, E90 en I60. Wat is de REI-classificatie?",
+      "options": [
+        "REI120",
+        "REI270",
+        "REI60",
+        "REI90"
+      ],
+      "answer": 2,
+      "explanation": "De laagste waarde telt.",
+      "course": "Constructie",
+      "difficulty": "moeilijk",
+      "source": {
+        "lecture": "les10",
+        "pages": [
+          40
+        ]
+      }
+    }
+  ]
+}

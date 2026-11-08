@@ -1,0 +1,995 @@
+{
+  "id": "les09",
+  "courseId": "constructie",
+  "title": "Constructie — Bouwfysica 1: duurzaamheid & EPB",
+  "file": "2026-27_1IV_CONSTRUCTIE_LES_09_-_Bouwfysica_1_-_Duurzaamheid_&_EPB.pdf",
+  "pages": 53,
+  "covers": [
+    "p3-01",
+    "p3-02"
+  ],
+  "chapters": [
+    {
+      "id": "energie-bouw",
+      "number": "01",
+      "title": "Energie in de bouw",
+      "kicker": "Levenscyclus en circulair bouwen",
+      "topicIds": [],
+      "cover": "img/les09-p07-2.jpg",
+      "intro": "Het energievraagstuk in de bouwsector is complexe materie. Energie wordt verbruikt vóór het gebruik van een gebouw en tijdens het gebruik, en de vraag is ook wat er daarna gebeurt. De les volgt de levenscyclus van ‘cradle to grave’ over ‘cradle to cradle’ en 4D-design tot circulair bouwen.",
+      "sections": [
+        {
+          "heading": "Energie vóór, tijdens en na gebruik",
+          "blocks": [
+            {
+              "type": "table",
+              "headers": [
+                "Fase",
+                "Energieverbruik"
+              ],
+              "rows": [
+                [
+                  "Vóór gebruik",
+                  "bij de fabricatie van bouwmaterialen, tijdens het transport, tijdens het bouwproces"
+                ],
+                [
+                  "Tijdens gebruik",
+                  "bij gebruik en onderhoud van het gebouw tijdens de ganse levensduur"
+                ],
+                [
+                  "En wat daarna?",
+                  "na de levensduur van materiaal, element, structuur: reduce, reuse, recycle (o.m.)"
+                ]
+              ],
+              "page": 3
+            },
+            {
+              "type": "definition",
+              "term": "Levenscyclusanalyse",
+              "text": "Om het hele plaatje te zien, moet je het energieverbruik over de ganse levensduur in kaart brengen.",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "heading": "Van cradle to grave naar cradle to cradle",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Cradle to grave",
+              "text": "Het klassieke patroon: het materiaal wordt verwerkt tot een product. Na gebruik wordt het product weggegooid als afval.",
+              "page": 5
+            },
+            {
+              "type": "definition",
+              "term": "Life cycle approach",
+              "text": "Door de ganse levensduur van materiaal, element of structuur van bij het begin mee in beschouwing te nemen, en waar mogelijk te hergebruiken of te recycleren, kan de afvalstroom beperkt worden.",
+              "page": 6
+            },
+            {
+              "type": "definition",
+              "term": "Cradle to cradle",
+              "text": "Afval als bron (naar McDonough & Braungart, 2002). Er worden twee uitwegen uit de levenscyclus beschouwd: biodegradatie of recyclage. Door elementen op te splitsen in functie van hun herkomst (biosfeer vs. technosfeer) kan afval anders benaderd worden.",
+              "page": 8
+            },
+            {
+              "type": "figure",
+              "src": "img/les09-p08-2.jpg",
+              "caption": "Principe ‘cradle to cradle’, McDonough & Braungart (2002).",
+              "page": 8
+            },
+            {
+              "type": "note",
+              "text": "De schema’s van de levenscyclus komen uit het doctoraat van dr. ir.-arch. W. Debacker (VITO)."
+            }
+          ]
+        },
+        {
+          "heading": "Life cycle 2.0: 4D-design",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Een andere benadering van ontwerpen: materialen, elementen en structuren worden apart beschouwd."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Niveau",
+                "Hergebruik mogelijk als…"
+              ],
+              "rows": [
+                [
+                  "Structuren",
+                  "ze aanpasbaar, flexibel, multifunctioneel, … zijn"
+                ],
+                [
+                  "Elementen",
+                  "ze in hun geheel ontmanteld kunnen worden"
+                ],
+                [
+                  "Materialen",
+                  "ze gerecycleerd kunnen worden (i.e. als bron gebruikt worden)"
+                ]
+              ],
+              "page": 11
+            },
+            {
+              "type": "definition",
+              "term": "Material Matters",
+              "text": "Sabine Oberhuber & Thomas Rau (2016), ‘Het alternatief voor onze roofbouwmaatschappij’: over het einde van bezit — de consument wordt gebruiker in plaats van eigenaar. ‘Don’t own; enjoy!’",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "heading": "Circulair bouwen",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "De les toont de kaartenset ‘Bouwen voor een circulaire economie’ (VUB Architectural Engineering, 2020): strategieën, concepten en kwaliteiten. ‘Let’s Design Out Waste!’"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Strategieën",
+                "Concepten"
+              ],
+              "rows": [
+                [
+                  "Ontwerpen voor een lange levensduur",
+                  "Bouwen volgens levensduurlagen"
+                ],
+                [
+                  "Ontwerpen voor demontage en selectieve sloop",
+                  "Kit-of-parts"
+                ],
+                [
+                  "Ontwerpen voor hergebruik",
+                  "Gebouwen als materialenbanken"
+                ]
+              ],
+              "page": 15
+            },
+            {
+              "type": "list",
+              "items": [
+                "Kwaliteiten: hergebruikt, gerecycleerd, hernieuwd, bio-afbreekbaar, veilig en gezond, zuiver, robuust, eenvoudig, hanteerbaar, toegankelijk, omkeerbaar, onafhankelijk, compatibel, polyvalent, gevarieerd, locatie en site.",
+                "Omkeerbaar: zorg dat het mogelijk is om verbindingen los te maken zonder schade aan de componenten die ze verbinden.",
+                "Zuiver: geef de voorkeur aan componenten die bestaan uit één materiaal in plaats van meerdere."
+              ]
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Energie in de bouw: vóór gebruik (fabricatie, transport, bouw), tijdens gebruik (gebruik, onderhoud), en daarna (reduce, reuse, recycle).",
+        "Levenscyclusanalyse: energieverbruik over de ganse levensduur.",
+        "Cradle to grave → life cycle approach → cradle to cradle (afval als bron: biodegradatie of recyclage; biosfeer vs. technosfeer).",
+        "4D-design: structuren aanpasbaar, elementen ontmantelbaar, materialen recycleerbaar.",
+        "Circulair bouwen: 3 strategieën, 3 concepten, 16 kwaliteiten."
+      ],
+      "source": {
+        "lecture": "les09",
+        "pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "id": "epb",
+      "number": "02",
+      "title": "Trias Energetica en EPB-eisen",
+      "kicker": "Energie in de bouw bij gebruik",
+      "topicIds": [
+        "p3-01"
+      ],
+      "cover": "img/les09-p17-2.jpg",
+      "intro": "Om het energieverbruik tijdens de levensduur te beperken, volgt de les de Trias Energetica. In de praktijk vertaalt Vlaanderen dat in de EPB-eisen: E-peil, S-peil, ventilatie, hernieuwbare energie, oververhitting, installaties en netto-energiebehoefte.",
+      "sections": [
+        {
+          "heading": "Trias Energetica",
+          "blocks": [
+            {
+              "type": "table",
+              "caption": "Driestappenstrategie om het energieverbruik tijdens de levensduur te beperken (SOM-1, TU Delft, 1979/1996)",
+              "headers": [
+                "Stap",
+                "Voorbeelden"
+              ],
+              "rows": [
+                [
+                  "1. Beperk de energievraag",
+                  "compact bouwen, goed isoleren, …"
+                ],
+                [
+                  "2. Gebruik hernieuwbare energiebronnen",
+                  "wind-, water- en zonne-energie"
+                ],
+                [
+                  "3. Gebruik fossiele brandstoffen zo weinig, zo proper en zo efficiënt mogelijk",
+                  "efficiënte technologieën, verliezen beperken, verwarmen op lage temperatuur, …"
+                ]
+              ],
+              "page": 18
+            }
+          ]
+        },
+        {
+          "heading": "EPB en EPC",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "EPB (Energieprestatie en Binnenklimaat)",
+              "text": "Een reeks van normen en voorschriften van de Vlaamse Overheid om de energetische impact van een ontwerp of ingreep in te schatten, dan wel te beperken. EPB omvat de bouwfysische eisen voor nieuwbouw of verbouwingen en resulteert in een EPB-verslag met o.a. een E-peil, een S-peil en een netto-energiebehoefte.",
+              "page": 20
+            },
+            {
+              "type": "definition",
+              "term": "EPC (Energieprestatiecertificaat)",
+              "text": "Een certificaat dat bij verhuur of verkoop van een woning wordt opgemaakt; geeft aan (in kWh/m²) hoe groot het jaarlijkse energieverbruik per nuttige vloeroppervlakte geschat wordt. De EPC-verplichting maakt deel uit van de EPB-regelgeving.",
+              "page": 21
+            },
+            {
+              "type": "list",
+              "items": [
+                "De EPB-eisen hangen af van: de bestemming van het gebouw (residentieel/niet-residentieel), de aard van de werken (nieuwbouw/renovatie) en het jaar van de aanvraag van de bouwvergunning (p. 22).",
+                "EPB-eisen bepalen: isolatiepeil (K-peil, U-waarde, R-waarde, S-peil), energiepeil (E-peil), ventilatie-eisen, minimumaandeel hernieuwbare energie, beperken risico oververhitting, eisen HVAC-installaties, netto-energiebehoefte voor verwarming (p. 23)."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "E-peil en S-peil",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "E-peil",
+              "text": "Een maat voor de algemene energieprestatie van een gebouw en de vaste installaties ervan in standaardomstandigheden. Hoe lager het E-peil, hoe energiezuiniger. EPB legt een maximaal E-peil op; het wordt vastgesteld door de EPB-verslaggever. Vanaf 2021: maximaal E30 → BEN-woning (‘bijna energieneutraal’).",
+              "page": 25
+            },
+            {
+              "type": "list",
+              "items": [
+                "Het E-peil wordt beïnvloed door: thermische isolatie, luchtdichtheid, compactheid, oriëntatie, bezonning, ventilatieverliezen, vaste installaties (HVAC & verlichting), hernieuwbare energie (p. 26)."
+              ]
+            },
+            {
+              "type": "definition",
+              "term": "S-peil (sinds 2018)",
+              "text": "Een maat voor de energetische prestatie van de gebouwenschil; vervangt sinds 2018 het K-peil. Hoe lager, hoe energiezuiniger. EPB: max. S28 (2023).",
+              "page": 40
+            },
+            {
+              "type": "list",
+              "items": [
+                "Het S-peil hangt af van: U-waarden van de bouwelementen, bouwknopen, zonnewinsten, ventilatieverliezen, vorm-efficiëntie van het ontwerp, warmteverliezen naar buiten of buren (p. 41)."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Ventilatie",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Doordat we meer isoleren en luchtdichter bouwen, is een (gecontroleerde) ventilatie noodzakelijk geworden voor een gezond binnenklimaat — de ‘B’ uit EPB. We voeren droge, verse lucht aan langs droge ruimtes en voeren de vochtige, vervuilde lucht af langs natte ruimtes, liefst zonder al te grote energieverliezen."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Systeem",
+                "Toevoer",
+                "Afvoer"
+              ],
+              "rows": [
+                [
+                  "A",
+                  "natuurlijk",
+                  "natuurlijk"
+                ],
+                [
+                  "B",
+                  "mechanisch",
+                  "natuurlijk"
+                ],
+                [
+                  "C",
+                  "natuurlijk",
+                  "mechanisch"
+                ],
+                [
+                  "D (balansventilatie)",
+                  "mechanisch",
+                  "mechanisch"
+                ]
+              ],
+              "page": 30
+            },
+            {
+              "type": "definition",
+              "term": "Systeem D: balansventilatie",
+              "text": "Mechanische toevoer van verse lucht in de droge ruimten; doorvoer van lucht via roosters (of spleten) in binnendeuren en/of -wanden; mechanische afvoer van vervuilde lucht in natte ruimten. Aan- en afvoer via elektrische ventilatoren (dus energieverbruik!), eventueel met warmteterugwinning om warmteverlies te beperken.",
+              "page": 31
+            },
+            {
+              "type": "note",
+              "text": "Rangorde volgens de les: D > C > B > A (p. 33)."
+            }
+          ]
+        },
+        {
+          "heading": "Overige eisen",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Technische installaties",
+              "text": "EPB legt eisen op voor de energie-efficiëntie van installaties voor verwarming, sanitair warm water, koeling, ventilatie, verlichting enz.",
+              "page": 34
+            },
+            {
+              "type": "definition",
+              "term": "Minimumaandeel hernieuwbare energie",
+              "text": "Een minimaal vermogen uit hernieuwbare bronnen: nieuwbouw min. 25 kWh/m²/jaar, renovatie min. 20 kWh/m²/jaar (2023). Opties: fotovoltaïsche cellen, zonneboiler, biomassa, warmtepomp (geothermie of andere), participatie in projecten van hernieuwbare energie.",
+              "page": 35
+            },
+            {
+              "type": "definition",
+              "term": "Risico op oververhitting",
+              "text": "EPB probeert te beperken dat de zon ruimtes te warm maakt en zo een behoefte aan actieve koeling veroorzaakt. Slim omgaan met oriëntatie, beglazing, zonwering en/of beschaduwing en de thermische inertie van constructies is de boodschap. Passieve koeling kan eventueel wel.",
+              "page": 38
+            },
+            {
+              "type": "definition",
+              "term": "Netto-energiebehoefte",
+              "text": "EPB legt een maximale waarde op voor de energievraag voor verwarming, nl. 70 kWh/m² of 100-25*C kWh/m². Hangt af van isolatie, luchtdichtheid, efficiëntie van warmtewinst, …",
+              "page": 39
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Trias Energetica: 1. beperk de vraag, 2. hernieuwbare bronnen, 3. fossiel zo weinig, proper en efficiënt mogelijk.",
+        "EPB = Energieprestatie en Binnenklimaat (Vlaamse regelgeving); EPC = certificaat bij verkoop/verhuur, in kWh/m².",
+        "Eisen hangen af van bestemming, aard van de werken en jaar van de bouwaanvraag.",
+        "E-peil: algemene energieprestatie, max. E30 sinds 2021 (BEN). S-peil: prestatie van de schil, max. S28 (2023), vervangt K-peil.",
+        "Ventilatie A–D; D = balansventilatie (mechanisch in en uit); D > C > B > A.",
+        "Hernieuwbare energie: min. 25 (nieuwbouw) / 20 (renovatie) kWh/m²/jaar; oververhitting beperken; netto-energiebehoefte max. 70 kWh/m²."
+      ],
+      "source": {
+        "lecture": "les09",
+        "pages": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      }
+    },
+    {
+      "id": "thermische-kwaliteit",
+      "number": "03",
+      "title": "λ, R en U",
+      "kicker": "Waarden voor thermische kwaliteit",
+      "topicIds": [
+        "p3-01",
+        "p3-02"
+      ],
+      "cover": "img/les09-p48-2.jpg",
+      "intro": "Drie waarden beschrijven de thermische kwaliteit. Voor een goede isolatie moet λ laag zijn, R hoog en U laag. λ hoort bij het materiaal, R bij de laag of het element, en U bij de constructie.",
+      "sections": [
+        {
+          "heading": "Drie waarden",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "λ-waarde (W/mK) — warmtegeleidingscoëfficiënt",
+              "text": "De mate waarin een materiaal de (toegevoerde) warmte doorgeeft. λ is een materiaalconstante. Hoe lager λ, hoe beter geïsoleerd.",
+              "page": 45
+            },
+            {
+              "type": "definition",
+              "term": "R-waarde (m²K/W) — warmteweerstand",
+              "text": "Het warmte-isolerende vermogen van een materiaallaag. R = d / λ, met d de dikte van de laag (m). Hoe hoger R, hoe beter geïsoleerd.",
+              "page": 47
+            },
+            {
+              "type": "definition",
+              "term": "Rtot",
+              "text": "De som van de warmteweerstanden van de materiaallagen, de overgangsweerstanden binnen en buiten en de eventuele spouwweerstanden: Rtot = Rin + R1 + … + Rn + Ruit.",
+              "page": 48
+            },
+            {
+              "type": "definition",
+              "term": "U-waarde (W/m²K) — warmtedoorgangscoëfficiënt",
+              "text": "De hoeveelheid warmte-energie die per seconde door 1 m² van een vlakke plaat stroomt, wanneer het temperatuursverschil tussen de lucht aan de grensvlakken 1 °C bedraagt. U = 1 / Rtot. Hoe lager U, hoe beter geïsoleerd. EPB legt per type constructiedeel een maximale U-waarde vast.",
+              "page": 49
+            },
+            {
+              "type": "figure",
+              "src": "img/les09-p48-2.jpg",
+              "caption": "Rtot: som van de warmteweerstanden van de lagen en de overgangsweerstanden.",
+              "page": 48
+            }
+          ]
+        },
+        {
+          "heading": "Overzicht",
+          "blocks": [
+            {
+              "type": "table",
+              "headers": [
+                "Waarde",
+                "Eenheid",
+                "Formule",
+                "Niveau",
+                "Goede isolatie"
+              ],
+              "rows": [
+                [
+                  "λ",
+                  "W/mK",
+                  "materiaalconstante",
+                  "materiaal",
+                  "laag"
+                ],
+                [
+                  "R",
+                  "m²K/W",
+                  "R = d / λ; Rtot = ΣR",
+                  "element (R) / constructie (Rtot)",
+                  "hoog"
+                ],
+                [
+                  "U",
+                  "W/m²K",
+                  "U = 1 / Rtot",
+                  "constructie",
+                  "laag"
+                ]
+              ],
+              "page": 51
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "λ (W/mK): warmtegeleiding van een materiaal — materiaalconstante; laag = goed.",
+        "R (m²K/W) = d / λ: warmteweerstand van een laag; hoog = goed. Rtot = Rin + R1 + … + Rn + Ruit.",
+        "U (W/m²K) = 1 / Rtot: warmtedoorgang van een constructiedeel; laag = goed.",
+        "EPB legt per constructiedeel een maximale U-waarde op."
+      ],
+      "source": {
+        "lecture": "les09",
+        "pages": [
+          42,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51
+        ]
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "les09-f01",
+      "chapterId": "energie-bouw",
+      "front": "Waar wordt energie verbruikt vóór het gebruik van een gebouw?",
+      "back": "Bij de fabricatie van bouwmaterialen, tijdens het transport en tijdens het bouwproces.",
+      "page": 3
+    },
+    {
+      "id": "les09-f02",
+      "chapterId": "energie-bouw",
+      "front": "Levenscyclusanalyse?",
+      "back": "Het energieverbruik over de ganse levensduur in kaart brengen, om het hele plaatje te zien.",
+      "page": 4
+    },
+    {
+      "id": "les09-f03",
+      "chapterId": "energie-bouw",
+      "front": "Cradle to grave?",
+      "back": "Het klassieke patroon: materiaal → product → na gebruik weggegooid als afval.",
+      "page": 5
+    },
+    {
+      "id": "les09-f04",
+      "chapterId": "energie-bouw",
+      "front": "Cradle to cradle?",
+      "back": "Afval als bron (McDonough & Braungart, 2002). Twee uitwegen: biodegradatie of recyclage; elementen opsplitsen volgens herkomst (biosfeer vs. technosfeer).",
+      "page": 8
+    },
+    {
+      "id": "les09-f05",
+      "chapterId": "energie-bouw",
+      "front": "4D-design (life cycle 2.0): wanneer kunnen structuren, elementen en materialen hergebruikt worden?",
+      "back": "Structuren: als ze aanpasbaar, flexibel, multifunctioneel zijn. Elementen: als ze in hun geheel ontmanteld kunnen worden. Materialen: als ze gerecycleerd kunnen worden.",
+      "page": 11
+    },
+    {
+      "id": "les09-f06",
+      "chapterId": "energie-bouw",
+      "front": "‘Material Matters’ — kernidee?",
+      "back": "Het einde van bezit: de consument wordt gebruiker in plaats van eigenaar. ‘Don’t own; enjoy!’ (Oberhuber & Rau, 2016).",
+      "page": 14
+    },
+    {
+      "id": "les09-f07",
+      "chapterId": "energie-bouw",
+      "front": "Drie strategieën voor circulair bouwen?",
+      "back": "Ontwerpen voor een lange levensduur; voor demontage en selectieve sloop; voor hergebruik.",
+      "page": 15
+    },
+    {
+      "id": "les09-f08",
+      "chapterId": "epb",
+      "front": "Trias Energetica — drie stappen?",
+      "back": "1. Beperk de energievraag. 2. Gebruik hernieuwbare energiebronnen. 3. Gebruik fossiele brandstoffen zo weinig, zo proper en zo efficiënt mogelijk.",
+      "page": 17
+    },
+    {
+      "id": "les09-f09",
+      "chapterId": "epb",
+      "front": "Waar staat EPB voor?",
+      "back": "Energieprestatie en Binnenklimaat: normen en voorschriften van de Vlaamse Overheid om de energetische impact van een ontwerp of ingreep in te schatten of te beperken.",
+      "page": 19
+    },
+    {
+      "id": "les09-f10",
+      "chapterId": "epb",
+      "front": "EPB vs. EPC?",
+      "back": "EPB: bouwfysische eisen voor nieuwbouw/verbouwing → EPB-verslag (E-peil, S-peil, netto-energiebehoefte). EPC: certificaat bij verkoop of verhuur, geschat jaarlijks energieverbruik in kWh/m².",
+      "page": 21
+    },
+    {
+      "id": "les09-f11",
+      "chapterId": "epb",
+      "front": "Waarvan hangen de EPB-eisen af?",
+      "back": "Bestemming (residentieel/niet-residentieel), aard van de werken (nieuwbouw/renovatie), jaar van de bouwvergunningsaanvraag.",
+      "page": 22
+    },
+    {
+      "id": "les09-f12",
+      "chapterId": "epb",
+      "front": "E-peil?",
+      "back": "Maat voor de algemene energieprestatie van een gebouw en zijn vaste installaties. Hoe lager, hoe zuiniger. Vanaf 2021 max. E30 (BEN-woning).",
+      "page": 25
+    },
+    {
+      "id": "les09-f13",
+      "chapterId": "epb",
+      "front": "S-peil?",
+      "back": "Maat voor de energetische prestatie van de gebouwenschil (sinds 2018, vervangt het K-peil). Hoe lager, hoe beter. Max. S28 (2023).",
+      "page": 40
+    },
+    {
+      "id": "les09-f14",
+      "chapterId": "epb",
+      "front": "Ventilatiesystemen A, B, C, D?",
+      "back": "A: natuurlijke toevoer en afvoer. B: mechanische toevoer, natuurlijke afvoer. C: natuurlijke toevoer, mechanische afvoer. D: mechanisch in en uit (balansventilatie). D > C > B > A.",
+      "page": 30
+    },
+    {
+      "id": "les09-f15",
+      "chapterId": "epb",
+      "front": "Waarom is gecontroleerde ventilatie noodzakelijk geworden?",
+      "back": "Doordat we meer isoleren en luchtdichter bouwen; nodig voor een gezond binnenklimaat (de ‘B’ uit EPB).",
+      "page": 28
+    },
+    {
+      "id": "les09-f16",
+      "chapterId": "epb",
+      "front": "Minimumaandeel hernieuwbare energie (2023)?",
+      "back": "Nieuwbouw min. 25 kWh/m²/jaar; renovatie min. 20 kWh/m²/jaar.",
+      "page": 35
+    },
+    {
+      "id": "les09-f17",
+      "chapterId": "epb",
+      "front": "Hoe beperk je het risico op oververhitting?",
+      "back": "Slim omgaan met oriëntatie, beglazing, zonwering en/of beschaduwing en de thermische inertie van constructies. Passieve koeling kan eventueel wel.",
+      "page": 38
+    },
+    {
+      "id": "les09-f18",
+      "chapterId": "thermische-kwaliteit",
+      "front": "λ-waarde?",
+      "back": "Warmtegeleidingscoëfficiënt (W/mK): de mate waarin een materiaal warmte doorgeeft. Materiaalconstante. Hoe lager, hoe beter geïsoleerd.",
+      "page": 45
+    },
+    {
+      "id": "les09-f19",
+      "chapterId": "thermische-kwaliteit",
+      "front": "R-waarde en formule?",
+      "back": "Warmteweerstand (m²K/W) van een materiaallaag: R = d / λ. Hoe hoger, hoe beter geïsoleerd.",
+      "page": 47
+    },
+    {
+      "id": "les09-f20",
+      "chapterId": "thermische-kwaliteit",
+      "front": "Formule Rtot?",
+      "back": "Rtot = Rin + R1 + … + Rn + Ruit (lagen + overgangsweerstanden binnen en buiten + eventuele spouwweerstanden).",
+      "page": 48
+    },
+    {
+      "id": "les09-f21",
+      "chapterId": "thermische-kwaliteit",
+      "front": "U-waarde en formule?",
+      "back": "Warmtedoorgangscoëfficiënt (W/m²K): warmte per seconde door 1 m² bij 1 °C temperatuursverschil. U = 1 / Rtot. Hoe lager, hoe beter.",
+      "page": 50
+    },
+    {
+      "id": "les09-f22",
+      "chapterId": "thermische-kwaliteit",
+      "front": "Goede isolatie: λ, R, U hoog of laag?",
+      "back": "λ laag, R hoog, U laag.",
+      "page": 51
+    }
+  ],
+  "practice": [
+    {
+      "id": "les09-pr01",
+      "chapterId": "energie-bouw",
+      "type": "match",
+      "prompt": "Koppel het begrip aan zijn omschrijving.",
+      "pairs": [
+        [
+          "Cradle to grave",
+          "product wordt na gebruik afval"
+        ],
+        [
+          "Life cycle approach",
+          "levensduur van bij het begin meenemen om afval te beperken"
+        ],
+        [
+          "Cradle to cradle",
+          "afval als bron"
+        ]
+      ],
+      "explanation": "p. 5–8.",
+      "page": 5
+    },
+    {
+      "id": "les09-pr02",
+      "chapterId": "energie-bouw",
+      "type": "mc",
+      "prompt": "Welke twee uitwegen uit de levenscyclus beschouwt cradle to cradle?",
+      "options": [
+        "Verbranding en storten",
+        "Hergebruik en verkoop",
+        "Biodegradatie of recyclage",
+        "Export en opslag"
+      ],
+      "answer": 2,
+      "explanation": "p. 8.",
+      "page": 8
+    },
+    {
+      "id": "les09-pr03",
+      "chapterId": "energie-bouw",
+      "type": "tf",
+      "statement": "In 4D-design kunnen elementen hergebruikt worden als ze in hun geheel ontmanteld kunnen worden.",
+      "answer": true,
+      "explanation": "p. 12.",
+      "page": 12
+    },
+    {
+      "id": "les09-pr04",
+      "chapterId": "epb",
+      "type": "open",
+      "prompt": "Geef de drie stappen van de Trias Energetica met telkens een voorbeeld.",
+      "model": "1. Beperk de energievraag — bv. compact bouwen, goed isoleren. 2. Gebruik hernieuwbare energiebronnen — bv. wind-, water- en zonne-energie. 3. Gebruik fossiele brandstoffen zo weinig, zo proper en zo efficiënt mogelijk — bv. efficiënte technologieën, verliezen beperken, verwarmen op lage temperatuur.",
+      "keywords": [
+        "energievraag",
+        "isoleren",
+        "hernieuwbaar",
+        "zon",
+        "fossiel",
+        "efficiënt"
+      ],
+      "explanation": "p. 17–18.",
+      "page": 18
+    },
+    {
+      "id": "les09-pr05",
+      "chapterId": "epb",
+      "type": "mc",
+      "prompt": "Welk ventilatiesysteem heeft mechanische toevoer én mechanische afvoer?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 3,
+      "explanation": "Systeem D: balansventilatie.",
+      "page": 30
+    },
+    {
+      "id": "les09-pr06",
+      "chapterId": "epb",
+      "type": "mc",
+      "prompt": "Wat is het maximale E-peil vanaf 2021?",
+      "options": [
+        "E80",
+        "E60",
+        "E30",
+        "E0"
+      ],
+      "answer": 2,
+      "explanation": "Vanaf 2021 max. E30 → BEN-woning.",
+      "page": 27
+    },
+    {
+      "id": "les09-pr07",
+      "chapterId": "epb",
+      "type": "tf",
+      "statement": "Hoe hoger het E-peil, hoe energiezuiniger de woning.",
+      "answer": false,
+      "explanation": "Hoe lager het E-peil, hoe energiezuiniger.",
+      "page": 25
+    },
+    {
+      "id": "les09-pr08",
+      "chapterId": "epb",
+      "type": "definition",
+      "definition": "Certificaat dat bij verhuur of verkoop van een woning wordt opgemaakt en het jaarlijkse energieverbruik per m² schat.",
+      "accepted": [
+        "EPC",
+        "energieprestatiecertificaat"
+      ],
+      "explanation": "EPC (p. 21).",
+      "page": 21
+    },
+    {
+      "id": "les09-pr09",
+      "chapterId": "epb",
+      "type": "mc",
+      "prompt": "Welk peil vervangt sinds 2018 het K-peil?",
+      "options": [
+        "E-peil",
+        "S-peil",
+        "U-peil",
+        "R-peil"
+      ],
+      "answer": 1,
+      "explanation": "S-peil (p. 40).",
+      "page": 40
+    },
+    {
+      "id": "les09-pr10",
+      "chapterId": "thermische-kwaliteit",
+      "type": "mc",
+      "prompt": "Een isolatielaag van 0,12 m heeft λ = 0,03 W/mK. Hoe groot is R?",
+      "options": [
+        "0,0036 m²K/W",
+        "0,25 m²K/W",
+        "4 m²K/W",
+        "40 m²K/W"
+      ],
+      "answer": 2,
+      "explanation": "R = d / λ = 0,12 / 0,03 = 4 m²K/W.",
+      "page": 47
+    },
+    {
+      "id": "les09-pr11",
+      "chapterId": "thermische-kwaliteit",
+      "type": "mc",
+      "prompt": "Rtot van een wand is 5 m²K/W. Hoe groot is U?",
+      "options": [
+        "5 W/m²K",
+        "0,2 W/m²K",
+        "0,5 W/m²K",
+        "25 W/m²K"
+      ],
+      "answer": 1,
+      "explanation": "U = 1 / Rtot = 1 / 5 = 0,2 W/m²K.",
+      "page": 50
+    },
+    {
+      "id": "les09-pr12",
+      "chapterId": "thermische-kwaliteit",
+      "type": "match",
+      "prompt": "Koppel de waarde aan haar eenheid.",
+      "pairs": [
+        [
+          "λ",
+          "W/mK"
+        ],
+        [
+          "R",
+          "m²K/W"
+        ],
+        [
+          "U",
+          "W/m²K"
+        ]
+      ],
+      "explanation": "p. 44.",
+      "page": 44
+    },
+    {
+      "id": "les09-pr13",
+      "chapterId": "thermische-kwaliteit",
+      "type": "tf",
+      "statement": "Voor een goede isolatie moet de R-waarde laag zijn.",
+      "answer": false,
+      "explanation": "R moet hoog zijn; λ en U moeten laag zijn.",
+      "page": 51
+    }
+  ],
+  "exam": [
+    {
+      "id": "les09-e01",
+      "chapterId": "epb",
+      "type": "mc",
+      "prompt": "Wat is stap 1 van de Trias Energetica?",
+      "options": [
+        "Beperk de energievraag",
+        "Gebruik hernieuwbare energie",
+        "Gebruik fossiele brandstoffen efficiënt",
+        "Installeer balansventilatie"
+      ],
+      "answer": 0,
+      "explanation": "p. 17.",
+      "page": 17
+    },
+    {
+      "id": "les09-e02",
+      "chapterId": "epb",
+      "type": "mc",
+      "prompt": "Waarvoor staat de ‘B’ in EPB?",
+      "options": [
+        "Binnenklimaat",
+        "Bouwvergunning",
+        "Bouwfysica",
+        "Beglazing"
+      ],
+      "answer": 0,
+      "explanation": "Energieprestatie en Binnenklimaat.",
+      "page": 19
+    },
+    {
+      "id": "les09-e03",
+      "chapterId": "thermische-kwaliteit",
+      "type": "mc",
+      "prompt": "Welke waarde is een materiaalconstante?",
+      "options": [
+        "U",
+        "R",
+        "Rtot",
+        "λ"
+      ],
+      "answer": 3,
+      "explanation": "λ is een materiaalconstante (p. 45).",
+      "page": 45
+    },
+    {
+      "id": "les09-e04",
+      "chapterId": "energie-bouw",
+      "type": "mc",
+      "prompt": "Welke van deze is een van de drie circulaire ontwerpstrategieën uit de les?",
+      "options": [
+        "Ontwerpen zonder verbindingen",
+        "Ontwerpen voor maximale massa",
+        "Ontwerpen voor eenmalig gebruik",
+        "Ontwerpen voor demontage en selectieve sloop"
+      ],
+      "answer": 3,
+      "explanation": "Lange levensduur, demontage en selectieve sloop, hergebruik (p. 15).",
+      "page": 15
+    },
+    {
+      "id": "les09-o01",
+      "chapterId": "thermische-kwaliteit",
+      "type": "open",
+      "prompt": "Bespreek λ, R en U: eenheid, formule, betekenis en of ze hoog of laag moeten zijn voor een goede isolatie.",
+      "model": "λ (W/mK), de warmtegeleidingscoëfficiënt, geeft aan in welke mate een materiaal warmte doorgeeft; het is een materiaalconstante en moet laag zijn. R (m²K/W), de warmteweerstand, is het isolerend vermogen van een laag: R = d / λ, en Rtot = Rin + R1 + … + Rn + Ruit; R moet hoog zijn. U (W/m²K), de warmtedoorgangscoëfficiënt, is de warmte die per seconde door 1 m² stroomt bij 1 °C verschil: U = 1 / Rtot; U moet laag zijn.",
+      "keywords": [
+        "λ",
+        "W/mK",
+        "materiaalconstante",
+        "R = d / λ",
+        "m²K/W",
+        "Rtot",
+        "U = 1 / Rtot",
+        "W/m²K",
+        "laag",
+        "hoog"
+      ],
+      "explanation": "p. 44–51.",
+      "page": 51
+    },
+    {
+      "id": "les09-o02",
+      "chapterId": "epb",
+      "type": "open",
+      "prompt": "Wat is het verschil tussen het E-peil en het S-peil? Geef de maximumwaarden uit de les.",
+      "model": "Het E-peil is een maat voor de algemene energieprestatie van een gebouw en zijn vaste installaties in standaardomstandigheden; vanaf 2021 max. E30 (BEN-woning). Het S-peil is een maat voor de energetische prestatie van de gebouwenschil en vervangt sinds 2018 het K-peil; max. S28 (2023). Voor beide geldt: hoe lager, hoe energiezuiniger.",
+      "keywords": [
+        "E-peil",
+        "algemene energieprestatie",
+        "installaties",
+        "E30",
+        "S-peil",
+        "gebouwenschil",
+        "K-peil",
+        "S28",
+        "lager"
+      ],
+      "explanation": "p. 25–27, 40.",
+      "page": 25
+    },
+    {
+      "id": "les09-o03",
+      "chapterId": "energie-bouw",
+      "type": "open",
+      "prompt": "Leg het verschil uit tussen ‘cradle to grave’ en ‘cradle to cradle’.",
+      "model": "Cradle to grave is het klassieke patroon: het materiaal wordt verwerkt tot een product en na gebruik weggegooid als afval. Cradle to cradle (McDonough & Braungart, 2002) beschouwt afval als bron: er zijn twee uitwegen uit de levenscyclus, biodegradatie of recyclage, door elementen op te splitsen naar hun herkomst (biosfeer vs. technosfeer).",
+      "keywords": [
+        "afval",
+        "product",
+        "bron",
+        "biodegradatie",
+        "recyclage",
+        "biosfeer",
+        "technosfeer"
+      ],
+      "explanation": "p. 5–8.",
+      "page": 5
+    },
+    {
+      "id": "les09-d01",
+      "chapterId": "epb",
+      "type": "drawing",
+      "prompt": "Bespreek dit schema. Welke strategie toont het, en wat zijn de stappen in volgorde?",
+      "image": "img/les09-p17-2.jpg",
+      "imageCaption": "Trias Energetica",
+      "model": "De Trias Energetica, een driestappenstrategie om het energieverbruik tijdens de levensduur te beperken: 1. beperk de energievraag (compact bouwen, isoleren), 2. gebruik hernieuwbare energiebronnen, 3. gebruik fossiele brandstoffen zo weinig, zo proper en zo efficiënt mogelijk.",
+      "keywords": [
+        "Trias Energetica",
+        "energievraag",
+        "hernieuwbaar",
+        "fossiel",
+        "efficiënt"
+      ],
+      "explanation": "p. 17–18.",
+      "page": 17
+    }
+  ],
+  "buildings": []
+}

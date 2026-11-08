@@ -1,0 +1,209 @@
+{
+  "id": "quiz07",
+  "courseId": "constructie",
+  "title": "Quiz 07 — Verbindingen",
+  "description": "Tien meerkeuzevragen over vrijheidsgraden, rolopleggingen, scharnieren, inklemmingen en iso-, hyper- en hypostatische structuren.",
+  "questions": [
+    {
+      "id": "q07-01",
+      "question": "Wat zijn vrijheidsgraden?",
+      "options": [
+        "Het aantal krachten dat op een element inwerkt",
+        "Het aantal dimensies van een element",
+        "Het aantal mogelijke bewegingen van een onvervormbaar element",
+        "Het aantal verbindingen in een structuur"
+      ],
+      "answer": 2,
+      "explanation": "Vrijheidsgraden of degrees of freedom (p. 5).",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les08",
+        "pages": [
+          5
+        ]
+      }
+    },
+    {
+      "id": "q07-02",
+      "question": "Hoeveel vrijheidsgraden heeft een element in 3D?",
+      "options": [
+        "4",
+        "6",
+        "3",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "3 translaties + 3 rotaties.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les08",
+        "pages": [
+          9
+        ]
+      }
+    },
+    {
+      "id": "q07-03",
+      "question": "Hoeveel vrijheidsgraden heeft een element in een vlak systeem?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "Translatie x, translatie y, rotatie in het (x,y)-vlak.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les08",
+        "pages": [
+          11
+        ]
+      }
+    },
+    {
+      "id": "q07-04",
+      "question": "Waarom wekken verbindingen reactiekrachten op?",
+      "options": [
+        "Om de vrijheidsgraden te verhogen",
+        "Om de structuur zwaarder te maken",
+        "Om spatkrachten te veroorzaken",
+        "Om beweging tegen te gaan moet je kracht uitoefenen"
+      ],
+      "answer": 3,
+      "explanation": "Verbindingen ‘wekken’ krachten op om beweging te blokkeren (p. 16).",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les08",
+        "pages": [
+          16
+        ]
+      }
+    },
+    {
+      "id": "q07-05",
+      "question": "Welke verbinding blokkeert één translatie en laat horizontale translatie en rotatie toe?",
+      "options": [
+        "De inklemming",
+        "Het kruisverband",
+        "De roloplegging",
+        "Het scharnier"
+      ],
+      "answer": 2,
+      "explanation": "Roloplegging: 1 reactiekracht.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les08",
+        "pages": [
+          18
+        ]
+      }
+    },
+    {
+      "id": "q07-06",
+      "question": "Welke krachten vangt een scharnier op?",
+      "options": [
+        "Enkel een verticale kracht",
+        "Verticale en horizontale krachten én momenten",
+        "Enkel momenten",
+        "Een verticale en een horizontale kracht, maar geen moment"
+      ],
+      "answer": 3,
+      "explanation": "Scharnier: 2 reactiekrachten; rotatie blijft mogelijk.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les08",
+        "pages": [
+          25
+        ]
+      }
+    },
+    {
+      "id": "q07-07",
+      "question": "Hoeveel reactiekrachten heeft een inklemming in een vlak systeem?",
+      "options": [
+        "6",
+        "2",
+        "1",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "Inklemming beperkt alle vrijheidsgraden in het vlak → 3 reactiekrachten.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les08",
+        "pages": [
+          33
+        ]
+      }
+    },
+    {
+      "id": "q07-08",
+      "question": "Wat zijn de drie evenwichtsvergelijkingen?",
+      "options": [
+        "σ = F / A, σ = E · ε en τ = G · γ",
+        "Σ Fhor = 0, Σ Fver = 0 en Σ M = 0",
+        "R = d / λ, Rtot = ΣR en U = 1 / Rtot",
+        "F = m × a, Fz = m × g en M = F × L"
+      ],
+      "answer": 1,
+      "explanation": "p. 38.",
+      "course": "Constructie",
+      "difficulty": "moeilijk",
+      "source": {
+        "lecture": "les08",
+        "pages": [
+          38
+        ]
+      }
+    },
+    {
+      "id": "q07-09",
+      "question": "Wat is een hyperstatische structuur?",
+      "options": [
+        "Een structuur zonder verbindingen",
+        "Een structuur waarvan alle krachten uit de evenwichtsvergelijkingen volgen",
+        "Een instabiele structuur in labiel evenwicht",
+        "Een stabiele structuur waarvan de krachten niet enkel uit de evenwichtsvergelijkingen volgen"
+      ],
+      "answer": 3,
+      "explanation": "Structureel onbepaald: extra informatie nodig; stabiel met veiligheidsmarge.",
+      "course": "Constructie",
+      "difficulty": "moeilijk",
+      "source": {
+        "lecture": "les08",
+        "pages": [
+          42,
+          45
+        ]
+      }
+    },
+    {
+      "id": "q07-10",
+      "question": "Een skateboard op de grond is een voorbeeld van…",
+      "options": [
+        "Een mechanisme in labiel evenwicht",
+        "Een inklemming",
+        "Een hyperstatische structuur",
+        "Een isostatische structuur"
+      ],
+      "answer": 0,
+      "explanation": "Mechanisme (hypostatisch): structureel instabiel (p. 44).",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les08",
+        "pages": [
+          44
+        ]
+      }
+    }
+  ]
+}

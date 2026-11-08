@@ -1,0 +1,208 @@
+{
+  "id": "quiz04",
+  "courseId": "constructie",
+  "title": "Quiz 04 — Over krachten & vectoren",
+  "description": "Tien meerkeuzevragen over krachten als vectoren, het parallellogram van krachten, spatkrachten en steunberen.",
+  "questions": [
+    {
+      "id": "q04-01",
+      "question": "Waarom is een kracht een vector?",
+      "options": [
+        "Omdat zowel de grootte als de richting van belang zijn",
+        "Omdat een kracht geen eenheid heeft",
+        "Omdat een kracht altijd verticaal werkt",
+        "Omdat enkel de grootte van belang is"
+      ],
+      "answer": 0,
+      "explanation": "Kracht: een fysische grootheid waarbij grootte én richting van belang zijn.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les05",
+        "pages": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "q04-02",
+      "question": "Wat gebeurt er als je meer kracht uitoefent?",
+      "options": [
+        "Er gebeurt niets zolang de richting gelijk blijft",
+        "De verandering van beweging (versnelling) wordt groter",
+        "De beweging stopt",
+        "De richting van de beweging keert om"
+      ],
+      "answer": 1,
+      "explanation": "Krachten en grootte (p. 3).",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les05",
+        "pages": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "q04-03",
+      "question": "Je oefent twee krachten tegelijk uit. Volgens wat gebeurt de beweging?",
+      "options": [
+        "Loodrecht op beide krachten",
+        "Volgens de grootste van de twee krachten",
+        "Volgens de richting en grootte van de resultante",
+        "Volgens de eerste kracht die werd uitgeoefend"
+      ],
+      "answer": 2,
+      "explanation": "Samenstelling van krachten (p. 4).",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les05",
+        "pages": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "q04-04",
+      "question": "Hoe tel je twee krachten grafisch op?",
+      "options": [
+        "Met het parallellogram van krachten",
+        "Met de formule van Euler",
+        "Met het spanning-rek-diagram",
+        "Met de lastendaling"
+      ],
+      "answer": 0,
+      "explanation": "De som van F1 en F2 is de resultante Fnet: parallellogram van krachten.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les05",
+        "pages": [
+          5
+        ]
+      }
+    },
+    {
+      "id": "q04-05",
+      "question": "Volgens welke assen splits je een kracht bij constructies meestal op?",
+      "options": [
+        "Enkel de verticale as",
+        "De as van het element en de neutrale lijn",
+        "De horizontale en de verticale as",
+        "Twee willekeurige schuine assen"
+      ],
+      "answer": 2,
+      "explanation": "In het bijzonder voor constructies: de verticale en de horizontale as.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les05",
+        "pages": [
+          7
+        ]
+      }
+    },
+    {
+      "id": "q04-06",
+      "question": "Wat zijn spatkrachten?",
+      "options": [
+        "De verticale component van het eigengewicht",
+        "Trillingen die door de structuur lopen",
+        "Krachten die een balk doen doorbuigen",
+        "De horizontale component van een schuine kracht die de constructie uit elkaar duwt"
+      ],
+      "answer": 3,
+      "explanation": "Spatkrachten bij bogen, bruggen… (p. 9).",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les05",
+        "pages": [
+          9
+        ]
+      }
+    },
+    {
+      "id": "q04-07",
+      "question": "Hoe beperkt een steunbeer de spatkrachten?",
+      "options": [
+        "De steunbeer neemt de volledige last van het dak over",
+        "De steunbeer maakt de muur dunner en lichter",
+        "De kracht van de boog wordt opgesplitst volgens de as van de muur en de as van de steunbeer",
+        "De steunbeer zet de horizontale kracht om in torsie"
+      ],
+      "answer": 2,
+      "explanation": "Krachten splitsen volgens het parallellogram van krachten (p. 11).",
+      "course": "Constructie",
+      "difficulty": "moeilijk",
+      "source": {
+        "lecture": "les05",
+        "pages": [
+          11
+        ]
+      }
+    },
+    {
+      "id": "q04-08",
+      "question": "Wat doet een pinakel?",
+      "options": [
+        "Het vangt regenwater op",
+        "Het voegt een verticale belasting toe, waardoor de spatkrachten nog verkleinen",
+        "Het voegt een horizontale kracht toe",
+        "Het vervangt de steunbeer volledig"
+      ],
+      "answer": 1,
+      "explanation": "Pinakel: bijkomende verticale belasting (p. 12).",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les05",
+        "pages": [
+          12
+        ]
+      }
+    },
+    {
+      "id": "q04-09",
+      "question": "Welke brug uit 1890 toont de les als voorbeeld van grafisch rekenen met krachten?",
+      "options": [
+        "De Tacoma Narrows Bridge",
+        "De Gateway Arch",
+        "De Golden Gate Bridge",
+        "De Forth Bridge in Schotland"
+      ],
+      "answer": 3,
+      "explanation": "Forth Bridge, Firth of Forth, Schotland, 1890.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les05",
+        "pages": [
+          16
+        ]
+      }
+    },
+    {
+      "id": "q04-10",
+      "question": "Wat levert het beschouwen van krachten als vectoren volgens de les op?",
+      "options": [
+        "Een intuïtief, grafisch inzicht in het hoe en waarom van structuren",
+        "Een exacte berekening zonder ingenieur",
+        "Een maat voor de energieprestatie",
+        "Een vervanging van de Eurocodes"
+      ],
+      "answer": 0,
+      "explanation": "p. 10.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les05",
+        "pages": [
+          10
+        ]
+      }
+    }
+  ]
+}

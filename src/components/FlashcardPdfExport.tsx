@@ -1,7 +1,7 @@
 import { useState } from "react";
 import boldUrl from "../assets/fonts/Inter-Bold.ttf?url";
 import regularUrl from "../assets/fonts/Inter-Regular.ttf?url";
-import { asset, type CourseBundle } from "../lib/content";
+import { asset, chapterCode, type CourseBundle } from "../lib/content";
 import type { PdfFlip, PdfLayout } from "../lib/flashcardPdf";
 import type { Flashcard } from "../lib/schema";
 
@@ -48,7 +48,7 @@ export default function FlashcardPdfExport({ bundle, selection, onClose }: { bun
             id: c.id,
             front: c.front,
             back: c.back,
-            label: ch ? `${bundle.course.title} · ${ch.number} ${ch.title}` : bundle.course.title,
+            label: ch ? `${bundle.course.title} · ${chapterCode(bundle, ch)} ${ch.title}` : bundle.course.title,
             source: c.page ? `${lec ? lec.id.replace(/^les/, "Les ") : "Les"} · p. ${c.page}` : undefined,
             image: c.image,
           };

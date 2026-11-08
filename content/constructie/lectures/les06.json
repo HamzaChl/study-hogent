@@ -1,0 +1,611 @@
+{
+  "id": "les06",
+  "courseId": "constructie",
+  "title": "Constructie — Case study: balk & kolom",
+  "file": "2026-27_1IV_CONSTRUCTIE_LES_06_-_Case_study-_Balk_&_Kolom.pdf",
+  "pages": 22,
+  "covers": [
+    "p1-02",
+    "p1-04"
+  ],
+  "chapters": [
+    {
+      "id": "balk-belasting",
+      "number": "01",
+      "title": "Balk onder belasting",
+      "kicker": "Druk, trek en de neutrale lijn",
+      "topicIds": [
+        "p1-02",
+        "p1-04"
+      ],
+      "cover": "img/les06-p10-2.jpg",
+      "intro": "Een balk, opgelegd op twee punten, die aan een belasting wordt onderworpen, zal doorbuigen. Bovenaan ontstaat druk, onderaan trek, en in het midden ligt de neutrale lijn. Dat spanningsdiagram verklaart de vorm van I-liggers en de plaats van wapening in beton.",
+      "sections": [
+        {
+          "heading": "Een balk in doorbuiging",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Denk aan een spons: de poriën van de spons zullen bovenaan toegenepen worden, en onderaan opengetrokken worden."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Zone",
+                "Spanning"
+              ],
+              "rows": [
+                [
+                  "Bovenaan",
+                  "druk (Eng. compression)"
+                ],
+                [
+                  "Onderaan",
+                  "trek (Eng. tension)"
+                ],
+                [
+                  "Midden",
+                  "neutrale lijn: geen spanning, geen druk of trek"
+                ],
+                [
+                  "Net boven en onder de neutrale lijn",
+                  "afschuiving (Eng. shear)"
+                ]
+              ],
+              "page": 7
+            },
+            {
+              "type": "figure",
+              "src": "img/les06-p07-2.jpg",
+              "caption": "Balk in doorbuiging: druk bovenaan, trek onderaan, neutrale lijn in het midden.",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "heading": "Spanningsdiagram",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Spanningsdiagram",
+              "text": "Diagram van de spanning over de doorsnede van de balk onder belasting. Bovenaan is de drukspanning maximaal, onderaan de trekspanning; in het midden ligt de neutrale lijn (geen spanning). Boven de NL: drukzone; onder de NL: trekzone; rond de NL: afschuiving.",
+              "page": 10
+            },
+            {
+              "type": "note",
+              "text": "Niet te verwarren met het spanning-rek-diagram (p. 10)!"
+            },
+            {
+              "type": "figure",
+              "src": "img/les06-p10-2.jpg",
+              "caption": "Spanningsdiagram over de doorsnede van de balk.",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "heading": "Toepassingen",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "I-ligger",
+              "text": "De middenzone van de balk kent geen tot minder spanning, dus is er geen (minder) materiaal nodig om dezelfde belasting te kunnen opvangen. Het verticale deel heet de lijfplaat (Eng. web), de horizontale delen de flenzen (Eng. flange).",
+              "page": 12
+            },
+            {
+              "type": "figure",
+              "src": "img/les06-p12-2.jpg",
+              "caption": "I-ligger: lijfplaat (web) en flens (flange).",
+              "page": 12
+            },
+            {
+              "type": "definition",
+              "term": "Wapening",
+              "text": "Beton kan zeer goed drukspanning opvangen, maar geen trekspanning. De trekzone wordt versterkt door stalen wapening om deze trekspanning op te vangen.",
+              "page": 14
+            },
+            {
+              "type": "figure",
+              "src": "img/les06-p14-2.jpg",
+              "caption": "Plaats van de wapening en invloed op het spanningsdiagram.",
+              "page": 14
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Een balk op twee steunpunten buigt door onder belasting.",
+        "Bovenaan druk, onderaan trek, in het midden de neutrale lijn (geen spanning); rond de NL afschuiving.",
+        "Spanningsdiagram ≠ spanning-rek-diagram.",
+        "I-ligger: weinig spanning in het midden → minder materiaal (lijfplaat), materiaal boven en onder (flenzen).",
+        "Gewapend beton: staal in de trekzone, want beton neemt geen trek op."
+      ],
+      "source": {
+        "lecture": "les06",
+        "pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "id": "kolom-belasting",
+      "number": "02",
+      "title": "Kolom onder belasting",
+      "kicker": "Knik",
+      "topicIds": [
+        "p1-02",
+        "p1-04"
+      ],
+      "cover": "img/les06-p15-2.jpg",
+      "intro": "Een kolom of wand die aan een te grote belasting wordt onderworpen, zal uitknikken. Knik is voor verticale elementen wat doorbuiging is voor balken. De formule van Euler toont welke factoren de kniklast bepalen.",
+      "sections": [
+        {
+          "heading": "Wat is knik?",
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "Knik is: een plastische vervorming in een rechte kolom; dwars op de as van de kolom; een ongecontroleerde, plaatselijke, scherpe uitbuiging in die kolom; waardoor de stabiliteit verloren gaat; maar het element blijft heel.",
+              "cite": "Les 06, p. 15"
+            },
+            {
+              "type": "p",
+              "text": "Knik (Eng. buckling) is een structureel fenomeen bij (overbelasting van) kolommen en wanden (verticale elementen), enigszins analoog aan de doorbuiging van balken. Knik is een kwestie van het element: zowel de vorm (afmetingen) als het materiaal speelt een rol."
+            },
+            {
+              "type": "figure",
+              "src": "img/les06-p15-2.jpg",
+              "caption": "Knik (buckling).",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "heading": "Bepalende factoren",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Belasting waaraan de kolom onderworpen wordt",
+                "Lengte van de kolom",
+                "Materiaal van de kolom",
+                "Doorsnede (afmetingen, hol/vol, dikte van de plaat, …)",
+                "Verbindingen: manier waarop de kolom bevestigd is"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Formule van Euler",
+          "blocks": [
+            {
+              "type": "table",
+              "caption": "P = π² × E × I / Lk²",
+              "headers": [
+                "Symbool",
+                "Betekenis",
+                "Hangt af van"
+              ],
+              "rows": [
+                [
+                  "P",
+                  "kniklast",
+                  "belasting"
+                ],
+                [
+                  "E",
+                  "elasticiteitsmodulus",
+                  "materiaal"
+                ],
+                [
+                  "I",
+                  "traagheidsmoment",
+                  "doorsnede"
+                ],
+                [
+                  "Lk",
+                  "kniklengte",
+                  "verbindingen & lengte"
+                ]
+              ],
+              "page": 18
+            },
+            {
+              "type": "definition",
+              "term": "Knikbelasting (buckling load)",
+              "text": "Belasting waaronder de kolom zal bezwijken.",
+              "page": 19
+            },
+            {
+              "type": "definition",
+              "term": "Kniklengte (effective length)",
+              "text": "Lengte met een factor in functie van de wijze van verbinden.",
+              "page": 19
+            },
+            {
+              "type": "figure",
+              "src": "img/les06-p19-2.jpg",
+              "caption": "Kniklengte in functie van de wijze van verbinden.",
+              "page": 19
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Knik: plastische, ongecontroleerde, plaatselijke uitbuiging dwars op de as van een kolom; stabiliteit verloren, element blijft heel.",
+        "Knik bij kolommen en wanden ≈ doorbuiging bij balken; vorm en materiaal spelen mee.",
+        "Factoren: belasting, lengte, materiaal, doorsnede, verbindingen.",
+        "Euler: P = π² × E × I / Lk² — kniklengte Lk hangt af van lengte en verbindingen."
+      ],
+      "source": {
+        "lecture": "les06",
+        "pages": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "les06-f01",
+      "chapterId": "balk-belasting",
+      "front": "Wat gebeurt er met een balk op twee steunpunten onder belasting?",
+      "back": "Hij buigt door: bovenaan druk, onderaan trek.",
+      "page": 3
+    },
+    {
+      "id": "les06-f02",
+      "chapterId": "balk-belasting",
+      "front": "Welk beeld gebruikt de les om doorbuiging uit te leggen?",
+      "back": "Een spons: de poriën worden bovenaan toegenepen (druk) en onderaan opengetrokken (trek).",
+      "page": 4
+    },
+    {
+      "id": "les06-f03",
+      "chapterId": "balk-belasting",
+      "front": "Neutrale lijn?",
+      "back": "De lijn in het midden van een doorgebogen balk: geen spanning, geen druk of trek. Net erboven en eronder: afschuiving.",
+      "page": 7
+    },
+    {
+      "id": "les06-f04",
+      "chapterId": "balk-belasting",
+      "front": "Waar is de drukspanning maximaal in een doorgebogen balk? En de trekspanning?",
+      "back": "Drukspanning maximaal bovenaan, trekspanning maximaal onderaan.",
+      "page": 10
+    },
+    {
+      "id": "les06-f05",
+      "chapterId": "balk-belasting",
+      "front": "Spanningsdiagram vs. spanning-rek-diagram?",
+      "back": "Spanningsdiagram: spanning over de doorsnede van een balk onder belasting. Spanning-rek-diagram: reactie van een materiaal in een trekproef. Niet verwarren!",
+      "page": 10
+    },
+    {
+      "id": "les06-f06",
+      "chapterId": "balk-belasting",
+      "front": "Waarom heeft een I-ligger zijn vorm?",
+      "back": "De middenzone kent geen tot minder spanning, dus is daar minder materiaal nodig om dezelfde belasting op te vangen.",
+      "page": 12,
+      "image": "img/les06-p12-2.jpg"
+    },
+    {
+      "id": "les06-f07",
+      "chapterId": "balk-belasting",
+      "front": "Lijfplaat en flens?",
+      "back": "Lijfplaat (web): het verticale middendeel van een I-ligger. Flens (flange): de horizontale delen boven en onder.",
+      "page": 12
+    },
+    {
+      "id": "les06-f08",
+      "chapterId": "balk-belasting",
+      "front": "Waarom wapent men beton in de trekzone?",
+      "back": "Beton vangt zeer goed drukspanning op, maar geen trekspanning; stalen wapening vangt die trek op.",
+      "page": 14
+    },
+    {
+      "id": "les06-f09",
+      "chapterId": "kolom-belasting",
+      "front": "Wat is knik?",
+      "back": "Een plastische vervorming in een rechte kolom, dwars op de as, een ongecontroleerde, plaatselijke, scherpe uitbuiging waardoor de stabiliteit verloren gaat — maar het element blijft heel.",
+      "page": 15
+    },
+    {
+      "id": "les06-f10",
+      "chapterId": "kolom-belasting",
+      "front": "Bij welke elementen treedt knik op?",
+      "back": "Bij (overbelaste) kolommen en wanden — verticale elementen. Analoog aan doorbuiging bij balken.",
+      "page": 16
+    },
+    {
+      "id": "les06-f11",
+      "chapterId": "kolom-belasting",
+      "front": "Vijf bepalende factoren voor knik?",
+      "back": "Belasting, lengte, materiaal, doorsnede (afmetingen, hol/vol, plaatdikte) en verbindingen.",
+      "page": 17
+    },
+    {
+      "id": "les06-f12",
+      "chapterId": "kolom-belasting",
+      "front": "Formule van Euler?",
+      "back": "P = π² × E × I / Lk² — P = kniklast, E = elasticiteitsmodulus (materiaal), I = traagheidsmoment (doorsnede), Lk = kniklengte (verbindingen & lengte).",
+      "page": 18
+    },
+    {
+      "id": "les06-f13",
+      "chapterId": "kolom-belasting",
+      "front": "Kniklengte (effective length)?",
+      "back": "De lengte met een factor in functie van de wijze van verbinden.",
+      "page": 19
+    }
+  ],
+  "practice": [
+    {
+      "id": "les06-pr01",
+      "chapterId": "balk-belasting",
+      "type": "match",
+      "prompt": "Koppel de zone van een doorgebogen balk aan de spanning.",
+      "pairs": [
+        [
+          "Bovenaan",
+          "druk"
+        ],
+        [
+          "Onderaan",
+          "trek"
+        ],
+        [
+          "Midden",
+          "neutrale lijn — geen spanning"
+        ],
+        [
+          "Rond de neutrale lijn",
+          "afschuiving"
+        ]
+      ],
+      "explanation": "p. 7–10.",
+      "page": 7
+    },
+    {
+      "id": "les06-pr02",
+      "chapterId": "balk-belasting",
+      "type": "tf",
+      "statement": "Op de neutrale lijn is de spanning maximaal.",
+      "answer": false,
+      "explanation": "Op de neutrale lijn is er geen spanning; de spanning is maximaal bovenaan (druk) en onderaan (trek).",
+      "page": 10
+    },
+    {
+      "id": "les06-pr03",
+      "chapterId": "balk-belasting",
+      "type": "mc",
+      "prompt": "Waar plaats je de stalen wapening in een betonnen balk op twee steunpunten?",
+      "options": [
+        "Onderaan, in de trekzone",
+        "Bovenaan, in de drukzone",
+        "Op de neutrale lijn",
+        "Gelijk verdeeld over de doorsnede"
+      ],
+      "answer": 0,
+      "explanation": "Beton neemt geen trek op: de trekzone (onderaan) wordt versterkt met staal.",
+      "page": 14
+    },
+    {
+      "id": "les06-pr04",
+      "chapterId": "balk-belasting",
+      "type": "definition",
+      "definition": "Het verticale middendeel van een I-ligger (Eng. web).",
+      "accepted": [
+        "lijfplaat",
+        "de lijfplaat",
+        "lijf"
+      ],
+      "explanation": "Lijfplaat (p. 12).",
+      "page": 12
+    },
+    {
+      "id": "les06-pr05",
+      "chapterId": "balk-belasting",
+      "type": "open",
+      "prompt": "Verklaar de vorm van een I-ligger aan de hand van het spanningsdiagram.",
+      "model": "In een doorgebogen balk is de drukspanning maximaal bovenaan en de trekspanning maximaal onderaan; de middenzone rond de neutrale lijn kent geen tot weinig spanning. Daar is dus minder materiaal nodig om dezelfde belasting op te vangen: een dunne lijfplaat in het midden en het materiaal geconcentreerd in de flenzen boven en onder.",
+      "keywords": [
+        "druk",
+        "trek",
+        "neutrale lijn",
+        "midden",
+        "minder materiaal",
+        "lijfplaat",
+        "flens"
+      ],
+      "explanation": "p. 10–13.",
+      "page": 12
+    },
+    {
+      "id": "les06-pr06",
+      "chapterId": "kolom-belasting",
+      "type": "tf",
+      "statement": "Bij knik breekt het element altijd in twee stukken.",
+      "answer": false,
+      "explanation": "Bij knik gaat de stabiliteit verloren, maar het element blijft heel.",
+      "page": 15
+    },
+    {
+      "id": "les06-pr07",
+      "chapterId": "kolom-belasting",
+      "type": "match",
+      "prompt": "Koppel het symbool uit de formule van Euler aan zijn betekenis.",
+      "pairs": [
+        [
+          "P",
+          "kniklast"
+        ],
+        [
+          "E",
+          "elasticiteitsmodulus"
+        ],
+        [
+          "I",
+          "traagheidsmoment"
+        ],
+        [
+          "Lk",
+          "kniklengte"
+        ]
+      ],
+      "explanation": "p. 18.",
+      "page": 18
+    },
+    {
+      "id": "les06-pr08",
+      "chapterId": "kolom-belasting",
+      "type": "mc",
+      "prompt": "Volgens de formule van Euler: wat gebeurt er met de kniklast als de kniklengte groter wordt?",
+      "options": [
+        "Ze wordt groter",
+        "Ze wordt kleiner",
+        "Ze blijft gelijk",
+        "Ze hangt niet van de lengte af"
+      ],
+      "answer": 1,
+      "explanation": "P = π² × E × I / Lk²: Lk staat in de noemer (in het kwadraat), dus een grotere kniklengte geeft een kleinere kniklast.",
+      "page": 18
+    },
+    {
+      "id": "les06-pr09",
+      "chapterId": "kolom-belasting",
+      "type": "mc",
+      "prompt": "Welke factor in de formule van Euler wordt bepaald door de doorsnede?",
+      "options": [
+        "E",
+        "I",
+        "Lk",
+        "π"
+      ],
+      "answer": 1,
+      "explanation": "I = traagheidsmoment (doorsnede).",
+      "page": 18
+    }
+  ],
+  "exam": [
+    {
+      "id": "les06-e01",
+      "chapterId": "balk-belasting",
+      "type": "mc",
+      "prompt": "Wat ligt in het midden van een doorgebogen balk?",
+      "options": [
+        "De drukzone",
+        "De trekzone",
+        "De wapening",
+        "De neutrale lijn"
+      ],
+      "answer": 3,
+      "explanation": "Midden: neutrale lijn — geen spanning.",
+      "page": 7
+    },
+    {
+      "id": "les06-e02",
+      "chapterId": "kolom-belasting",
+      "type": "mc",
+      "prompt": "Knik is voor kolommen enigszins analoog aan … bij balken.",
+      "options": [
+        "torsie",
+        "doorbuiging",
+        "afschuiving",
+        "dwarscontractie"
+      ],
+      "answer": 1,
+      "explanation": "p. 16.",
+      "page": 16
+    },
+    {
+      "id": "les06-e03",
+      "chapterId": "kolom-belasting",
+      "type": "mc",
+      "prompt": "Welke factor hoort NIET bij de bepalende factoren voor knik uit de les?",
+      "options": [
+        "Lengte van de kolom",
+        "Materiaal van de kolom",
+        "Verbindingen",
+        "Kleur van de kolom"
+      ],
+      "answer": 3,
+      "explanation": "Factoren: belasting, lengte, materiaal, doorsnede, verbindingen.",
+      "page": 17
+    },
+    {
+      "id": "les06-o01",
+      "chapterId": "kolom-belasting",
+      "type": "open",
+      "prompt": "Geef de omschrijving van knik en de formule van Euler, met de betekenis van elk symbool.",
+      "model": "Knik is een plastische vervorming in een rechte kolom, dwars op de as van de kolom: een ongecontroleerde, plaatselijke, scherpe uitbuiging waardoor de stabiliteit verloren gaat, maar het element blijft heel. Euler: P = π² × E × I / Lk², met P de kniklast, E de elasticiteitsmodulus (materiaal), I het traagheidsmoment (doorsnede) en Lk de kniklengte (verbindingen & lengte).",
+      "keywords": [
+        "plastisch",
+        "dwars op de as",
+        "uitbuiging",
+        "stabiliteit",
+        "heel",
+        "kniklast",
+        "elasticiteitsmodulus",
+        "traagheidsmoment",
+        "kniklengte"
+      ],
+      "explanation": "p. 15 en 18.",
+      "page": 15
+    },
+    {
+      "id": "les06-o02",
+      "chapterId": "balk-belasting",
+      "type": "open",
+      "prompt": "Waarom wordt beton gewapend, en waar komt de wapening in een balk op twee steunpunten?",
+      "model": "Beton kan zeer goed drukspanning opvangen, maar geen trekspanning. In een balk op twee steunpunten ontstaat onder belasting druk bovenaan en trek onderaan. De trekzone onderaan wordt daarom versterkt met stalen wapening die de trekspanning opvangt.",
+      "keywords": [
+        "druk",
+        "trek",
+        "beton",
+        "staal",
+        "wapening",
+        "onderaan",
+        "trekzone"
+      ],
+      "explanation": "p. 14.",
+      "page": 14
+    },
+    {
+      "id": "les06-d01",
+      "chapterId": "balk-belasting",
+      "type": "drawing",
+      "prompt": "Bespreek dit spanningsdiagram. Benoem de zones en waar de spanning maximaal of nul is.",
+      "image": "img/les06-p10-2.jpg",
+      "imageCaption": "Spanningsdiagram over de doorsnede van een balk",
+      "model": "Bovenaan is de drukspanning maximaal, onderaan de trekspanning. In het midden ligt de neutrale lijn zonder spanning. Boven de neutrale lijn ligt de drukzone, eronder de trekzone; rond de neutrale lijn treedt afschuiving op.",
+      "keywords": [
+        "druk",
+        "trek",
+        "maximaal",
+        "neutrale lijn",
+        "drukzone",
+        "trekzone",
+        "afschuiving"
+      ],
+      "explanation": "p. 10.",
+      "page": 10
+    }
+  ],
+  "buildings": []
+}

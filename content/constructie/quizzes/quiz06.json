@@ -1,0 +1,208 @@
+{
+  "id": "quiz06",
+  "courseId": "constructie",
+  "title": "Quiz 06 — Kettinglijn & zwaartepunt",
+  "description": "Tien meerkeuzevragen over de kettinglijn, de parabole boog, hangbruggen en het zwaartepunt.",
+  "questions": [
+    {
+      "id": "q06-01",
+      "question": "Welke spanning kan er in een ketting bestaan?",
+      "options": [
+        "Enkel schuifspanning",
+        "Afwisselend trek en druk",
+        "Enkel drukspanning",
+        "Enkel trekspanning"
+      ],
+      "answer": 3,
+      "explanation": "In de ketting kan enkel trekspanning bestaan (p. 3).",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les07",
+        "pages": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "q06-02",
+      "question": "Welke spanning ondervindt een perfect parabole boog?",
+      "options": [
+        "Enkel torsie",
+        "Enkel trekspanning",
+        "Enkel drukspanning",
+        "Geen enkele spanning"
+      ],
+      "answer": 2,
+      "explanation": "Omgekeerde kettinglijn → parabole boog: enkel druk.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les07",
+        "pages": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "q06-03",
+      "question": "Waarmee moet je bij een parabole boog toch nog rekening houden?",
+      "options": [
+        "Resonantie",
+        "Condensatie",
+        "Dwarscontractie",
+        "Spatkrachten"
+      ],
+      "answer": 3,
+      "explanation": "‘Wel spatkrachten niet vergeten!’",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les07",
+        "pages": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "q06-04",
+      "question": "Wie ontwierpen de Gateway Arch in Saint-Louis (1965)?",
+      "options": [
+        "Eero Saarinen en Hannskarl Bandel",
+        "Antoni Gaudí",
+        "Frank Lloyd Wright",
+        "Strauss, Morrow en Ellis"
+      ],
+      "answer": 0,
+      "explanation": "Gateway Arch: Saarinen & Bandel, 1965.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les07",
+        "pages": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "q06-05",
+      "question": "Waarom hebben de hoofdkabels van een hangbrug een parabolische vorm?",
+      "options": [
+        "Om de windbelasting te verhogen",
+        "Ze gedragen zich als kettingen onder het gewicht van het brugdek",
+        "Omdat ze vastgeklemd zijn aan de pylonen",
+        "Omdat ze enkel druk opnemen"
+      ],
+      "answer": 1,
+      "explanation": "Kabels zijn een vorm van kettingen (p. 6).",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les07",
+        "pages": [
+          6
+        ]
+      }
+    },
+    {
+      "id": "q06-06",
+      "question": "Waarom zijn de bogen van de Sagrada Familia parabolisch?",
+      "options": [
+        "Omdat ze uit staal gemaakt zijn",
+        "Omdat de hoofdstructuur gebaseerd is op de kettinglijn",
+        "Om esthetische redenen alleen",
+        "Omdat circulaire bogen niet toegelaten waren"
+      ],
+      "answer": 1,
+      "explanation": "p. 8.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les07",
+        "pages": [
+          8
+        ]
+      }
+    },
+    {
+      "id": "q06-07",
+      "question": "Wat is het zwaartepunt?",
+      "options": [
+        "Het punt waarrond alle massa van een object in evenwicht is",
+        "Het punt waar een object het steunvlak raakt",
+        "Het midden van de hoogte van een object",
+        "Het zwaarste deel van een object"
+      ],
+      "answer": 0,
+      "explanation": "Zwaartepunt of massamiddelpunt; aangrijpingspunt van de zwaartekracht.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les07",
+        "pages": [
+          12
+        ]
+      }
+    },
+    {
+      "id": "q06-08",
+      "question": "Wat gebeurt er met het zwaartepunt als een lichaam van vorm verandert?",
+      "options": [
+        "Het blijft altijd op dezelfde plaats",
+        "Het verplaatst zich altijd naar boven",
+        "Het verandert mee",
+        "Het verdwijnt"
+      ],
+      "answer": 2,
+      "explanation": "p. 13.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les07",
+        "pages": [
+          13
+        ]
+      }
+    },
+    {
+      "id": "q06-09",
+      "question": "Wanneer is een structuur volgens de les stabiel?",
+      "options": [
+        "Zolang ze uit één materiaal bestaat",
+        "Zolang ze lichter is dan de grond",
+        "Zolang ze geen uitkragingen heeft",
+        "Zolang haar zwaartepunt boven het steunvlak ligt"
+      ],
+      "answer": 3,
+      "explanation": "Zwaartepunt als stabiliteitsprincipe (p. 15).",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les07",
+        "pages": [
+          15
+        ]
+      }
+    },
+    {
+      "id": "q06-10",
+      "question": "Welk gebouw toont de les als voorbeeld van uitkragingen?",
+      "options": [
+        "De Gateway Arch van Saarinen",
+        "De Sagrada Familia van Gaudí",
+        "Fallingwater van Frank Lloyd Wright",
+        "Maison Domino van Le Corbusier"
+      ],
+      "answer": 2,
+      "explanation": "p. 22.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les07",
+        "pages": [
+          22
+        ]
+      }
+    }
+  ]
+}

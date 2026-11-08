@@ -1,0 +1,993 @@
+{
+  "id": "les10",
+  "courseId": "constructie",
+  "title": "Constructie — Bouwfysica 2: condensatie, capillariteit, akoestiek, brandveiligheid",
+  "file": "2026-27_1IV_CONSTRUCTIE_LES_10_-_Bouwfysica_2_-_Condensatie,_capillariteit,_akoestiek,_brandveiligheid.pdf",
+  "pages": 42,
+  "covers": [
+    "p3-03",
+    "p3-04",
+    "p3-05",
+    "p2-07"
+  ],
+  "chapters": [
+    {
+      "id": "condensatie",
+      "number": "01",
+      "title": "Condensatie",
+      "kicker": "Een bouwprobleem",
+      "topicIds": [
+        "p3-03",
+        "p2-07"
+      ],
+      "cover": "img/les10-p05-2.jpg",
+      "intro": "Fysisch is condensatie een fase-overgang: een gas condenseert tot een vloeistof, het tegenovergestelde van verdampen. In bouwconstructies gaat het om waterdamp in de lucht. Dat is een complex probleem van vocht, temperatuur en isolatie, dat in extreme gevallen leidt tot schimmel en zichtbaar vochtige muren.",
+      "sections": [
+        {
+          "heading": "Condensatie als bouwprobleem",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Condensatie",
+              "text": "Een proces van fase-overgang: een gas condenseert tot een vloeistof. Het tegenovergestelde van verdampen. In bouwconstructies gaat het in eerste instantie over de condensatie van waterdamp — water, vocht, dat in de lucht is opgenomen.",
+              "page": 3
+            },
+            {
+              "type": "p",
+              "text": "In de eerste plaats moeten we condensatie proberen te vermijden door een doordachte detaillering van bouwelementen en bouwknopen. In tweede instantie kunnen we condensatie met technische installaties tegengaan."
+            },
+            {
+              "type": "figure",
+              "src": "img/les10-p05-2.jpg",
+              "caption": "In extreme gevallen leidt condensatie tot schimmel en zichtbaar vochtige muren.",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "heading": "Begrippen",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Verzadigingsdampdruk",
+              "text": "De maximale hoeveelheid waterdamp die lucht kan bevatten. Hangt af van de temperatuur: hoe hoger de temperatuur, hoe hoger de verzadigingsdampdruk.",
+              "page": 7
+            },
+            {
+              "type": "definition",
+              "term": "Absolute vochtgehalte",
+              "text": "De effectieve hoeveelheid waterdamp in de lucht op een bepaald moment (ook: partiële dampdruk van water).",
+              "page": 8
+            },
+            {
+              "type": "definition",
+              "term": "Relatieve luchtvochtigheid",
+              "text": "De verhouding tussen het absolute vochtgehalte bij een bepaalde temperatuur en de verzadigingsdampdruk bij diezelfde temperatuur. Uitgedrukt in %.",
+              "page": 9
+            },
+            {
+              "type": "definition",
+              "term": "Dauwpunt",
+              "text": "Condensatie treedt op als de luchtvochtigheid groter is dan de maximale hoeveelheid waterdamp bij de luchttemperatuur op dat moment: het dauwpunt is bereikt of overschreden, de relatieve luchtvochtigheid is 100%.",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "heading": "Twee processen in de grafiek",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "De temperatuur daalt: de verzadigingsdampdruk daalt mee, het absolute vochtgehalte niet → de relatieve luchtvochtigheid stijgt (p. 11).",
+                "Er komt extra waterdamp bij: het absolute vochtgehalte stijgt, bij constante temperatuur blijft de verzadigingsdampdruk constant → de relatieve luchtvochtigheid stijgt (p. 12).",
+                "In beide gevallen: condensatie bij 100% relatieve luchtvochtigheid — het dauwpunt is bereikt of overschreden."
+              ]
+            },
+            {
+              "type": "figure",
+              "src": "img/les10-p11-2.jpg",
+              "caption": "Condensatie in grafiek: temperatuurdaling.",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "heading": "Oorzaken en oplossingen",
+          "blocks": [
+            {
+              "type": "table",
+              "headers": [
+                "Mogelijke oorzaken",
+                "Mogelijke oplossingen"
+              ],
+              "rows": [
+                [
+                  "Koudebruggen",
+                  "Detailleren = koudebruggen oplossen; dampscherm nodig?"
+                ],
+                [
+                  "Slechte (of geen) isolatie",
+                  "Isoleren = temperatuursverschillen beperken"
+                ],
+                [
+                  "Slechte detaillering: ontbreken van vochtwering",
+                  "Ventileren = vocht afvoeren"
+                ],
+                [
+                  "Vocht in huis: menselijke activiteit, bouwvocht, regendoorslag, optrekkend vocht, …",
+                  "Verwarmen = hogere verzadigingsdampdruk"
+                ]
+              ],
+              "page": 14
+            },
+            {
+              "type": "definition",
+              "term": "Koudebrug (thermische brug, warmtebrug)",
+              "text": "Een deel van de buitenschil (gevel, dak of vloer) van een gebouw waar de isolatielaag doorbroken is, of waar om een andere reden de thermische weerstand lager is dan die van de rest van de constructie — met te veel warmteverlies tot gevolg.",
+              "page": 15
+            },
+            {
+              "type": "figure",
+              "src": "img/les10-p16-2.jpg",
+              "caption": "Koudebrug.",
+              "page": 16
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Condensatie = fase-overgang gas → vloeistof; in de bouw: waterdamp uit de lucht.",
+        "Vermijden door detaillering van elementen en bouwknopen; pas daarna technische installaties.",
+        "Verzadigingsdampdruk (max., stijgt met temperatuur), absolute vochtgehalte (effectief), relatieve luchtvochtigheid (%).",
+        "Condensatie bij RV 100% = dauwpunt; RV stijgt als de temperatuur daalt of als er vocht bijkomt.",
+        "Oorzaken: koudebruggen, slechte isolatie, slechte detaillering, vocht in huis. Oplossingen: detailleren, isoleren, ventileren, verwarmen."
+      ],
+      "source": {
+        "lecture": "les10",
+        "pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "id": "capillariteit",
+      "number": "02",
+      "title": "Capillariteit",
+      "kicker": "Vocht in constructies",
+      "topicIds": [
+        "p3-03"
+      ],
+      "cover": "img/les10-p20-2.jpg",
+      "intro": "Capillariteit is het fysisch fenomeen waardoor vloeistoffen als het ware worden opgezogen in kleine kanaaltjes, bijvoorbeeld in poreuze materialen. Het ligt aan de basis van opstijgend en doorslaand vocht.",
+      "sections": [
+        {
+          "heading": "Capillariteit",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Capillariteit",
+              "text": "Het fysisch fenomeen dat vloeistoffen als het ware opgezogen kunnen worden in kleine kanaaltjes (bv. in poreuze materialen). Heeft te maken met adhesie- en cohesiekrachten.",
+              "page": 19
+            },
+            {
+              "type": "p",
+              "text": "Capillariteit ligt aan de basis van opstijgend vocht, doorslaand vocht, …"
+            },
+            {
+              "type": "figure",
+              "src": "img/les10-p20-2.jpg",
+              "caption": "Capillariteit: opstijgend vocht.",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "heading": "Oplossingen",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Detailleren: afdichten met pleister, plaatsen van waterdichtingsmembranen en dampschermen.",
+                "Impregneren: poriën afsluiten."
+              ]
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Capillariteit: vloeistof wordt opgezogen in kleine kanaaltjes (poreuze materialen); adhesie- en cohesiekrachten.",
+        "Oorzaak van opstijgend en doorslaand vocht.",
+        "Oplossingen: detailleren (pleister, waterdichtingsmembranen, dampschermen) en impregneren (poriën afsluiten)."
+      ],
+      "source": {
+        "lecture": "les10",
+        "pages": [
+          19,
+          20,
+          21
+        ]
+      }
+    },
+    {
+      "id": "akoestiek",
+      "number": "03",
+      "title": "Akoestiek",
+      "kicker": "Geluid in constructies",
+      "topicIds": [
+        "p3-04"
+      ],
+      "cover": "img/les10-p27-2.jpg",
+      "intro": "Geluid in constructies draait hoofdzakelijk rond twee vragen. Hoe maken we een ruimte geluidstechnisch geschikt voor haar functie (geluidskwaliteit)? En hoe houden we storende geluiden buiten (geluidsisolatie)?",
+      "sections": [
+        {
+          "heading": "Twee aspecten",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Geluidskwaliteit",
+              "text": "Hoe kunnen we een ruimte geluidstechnisch geschikt maken voor een bepaalde functie? (bouwakoestiek of ruimtegeluid)",
+              "page": 22
+            },
+            {
+              "type": "definition",
+              "term": "Geluidsisolatie",
+              "text": "Hoe kunnen we storende geluiden buiten houden?",
+              "page": 22
+            },
+            {
+              "type": "note",
+              "text": "Geluidsisolatie is een belangrijk onderdeel van geluidskwaliteit (p. 23)."
+            },
+            {
+              "type": "p",
+              "text": "Geluid heeft te maken met golven. Een geluidsgolf ontstaat bij een geluidsbron en heeft een medium nodig om zich te verplaatsen."
+            }
+          ]
+        },
+        {
+          "heading": "Geluidsisolatie",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Contactgeluid",
+              "text": "Geluidsgolven (trillingen) doorheen de structuur.",
+              "page": 25
+            },
+            {
+              "type": "definition",
+              "term": "Luchtgeluid",
+              "text": "Geluidsgolven doorheen de lucht.",
+              "page": 25
+            },
+            {
+              "type": "table",
+              "caption": "Mogelijke maatregelen",
+              "headers": [
+                "Maatregel",
+                "Principe"
+              ],
+              "rows": [
+                [
+                  "Massa",
+                  "hoe zwaarder de structuur, hoe beter de geluidsisolatie"
+                ],
+                [
+                  "Luchtdichtheid",
+                  "hoe minder gaten, spleten, kieren, …, hoe beter de geluidsisolatie"
+                ],
+                [
+                  "Demping",
+                  "dempende materialen nemen trillingen op"
+                ]
+              ],
+              "page": 26
+            }
+          ]
+        },
+        {
+          "heading": "Geluidskwaliteit",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Geluidskwaliteit is een moeilijk evenwicht tussen reflectie, diffusie en absorptie van geluidsgolven. Reflectie en diffusie zijn nodig om het geluid te verdelen en te verspreiden; absorptie is nodig om het teveel aan geluidsgolven op te vangen."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Begrip",
+                "Betekenis"
+              ],
+              "rows": [
+                [
+                  "Reflectie",
+                  "weerkaatsing van geluidsgolven"
+                ],
+                [
+                  "Diffusie",
+                  "verspreiding van geluidsgolven"
+                ],
+                [
+                  "Absorptie",
+                  "geluidsgolven worden opgenomen door het materiaal"
+                ]
+              ],
+              "page": 27
+            },
+            {
+              "type": "list",
+              "items": [
+                "Aandachtspunten: materiaalgebruik (reflecterende of absorberende materialen), vorm en indeling van de ruimte (bepalen mee de reflecties), nagalmtijd (p. 29)."
+              ]
+            },
+            {
+              "type": "definition",
+              "term": "Nagalmtijd (RT, reverberation time)",
+              "text": "De tijd waarin een geluid met 60 dB vermindert. Van belang voor de spraakverstaanbaarheid, voor de kwaliteit van een concertzaal, of voor de verlaging van het niveau van ongewenst geluid.",
+              "page": 30
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Geluidskwaliteit (ruimte geschikt voor functie) en geluidsisolatie (storend geluid buiten houden); isolatie is deel van kwaliteit.",
+        "Geluid = golven; heeft een bron en een medium nodig.",
+        "Contactgeluid (door de structuur) vs. luchtgeluid (door de lucht).",
+        "Isolatie: massa, luchtdichtheid, demping.",
+        "Kwaliteit: evenwicht reflectie, diffusie, absorptie; materiaal, vorm, nagalmtijd (tijd voor 60 dB daling)."
+      ],
+      "source": {
+        "lecture": "les10",
+        "pages": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ]
+      }
+    },
+    {
+      "id": "brandveiligheid",
+      "number": "04",
+      "title": "Brandveiligheid",
+      "kicker": "Branddriehoek en brandveiligheidsnormen",
+      "topicIds": [
+        "p3-05"
+      ],
+      "cover": "img/les10-p32-2.jpg",
+      "intro": "Brand ontstaat als de drie voorwaarden van de branddriehoek vervuld zijn. Inzicht in hoe een brand evolueert helpt om brandveiligheid te verhogen. Dat is de basis van de brandveiligheidsnormen, met hun doelstellingen, actieve en passieve maatregelen, brandbaarheidsklassen en de REI-classificatie.",
+      "sections": [
+        {
+          "heading": "Ontstaan en evolutie van brand",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Branddriehoek",
+              "text": "Brand ontstaat als voldaan is aan drie randvoorwaarden: een brandstof, zuurstof en warmte.",
+              "page": 32
+            },
+            {
+              "type": "p",
+              "text": "Inzicht in de evolutie van een brand, van ontstaan over ontwikkeling tot het doven ervan, kan helpen om brandveiligheid te verhogen → brandveiligheidsnormen."
+            },
+            {
+              "type": "figure",
+              "src": "img/les10-p32-2.jpg",
+              "caption": "Branddriehoek.",
+              "page": 32
+            }
+          ]
+        },
+        {
+          "heading": "Brandveiligheidsnormen",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Doelstellingen: veiligheid van hulpploegen, veiligheid van bewoners, evacuatie van bewoners, ontstaan en ontwikkeling van vuur en rook beperken, uitbreiding van brand beperken (flash-over), draagvermogen van de constructie gedurende bepaalde tijd verzekeren (p. 34)."
+              ]
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Aspect",
+                "Inhoud"
+              ],
+              "rows": [
+                [
+                  "Evacuatie",
+                  "vluchtroutes, signalisatie, ‘oefenen’, …"
+                ],
+                [
+                  "Actieve maatregelen",
+                  "actief de brand bestrijden: branddetectie, sprinklers, brandblussers, …"
+                ],
+                [
+                  "Passieve maatregelen",
+                  "brand en branduitbreiding vermijden: compartimentering en brandwanden; brandbaarheid en brandweerstand van structuren en materialen (klassen)"
+                ]
+              ],
+              "page": 35
+            }
+          ]
+        },
+        {
+          "heading": "Brandbaarheid en brandweerstand",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Brandbaarheid van materialen",
+              "text": "De mate waarin een materiaal kan branden.",
+              "page": 38
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Klasse",
+                "Betekenis"
+              ],
+              "rows": [
+                [
+                  "A1–A2",
+                  "weinig brandbaar"
+                ],
+                [
+                  "B tot D",
+                  "tussenliggende klassen"
+                ],
+                [
+                  "E",
+                  "bijdragend tot vlamoverslag"
+                ],
+                [
+                  "F",
+                  "niet geclassificeerd"
+                ]
+              ],
+              "page": 38
+            },
+            {
+              "type": "definition",
+              "term": "Brandweerstand van elementen",
+              "text": "De mate waarin constructie-elementen in staat zijn om hun functie bij brand te bewaren → REI-classificatie (Europees).",
+              "page": 39
+            },
+            {
+              "type": "definition",
+              "term": "REI-classificatie",
+              "text": "Drukt het aantal minuten uit dat een element nog zijn functie kan vervullen op vlak van stabiliteit (R), vlamdichtheid (E) en thermische isolatiecapaciteit (I). De laagste waarde telt: bv. R120, E90, I60 = REI60.",
+              "page": 40
+            },
+            {
+              "type": "p",
+              "text": "De REI-eisen worden opgelegd door de normen. Ze hangen af van het gebouw (functie, grootte, activiteiten, aantal en zelfredzaamheid van de aanwezigen, …) en van het element (dragend, scheidend, …)."
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Branddriehoek: brandstof, zuurstof, warmte.",
+        "Doelstellingen van de normen: veiligheid hulpploegen en bewoners, evacuatie, vuur/rook en uitbreiding (flash-over) beperken, draagvermogen verzekeren.",
+        "Evacuatie, actieve maatregelen (detectie, sprinklers, blussers) en passieve maatregelen (compartimentering, brandwanden, klassen).",
+        "Brandbaarheid: A1–A2 weinig brandbaar … E bijdragend tot vlamoverslag, F niet geclassificeerd.",
+        "REI: minuten stabiliteit (R), vlamdichtheid (E), isolatie (I); laagste waarde telt (R120, E90, I60 = REI60)."
+      ],
+      "source": {
+        "lecture": "les10",
+        "pages": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "les10-f01",
+      "chapterId": "condensatie",
+      "front": "Wat is condensatie (fysisch)?",
+      "back": "Een fase-overgang: een gas condenseert tot een vloeistof — het tegenovergestelde van verdampen. In de bouw: waterdamp uit de lucht.",
+      "page": 3
+    },
+    {
+      "id": "les10-f02",
+      "chapterId": "condensatie",
+      "front": "Hoe pak je condensatie in de eerste plaats aan?",
+      "back": "Vermijden door een doordachte detaillering van bouwelementen en bouwknopen; pas in tweede instantie met technische installaties.",
+      "page": 6
+    },
+    {
+      "id": "les10-f03",
+      "chapterId": "condensatie",
+      "front": "Verzadigingsdampdruk?",
+      "back": "De maximale hoeveelheid waterdamp die lucht kan bevatten. Hoe hoger de temperatuur, hoe hoger.",
+      "page": 7
+    },
+    {
+      "id": "les10-f04",
+      "chapterId": "condensatie",
+      "front": "Absolute vochtgehalte?",
+      "back": "De effectieve hoeveelheid waterdamp in de lucht op een bepaald moment (partiële dampdruk van water).",
+      "page": 8
+    },
+    {
+      "id": "les10-f05",
+      "chapterId": "condensatie",
+      "front": "Relatieve luchtvochtigheid?",
+      "back": "Absolute vochtgehalte / verzadigingsdampdruk bij dezelfde temperatuur, in %.",
+      "page": 9
+    },
+    {
+      "id": "les10-f06",
+      "chapterId": "condensatie",
+      "front": "Wanneer treedt condensatie op?",
+      "back": "Als de relatieve luchtvochtigheid 100% is: het dauwpunt is bereikt of overschreden.",
+      "page": 10
+    },
+    {
+      "id": "les10-f07",
+      "chapterId": "condensatie",
+      "front": "Waarom stijgt de relatieve luchtvochtigheid als de temperatuur daalt?",
+      "back": "De verzadigingsdampdruk daalt mee, maar het absolute vochtgehalte niet.",
+      "page": 11
+    },
+    {
+      "id": "les10-f08",
+      "chapterId": "condensatie",
+      "front": "Vier mogelijke oorzaken van condensatie?",
+      "back": "Koudebruggen; slechte (of geen) isolatie; slechte detaillering (ontbreken van vochtwering); vocht in huis (menselijke activiteit, bouwvocht, regendoorslag, optrekkend vocht).",
+      "page": 14
+    },
+    {
+      "id": "les10-f09",
+      "chapterId": "condensatie",
+      "front": "Koudebrug?",
+      "back": "Deel van de buitenschil (gevel, dak, vloer) waar de isolatielaag doorbroken is of de thermische weerstand lager is dan in de rest van de constructie — te veel warmteverlies.",
+      "page": 15
+    },
+    {
+      "id": "les10-f10",
+      "chapterId": "condensatie",
+      "front": "Vier oplossingen voor condensatie?",
+      "back": "Detailleren (koudebruggen oplossen, dampscherm?), isoleren (temperatuursverschillen beperken), ventileren (vocht afvoeren), verwarmen (hogere verzadigingsdampdruk).",
+      "page": 18
+    },
+    {
+      "id": "les10-f11",
+      "chapterId": "capillariteit",
+      "front": "Capillariteit?",
+      "back": "Vloeistoffen worden opgezogen in kleine kanaaltjes (poreuze materialen); heeft te maken met adhesie- en cohesiekrachten. Oorzaak van opstijgend en doorslaand vocht.",
+      "page": 19
+    },
+    {
+      "id": "les10-f12",
+      "chapterId": "capillariteit",
+      "front": "Oplossingen voor capillair vocht?",
+      "back": "Detailleren (pleister, waterdichtingsmembranen, dampschermen) en impregneren (poriën afsluiten).",
+      "page": 21
+    },
+    {
+      "id": "les10-f13",
+      "chapterId": "akoestiek",
+      "front": "Geluidskwaliteit vs. geluidsisolatie?",
+      "back": "Geluidskwaliteit: een ruimte geluidstechnisch geschikt maken voor haar functie. Geluidsisolatie: storende geluiden buiten houden. Isolatie is een onderdeel van kwaliteit.",
+      "page": 22
+    },
+    {
+      "id": "les10-f14",
+      "chapterId": "akoestiek",
+      "front": "Contactgeluid vs. luchtgeluid?",
+      "back": "Contactgeluid: trillingen doorheen de structuur. Luchtgeluid: geluidsgolven doorheen de lucht.",
+      "page": 25
+    },
+    {
+      "id": "les10-f15",
+      "chapterId": "akoestiek",
+      "front": "Drie maatregelen voor geluidsisolatie?",
+      "back": "Massa (zwaarder = beter), luchtdichtheid (minder kieren = beter), demping (dempende materialen nemen trillingen op).",
+      "page": 26
+    },
+    {
+      "id": "les10-f16",
+      "chapterId": "akoestiek",
+      "front": "Reflectie, diffusie, absorptie?",
+      "back": "Reflectie: weerkaatsing. Diffusie: verspreiding. Absorptie: opname door het materiaal. Geluidskwaliteit = evenwicht tussen de drie.",
+      "page": 27
+    },
+    {
+      "id": "les10-f17",
+      "chapterId": "akoestiek",
+      "front": "Nagalmtijd?",
+      "back": "De tijd waarin een geluid met 60 dB vermindert (RT, reverberation time). Belangrijk voor spraakverstaanbaarheid en concertzalen.",
+      "page": 30
+    },
+    {
+      "id": "les10-f18",
+      "chapterId": "brandveiligheid",
+      "front": "Branddriehoek?",
+      "back": "Brandstof, zuurstof en warmte — de drie voorwaarden voor het ontstaan van brand.",
+      "page": 32
+    },
+    {
+      "id": "les10-f19",
+      "chapterId": "brandveiligheid",
+      "front": "Actieve vs. passieve brandmaatregelen?",
+      "back": "Actief: brand bestrijden (detectie, sprinklers, blussers). Passief: brand en uitbreiding vermijden (compartimentering, brandwanden, brandbaarheid en brandweerstand).",
+      "page": 35
+    },
+    {
+      "id": "les10-f20",
+      "chapterId": "brandveiligheid",
+      "front": "Brandbaarheidsklassen?",
+      "back": "A1–A2: weinig brandbaar; B tot D; E: bijdragend tot vlamoverslag; F: niet geclassificeerd.",
+      "page": 38
+    },
+    {
+      "id": "les10-f21",
+      "chapterId": "brandveiligheid",
+      "front": "REI-classificatie?",
+      "back": "Minuten dat een element zijn functie behoudt: R = stabiliteit, E = vlamdichtheid, I = thermische isolatie. Laagste waarde telt: R120, E90, I60 = REI60.",
+      "page": 40
+    }
+  ],
+  "practice": [
+    {
+      "id": "les10-pr01",
+      "chapterId": "condensatie",
+      "type": "match",
+      "prompt": "Koppel het begrip aan de omschrijving.",
+      "pairs": [
+        [
+          "Verzadigingsdampdruk",
+          "maximale hoeveelheid waterdamp"
+        ],
+        [
+          "Absolute vochtgehalte",
+          "effectieve hoeveelheid waterdamp"
+        ],
+        [
+          "Relatieve luchtvochtigheid",
+          "verhouding van beide, in %"
+        ],
+        [
+          "Dauwpunt",
+          "RV = 100%"
+        ]
+      ],
+      "explanation": "p. 7–10.",
+      "page": 7
+    },
+    {
+      "id": "les10-pr02",
+      "chapterId": "condensatie",
+      "type": "tf",
+      "statement": "Hoe hoger de temperatuur, hoe lager de verzadigingsdampdruk.",
+      "answer": false,
+      "explanation": "Hoe hoger de temperatuur, hoe hoger de verzadigingsdampdruk.",
+      "page": 7
+    },
+    {
+      "id": "les10-pr03",
+      "chapterId": "condensatie",
+      "type": "mc",
+      "prompt": "De temperatuur in een kamer daalt, er komt geen vocht bij. Wat gebeurt er met de relatieve luchtvochtigheid?",
+      "options": [
+        "Ze stijgt",
+        "Ze blijft gelijk",
+        "Ze daalt",
+        "Ze wordt 0%"
+      ],
+      "answer": 0,
+      "explanation": "De verzadigingsdampdruk daalt, het absolute vochtgehalte niet → RV stijgt.",
+      "page": 11
+    },
+    {
+      "id": "les10-pr04",
+      "chapterId": "condensatie",
+      "type": "mc",
+      "prompt": "Waarom helpt verwarmen tegen condensatie?",
+      "options": [
+        "Het voert vocht af",
+        "Het verlaagt het absolute vochtgehalte",
+        "Het verhoogt de verzadigingsdampdruk",
+        "Het lost koudebruggen op"
+      ],
+      "answer": 2,
+      "explanation": "Verwarmen = hogere verzadigingsdampdruk (p. 18).",
+      "page": 18
+    },
+    {
+      "id": "les10-pr05",
+      "chapterId": "condensatie",
+      "type": "definition",
+      "definition": "Deel van de buitenschil waar de isolatielaag doorbroken is of de thermische weerstand lager is dan elders, met te veel warmteverlies tot gevolg.",
+      "accepted": [
+        "koudebrug",
+        "thermische brug",
+        "warmtebrug",
+        "een koudebrug"
+      ],
+      "explanation": "Koudebrug (p. 15).",
+      "page": 15
+    },
+    {
+      "id": "les10-pr06",
+      "chapterId": "capillariteit",
+      "type": "mc",
+      "prompt": "Welk fenomeen ligt aan de basis van opstijgend vocht?",
+      "options": [
+        "Condensatie",
+        "Diffusie",
+        "Capillariteit",
+        "Resonantie"
+      ],
+      "answer": 2,
+      "explanation": "p. 20.",
+      "page": 20
+    },
+    {
+      "id": "les10-pr07",
+      "chapterId": "akoestiek",
+      "type": "match",
+      "prompt": "Koppel de geluidsisolatiemaatregel aan het principe.",
+      "pairs": [
+        [
+          "Massa",
+          "hoe zwaarder, hoe beter"
+        ],
+        [
+          "Luchtdichtheid",
+          "minder kieren en spleten"
+        ],
+        [
+          "Demping",
+          "materiaal neemt trillingen op"
+        ]
+      ],
+      "explanation": "p. 26.",
+      "page": 26
+    },
+    {
+      "id": "les10-pr08",
+      "chapterId": "akoestiek",
+      "type": "tf",
+      "statement": "Contactgeluid verplaatst zich als trillingen doorheen de structuur.",
+      "answer": true,
+      "explanation": "p. 25.",
+      "page": 25
+    },
+    {
+      "id": "les10-pr09",
+      "chapterId": "akoestiek",
+      "type": "definition",
+      "definition": "De tijd waarin een geluid met 60 dB vermindert.",
+      "accepted": [
+        "nagalmtijd",
+        "de nagalmtijd",
+        "RT",
+        "reverberation time"
+      ],
+      "explanation": "Nagalmtijd (p. 30).",
+      "page": 30
+    },
+    {
+      "id": "les10-pr10",
+      "chapterId": "brandveiligheid",
+      "type": "mc",
+      "prompt": "Een element haalt R120, E90 en I60. Wat is zijn REI-classificatie?",
+      "options": [
+        "REI120",
+        "REI90",
+        "REI60",
+        "REI270"
+      ],
+      "answer": 2,
+      "explanation": "De laagste waarde telt: REI60.",
+      "page": 40
+    },
+    {
+      "id": "les10-pr11",
+      "chapterId": "brandveiligheid",
+      "type": "mc",
+      "prompt": "Welke maatregel is passief?",
+      "options": [
+        "Sprinklers",
+        "Brandblussers",
+        "Compartimentering en brandwanden",
+        "Branddetectie"
+      ],
+      "answer": 2,
+      "explanation": "Passief = brand en branduitbreiding vermijden.",
+      "page": 37
+    },
+    {
+      "id": "les10-pr12",
+      "chapterId": "brandveiligheid",
+      "type": "match",
+      "prompt": "Koppel de letter van de REI-classificatie aan haar betekenis.",
+      "pairs": [
+        [
+          "R",
+          "stabiliteit"
+        ],
+        [
+          "E",
+          "vlamdichtheid"
+        ],
+        [
+          "I",
+          "thermische isolatiecapaciteit"
+        ]
+      ],
+      "explanation": "p. 40.",
+      "page": 40
+    }
+  ],
+  "exam": [
+    {
+      "id": "les10-e01",
+      "chapterId": "condensatie",
+      "type": "mc",
+      "prompt": "Bij welke relatieve luchtvochtigheid treedt condensatie op?",
+      "options": [
+        "100%",
+        "75%",
+        "50%",
+        "Ongeacht de luchtvochtigheid"
+      ],
+      "answer": 0,
+      "explanation": "Dauwpunt: RV = 100%.",
+      "page": 10
+    },
+    {
+      "id": "les10-e02",
+      "chapterId": "akoestiek",
+      "type": "mc",
+      "prompt": "Welke uitspraak over geluidskwaliteit klopt?",
+      "options": [
+        "Enkel absorptie is nodig",
+        "Geluidsisolatie staat er los van",
+        "Reflectie moet altijd vermeden worden",
+        "Het is een evenwicht tussen reflectie, diffusie en absorptie"
+      ],
+      "answer": 3,
+      "explanation": "p. 27–28.",
+      "page": 27
+    },
+    {
+      "id": "les10-e03",
+      "chapterId": "brandveiligheid",
+      "type": "mc",
+      "prompt": "Welke brandbaarheidsklasse is ‘weinig brandbaar’?",
+      "options": [
+        "A1–A2",
+        "B",
+        "E",
+        "F"
+      ],
+      "answer": 0,
+      "explanation": "p. 38.",
+      "page": 38
+    },
+    {
+      "id": "les10-e04",
+      "chapterId": "brandveiligheid",
+      "type": "mc",
+      "prompt": "Wat hoort NIET bij de branddriehoek?",
+      "options": [
+        "Brandstof",
+        "Zuurstof",
+        "Warmte",
+        "Rook"
+      ],
+      "answer": 3,
+      "explanation": "Brandstof, zuurstof, warmte.",
+      "page": 32
+    },
+    {
+      "id": "les10-o01",
+      "chapterId": "condensatie",
+      "type": "open",
+      "prompt": "Leg uit wanneer condensatie optreedt aan de hand van de begrippen verzadigingsdampdruk, absolute vochtgehalte en relatieve luchtvochtigheid. Beschrijf de twee processen uit de grafiek.",
+      "model": "De verzadigingsdampdruk is de maximale hoeveelheid waterdamp die lucht kan bevatten en stijgt met de temperatuur. Het absolute vochtgehalte is de effectieve hoeveelheid waterdamp. De relatieve luchtvochtigheid is de verhouding van beide in %. Condensatie treedt op bij 100%: het dauwpunt. Proces 1: de temperatuur daalt, de verzadigingsdampdruk daalt mee maar het absolute vochtgehalte niet → RV stijgt. Proces 2: er komt extra waterdamp bij bij constante temperatuur → absoluut vochtgehalte stijgt, verzadigingsdampdruk constant → RV stijgt.",
+      "keywords": [
+        "verzadigingsdampdruk",
+        "maximaal",
+        "temperatuur",
+        "absolute vochtgehalte",
+        "relatieve luchtvochtigheid",
+        "100%",
+        "dauwpunt",
+        "daalt",
+        "extra waterdamp"
+      ],
+      "explanation": "p. 7–12.",
+      "page": 10
+    },
+    {
+      "id": "les10-o02",
+      "chapterId": "brandveiligheid",
+      "type": "open",
+      "prompt": "Wat is de REI-classificatie? Geef een voorbeeld en zeg waarvan de opgelegde waarden afhangen.",
+      "model": "De REI-classificatie (Europees) drukt het aantal minuten uit dat een element nog zijn functie kan vervullen op vlak van stabiliteit (R), vlamdichtheid (E) en thermische isolatiecapaciteit (I). De laagste waarde telt: R120, E90, I60 = REI60. De eisen worden opgelegd door de normen en hangen af van het gebouw (functie, grootte, activiteiten, aantal en zelfredzaamheid van de aanwezigen) en van het element (dragend, scheidend).",
+      "keywords": [
+        "minuten",
+        "stabiliteit",
+        "vlamdichtheid",
+        "isolatie",
+        "laagste",
+        "REI60",
+        "gebouw",
+        "element"
+      ],
+      "explanation": "p. 39–41.",
+      "page": 40
+    },
+    {
+      "id": "les10-o03",
+      "chapterId": "akoestiek",
+      "type": "open",
+      "prompt": "Hoe kan je storende geluiden buiten houden? Maak het onderscheid tussen de soorten geluid en geef de maatregelen.",
+      "model": "Dat is geluidsisolatie. Er is contactgeluid (trillingen doorheen de structuur) en luchtgeluid (geluidsgolven doorheen de lucht). Maatregelen: massa (hoe zwaarder de structuur, hoe beter), luchtdichtheid (hoe minder gaten, spleten, kieren, hoe beter) en demping (dempende materialen nemen trillingen op).",
+      "keywords": [
+        "geluidsisolatie",
+        "contactgeluid",
+        "luchtgeluid",
+        "massa",
+        "luchtdichtheid",
+        "demping"
+      ],
+      "explanation": "p. 25–26.",
+      "page": 26
+    },
+    {
+      "id": "les10-d01",
+      "chapterId": "condensatie",
+      "type": "drawing",
+      "prompt": "Bespreek deze tekening. Wat is hier het probleem, wat is het gevolg, en hoe los je het op?",
+      "image": "img/les10-p16-2.jpg",
+      "imageCaption": "Detail van de buitenschil",
+      "model": "Een koudebrug: een deel van de buitenschil waar de isolatielaag doorbroken is of de thermische weerstand lager is dan in de rest van de constructie. Gevolg: te veel warmteverlies en een koud oppervlak, waar condensatie (en in extreme gevallen schimmel) kan optreden. Oplossing: detailleren — de koudebrug oplossen door de isolatie door te trekken; eventueel dampscherm.",
+      "keywords": [
+        "koudebrug",
+        "isolatie",
+        "doorbroken",
+        "warmteverlies",
+        "condensatie",
+        "detailleren"
+      ],
+      "explanation": "p. 15–18.",
+      "page": 16
+    }
+  ],
+  "buildings": []
+}

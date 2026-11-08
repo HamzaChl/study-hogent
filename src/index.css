@@ -44,3 +44,8 @@ h1, h2, h3 { overflow-wrap: anywhere; hyphens: auto; -webkit-hyphens: auto; }
 @media (prefers-reduced-motion: reduce) {
   .flip-inner, .page-fade { transition: none; animation: none; }
 }
+
+/* Markeerstift (studeerpagina's): getekend via de CSS Custom Highlight API */
+::highlight(study-mark) { background-color: #FFF35C; color: inherit; }
+.marking { cursor: text; }
+.marking ::selection { background: #FFF35C; color: inherit; }

@@ -47,6 +47,8 @@ const CourseProgressSchema = z.object({
   drawings: z.array(DrawingSchema).default([]),
   walks: z.array(WalkSchema).default([]),
   recognition: z.record(z.string(), z.object({ seen: z.number(), correct: z.number() })).default({}),
+  /** Markeerstift: per hoofdstuk een lijst [begin, einde] (tekenposities in de tekst van het hoofdstuk). */
+  highlights: z.record(z.string(), z.array(z.tuple([z.number(), z.number()]))).default({}),
 });
 
 const StoreSchema = z.object({
@@ -65,7 +67,7 @@ type Store = z.infer<typeof StoreSchema>;
 
 export const STORAGE_KEY = "study-archive:v1";
 const empty = (): Store => ({ version: 1, courses: {} });
-export const emptyCourse = (): CourseProgress => ({ completed: [], cards: {}, practice: {}, exams: [], quizzes: {}, drawings: [], walks: [], recognition: {} });
+export const emptyCourse = (): CourseProgress => ({ completed: [], cards: {}, practice: {}, exams: [], quizzes: {}, drawings: [], walks: [], recognition: {}, highlights: {} });
 
 function load(): Store {
   try {

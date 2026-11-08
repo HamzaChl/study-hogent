@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { Empty, Img, SourceTag } from "../../components/ui";
-import type { CourseBundle } from "../../lib/content";
+import { chapterCode, lectureLabel, type CourseBundle } from "../../lib/content";
 import { useProgress } from "../../lib/progress";
 import type { Practice as Q } from "../../lib/schema";
 import { keywordHits, norm, shuffle } from "../../lib/text";
@@ -86,7 +86,7 @@ export default function Practice({ bundle, params }: { bundle: CourseBundle; par
           <button className={`pill ${chapter === "all" && mode === "all" ? "pill-active" : "hover:border-ink"}`} onClick={() => { setChapter("all"); setMode("all"); start("all", "all"); }}>Alle</button>
           {chaptersWithQ.map((c) => (
             <button key={c.id} className={`pill ${chapter === c.id && mode === "all" ? "pill-active" : "hover:border-ink"}`} onClick={() => { setChapter(c.id); setMode("all"); start(c.id, "all"); }}>
-              {c.number} {c.title}
+              {chapterCode(bundle, c)} {c.title}
             </button>
           ))}
         </div>
@@ -120,9 +120,9 @@ export default function Practice({ bundle, params }: { bundle: CourseBundle; par
                 <p className="text-[13px] font-extrabold uppercase tracking-[0.1em]">{result ? "● Juist antwoord" : "○ Fout antwoord"}</p>
                 <p className="mt-3 max-w-[68ch] text-[15px] leading-relaxed">{q.explanation}</p>
                 <p className="mt-4 meta-mute">
-                  Bron: Les 02{q.page ? ` · p. ${q.page}` : ""} ·{" "}
+                  Bron: {lectureLabel(bundle, q.chapterId)}{q.page ? ` · p. ${q.page}` : ""} ·{" "}
                   <a className="link-u text-ink" href={`#/course/${courseId}/study/${q.chapterId}`}>
-                    Les {chapterOf(q.chapterId)?.number} {chapterOf(q.chapterId)?.title}
+                    {chapterOf(q.chapterId)?.number} {chapterOf(q.chapterId)?.title}
                   </a>
                 </p>
                 <button className="btn-solid mt-8" onClick={next} autoFocus>

@@ -1,0 +1,208 @@
+{
+  "id": "quiz05",
+  "courseId": "constructie",
+  "title": "Quiz 05 — Balk & kolom",
+  "description": "Tien meerkeuzevragen over een balk in doorbuiging, het spanningsdiagram, I-liggers, wapening en knik.",
+  "questions": [
+    {
+      "id": "q05-01",
+      "question": "Waar ontstaat druk in een balk op twee steunpunten die doorbuigt?",
+      "options": [
+        "Op de neutrale lijn",
+        "Enkel aan de steunpunten",
+        "Bovenaan",
+        "Onderaan"
+      ],
+      "answer": 2,
+      "explanation": "Bovenaan druk, onderaan trek, midden neutrale lijn.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les06",
+        "pages": [
+          5
+        ]
+      }
+    },
+    {
+      "id": "q05-02",
+      "question": "Wat is de neutrale lijn?",
+      "options": [
+        "De lijn in het midden zonder spanning, druk of trek",
+        "De as waarrond de balk tordeert",
+        "De lijn waar de trekspanning maximaal is",
+        "De lijn waar de wapening ligt"
+      ],
+      "answer": 0,
+      "explanation": "Neutrale lijn: geen spanning (p. 7).",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les06",
+        "pages": [
+          7
+        ]
+      }
+    },
+    {
+      "id": "q05-03",
+      "question": "Wat treedt op net boven en onder de neutrale lijn?",
+      "options": [
+        "Dwarscontractie",
+        "Afschuiving",
+        "Torsie",
+        "Knik"
+      ],
+      "answer": 1,
+      "explanation": "Net boven en onder de neutrale lijn: afschuiving (shear).",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les06",
+        "pages": [
+          7
+        ]
+      }
+    },
+    {
+      "id": "q05-04",
+      "question": "Met welk diagram mag je het spanningsdiagram van een balk niet verwarren?",
+      "options": [
+        "Het spanning-rek-diagram",
+        "Het Mollier-diagram",
+        "De branddriehoek",
+        "Het parallellogram van krachten"
+      ],
+      "answer": 0,
+      "explanation": "‘Niet te verwarren met het spanning-rek-diagram!’ (p. 10).",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les06",
+        "pages": [
+          10
+        ]
+      }
+    },
+    {
+      "id": "q05-05",
+      "question": "Waarom heeft een I-ligger een dunne lijfplaat in het midden?",
+      "options": [
+        "De middenzone kent de grootste spanning",
+        "De flenzen nemen enkel torsie op",
+        "De middenzone kent weinig tot geen spanning, dus is daar minder materiaal nodig",
+        "Een dunne lijfplaat voorkomt knik"
+      ],
+      "answer": 2,
+      "explanation": "Toepassing van het spanningsdiagram (p. 12).",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les06",
+        "pages": [
+          12
+        ]
+      }
+    },
+    {
+      "id": "q05-06",
+      "question": "Waar plaats je stalen wapening in een betonnen balk op twee steunpunten?",
+      "options": [
+        "Gelijk verdeeld over de hoogte",
+        "Bovenaan, in de drukzone",
+        "Op de neutrale lijn",
+        "Onderaan, in de trekzone"
+      ],
+      "answer": 3,
+      "explanation": "Beton vangt druk goed op, maar geen trek → wapening in de trekzone.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les06",
+        "pages": [
+          14
+        ]
+      }
+    },
+    {
+      "id": "q05-07",
+      "question": "Wat is knik volgens de les?",
+      "options": [
+        "Een draaiing van de kolom om haar as",
+        "Een ongecontroleerde, plaatselijke uitbuiging dwars op de as van een kolom",
+        "Een elastische verlenging van de kolom",
+        "Een breuk waarbij de kolom in twee stukken valt"
+      ],
+      "answer": 1,
+      "explanation": "Knik: stabiliteit gaat verloren, maar het element blijft heel.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les06",
+        "pages": [
+          15
+        ]
+      }
+    },
+    {
+      "id": "q05-08",
+      "question": "Bij welke elementen treedt knik op?",
+      "options": [
+        "Kolommen en wanden",
+        "Balken en platen",
+        "Kabels en kettingen",
+        "Funderingszolen"
+      ],
+      "answer": 0,
+      "explanation": "Knik bij (overbelasting van) verticale elementen.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les06",
+        "pages": [
+          16
+        ]
+      }
+    },
+    {
+      "id": "q05-09",
+      "question": "Wat gebeurt er volgens de formule van Euler met de kniklast als de kniklengte verdubbelt?",
+      "options": [
+        "Ze blijft gelijk",
+        "Ze wordt twee keer kleiner",
+        "Ze wordt twee keer groter",
+        "Ze wordt vier keer kleiner"
+      ],
+      "answer": 3,
+      "explanation": "P = π² × E × I / Lk²: Lk staat in het kwadraat in de noemer.",
+      "course": "Constructie",
+      "difficulty": "moeilijk",
+      "source": {
+        "lecture": "les06",
+        "pages": [
+          18
+        ]
+      }
+    },
+    {
+      "id": "q05-10",
+      "question": "Waarvan hangt de kniklengte af?",
+      "options": [
+        "Van de lengte en de wijze van verbinden",
+        "Enkel van het materiaal",
+        "Enkel van de belasting",
+        "Van de kleur en afwerking"
+      ],
+      "answer": 0,
+      "explanation": "Kniklengte: lengte met een factor in functie van de wijze van verbinden.",
+      "course": "Constructie",
+      "difficulty": "moeilijk",
+      "source": {
+        "lecture": "les06",
+        "pages": [
+          19
+        ]
+      }
+    }
+  ]
+}

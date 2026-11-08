@@ -1,0 +1,208 @@
+{
+  "id": "quiz10",
+  "courseId": "constructie",
+  "title": "Quiz 10 — Funderingen",
+  "description": "Tien meerkeuzevragen over het doel van funderingen, de grondsondering en de soorten funderingen.",
+  "questions": [
+    {
+      "id": "q10-01",
+      "question": "Wat is het doel van een fundering?",
+      "options": [
+        "Het gebouw isoleren tegen grondvocht",
+        "De lasten overdragen op de draagkrachtige grondlaag zonder zettingen",
+        "De kelder waterdicht maken",
+        "Het gebouw verankeren tegen windbelasting alleen"
+      ],
+      "answer": 1,
+      "explanation": "Een fundering verzekert de stabiliteit van het gebouw (p. 3).",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les11",
+        "pages": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "q10-02",
+      "question": "Wat zijn zettingen?",
+      "options": [
+        "Grondverzakkingen die aanleiding geven tot scheuren",
+        "Lagen in een sonderingsverslag",
+        "Wapeningsstaven in een fundering",
+        "Voegen in ondergronds metselwerk"
+      ],
+      "answer": 0,
+      "explanation": "p. 4.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les11",
+        "pages": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "q10-03",
+      "question": "Wat bepaalt een grondsondering?",
+      "options": [
+        "De draagkracht en de toestand van de grond",
+        "De hoeveelheid beton voor de fundering",
+        "De kleur en textuur van de grond",
+        "De afstand tot de buren"
+      ],
+      "answer": 0,
+      "explanation": "Resultaat: een sonderingsverslag in functie van de diepte.",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les11",
+        "pages": [
+          6
+        ]
+      }
+    },
+    {
+      "id": "q10-04",
+      "question": "Hoe diep moet een strookfundering minstens liggen?",
+      "options": [
+        "80 cm, om vorstvrij te zijn",
+        "10 m, om de draagkrachtige laag te bereiken",
+        "2 m, om het grondwater te bereiken",
+        "30 cm, om de muur te dragen"
+      ],
+      "answer": 0,
+      "explanation": "p. 10.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les11",
+        "pages": [
+          10
+        ]
+      }
+    },
+    {
+      "id": "q10-05",
+      "question": "Een muur is 25 cm breed. Hoe breed moet de funderingszool minstens zijn?",
+      "options": [
+        "30 cm",
+        "80 cm",
+        "50 cm",
+        "25 cm"
+      ],
+      "answer": 2,
+      "explanation": "Min. 30 cm of 2× de breedte van de muur: 2 × 25 = 50 cm.",
+      "course": "Constructie",
+      "difficulty": "moeilijk",
+      "source": {
+        "lecture": "les11",
+        "pages": [
+          11
+        ]
+      }
+    },
+    {
+      "id": "q10-06",
+      "question": "Wanneer fundeer je op plaat?",
+      "options": [
+        "Als er te veel steunmuren zijn of de tussenafstand te klein wordt",
+        "Als de draagkrachtige laag erg diep ligt",
+        "Als de omgeving trillingsgevoelig is",
+        "Als er geen grondsondering gebeurd is"
+      ],
+      "answer": 0,
+      "explanation": "Plaat = doorlopende zool (p. 14).",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les11",
+        "pages": [
+          14
+        ]
+      }
+    },
+    {
+      "id": "q10-07",
+      "question": "Wanneer pas je een fundering op putten toe?",
+      "options": [
+        "Bij slechte grond met een zeer diepe draagkrachtige laag",
+        "Bij minder goede grond, met de draagkrachtige laag tot ca. 10 m diep",
+        "Bij goede grond op minder dan 80 cm",
+        "Enkel bij houten skeletbouw"
+      ],
+      "answer": 1,
+      "explanation": "p. 16.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les11",
+        "pages": [
+          16
+        ]
+      }
+    },
+    {
+      "id": "q10-08",
+      "question": "Wat is kleefwerking bij een paalfundering?",
+      "options": [
+        "De punt van de paal die op de draagkrachtige grond steunt",
+        "Het lijmen van palen aan het balkenrooster",
+        "Het samendrukken van de grond door de boorkop",
+        "De wrijving van de schacht van de paal met de omliggende grond"
+      ],
+      "answer": 3,
+      "explanation": "Een paal op stuit heeft geen kleefwerking, enkel puntweerstand.",
+      "course": "Constructie",
+      "difficulty": "moeilijk",
+      "source": {
+        "lecture": "les11",
+        "pages": [
+          21
+        ]
+      }
+    },
+    {
+      "id": "q10-09",
+      "question": "Welke paal wordt trillingsvrij geplaatst?",
+      "options": [
+        "De schroefpaal",
+        "De heipaal",
+        "Geen enkele paal",
+        "De boorpaal"
+      ],
+      "answer": 3,
+      "explanation": "Schroef- en heipalen veroorzaken veel trillingen.",
+      "course": "Constructie",
+      "difficulty": "gemiddeld",
+      "source": {
+        "lecture": "les11",
+        "pages": [
+          23
+        ]
+      }
+    },
+    {
+      "id": "q10-10",
+      "question": "Waaruit zijn palen gebruikelijk gemaakt?",
+      "options": [
+        "Staal",
+        "Baksteen",
+        "Beton",
+        "Hout"
+      ],
+      "answer": 2,
+      "explanation": "Hout (historisch), beton (gebruikelijk), staal (zelden).",
+      "course": "Constructie",
+      "difficulty": "makkelijk",
+      "source": {
+        "lecture": "les11",
+        "pages": [
+          22
+        ]
+      }
+    }
+  ]
+}

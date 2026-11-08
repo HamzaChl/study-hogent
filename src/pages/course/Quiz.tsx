@@ -1,8 +1,17 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { Empty, SectionLabel, SourceTag } from "../../components/ui";
 import type { CourseBundle } from "../../lib/content";
 import { useProgress } from "../../lib/progress";
 import type { Quiz, QuizQuestion } from "../../lib/schema";
+import { shuffle } from "../../lib/text";
+
+/** Gemengde quiz: bij elke poging één willekeurige vraag uit elke quiz, in willekeurige volgorde. */
+export const MIX_ID = "mix";
+const MIX_TITLE = "Gemengde quiz — alle lessen";
+function buildMix(quizzes: Quiz[], courseId: string): Quiz {
+  const questions = shuffle(quizzes.filter((q) => q.questions.length).map((q) => shuffle(q.questions)[0]));
+  return { id: MIX_ID, courseId, title: MIX_TITLE, description: "", questions };
+}
 
 const LETTERS = ["A", "B", "C", "D"];
 const pct = (n: number, d: number) => (d ? Math.round((n / d) * 100) : 0);
@@ -18,8 +27,28 @@ export function QuizOverview({ bundle }: { bundle: CourseBundle }) {
   const results = get(bundle.course.id).quizzes;
   if (!bundle.quizzes.length) return <div className="pt-10"><Empty>Nog geen quizzen voor deze cursus.</Empty></div>;
 
+  const mixHist = results[MIX_ID] ?? [];
+  const mixLast = mixHist.at(-1);
+  const titleOf = (id: string) => (id === MIX_ID ? MIX_TITLE : bundle.quizzes.find((q) => q.id === id)?.title ?? id);
+
   return (
     <div className="pt-10">
+      {bundle.quizzes.length > 1 && (
+        <article className="mb-8 flex flex-col gap-6 border border-ink p-7 sm:flex-row sm:items-end sm:justify-between sm:p-9">
+          <div>
+            <span className="pill">{bundle.quizzes.length} vragen · willekeurig</span>
+            <h2 className="mt-6 text-[26px] font-bold leading-tight tracking-[-0.02em] sm:text-[32px]">{MIX_TITLE}</h2>
+            <p className="mt-3 max-w-[60ch] text-[13.5px] leading-relaxed text-mute">
+              Bij elke poging één willekeurige vraag uit elk van de {bundle.quizzes.length} quizzen, in een willekeurige volgorde. Elke keer een andere reeks.
+            </p>
+            <p className="mt-4 text-[11px]"><span className="font-bold">Laatste</span> {mixLast ? `${mixLast.correct} / ${mixLast.total}` : "—"}</p>
+          </div>
+          <a href={`#/course/${bundle.course.id}/quiz/${MIX_ID}`} className="btn-solid self-start sm:self-auto">
+            {mixHist.length ? "Nieuwe reeks →" : "Gemengde quiz starten →"}
+          </a>
+        </article>
+      )}
+
       <div className="grid border-l border-t border-line md:grid-cols-2">
         {bundle.quizzes.map((q, i) => {
           const hist = results[q.id] ?? [];
@@ -46,13 +75,13 @@ export function QuizOverview({ bundle }: { bundle: CourseBundle }) {
         })}
       </div>
 
-      {bundle.quizzes.some((q) => results[q.id]?.length) && (
+      {Object.values(results).some((h) => h.length) && (
         <section className="mt-14">
           <SectionLabel right={<span className="meta-mute">Oefenscores — geen officiële cijfers</span>}>Eerdere resultaten</SectionLabel>
           <ul className="border-t border-ink">
-            {bundle.quizzes.flatMap((q) => (results[q.id] ?? []).map((r) => ({ q, r }))).sort((a, b) => b.r.date.localeCompare(a.r.date)).slice(0, 10).map(({ q, r }) => (
-              <li key={q.id + r.date} className="grid grid-cols-[1fr_auto] gap-4 border-b border-line py-3 text-[14px] sm:grid-cols-[1fr_auto_auto]">
-                <span>{q.title}</span>
+            {Object.entries(results).flatMap(([id, h]) => h.map((r) => ({ id, r }))).sort((a, b) => b.r.date.localeCompare(a.r.date)).slice(0, 10).map(({ id, r }) => (
+              <li key={id + r.date} className="grid grid-cols-[1fr_auto] gap-4 border-b border-line py-3 text-[14px] sm:grid-cols-[1fr_auto_auto]">
+                <span>{titleOf(id)}</span>
                 <span className="hidden text-mute sm:inline">{dateNl(r.date)}</span>
                 <span className="font-bold tabular-nums">{r.correct} / {r.total}</span>
               </li>
@@ -66,8 +95,12 @@ export function QuizOverview({ bundle }: { bundle: CourseBundle }) {
 
 /** Eén quiz afnemen: #/course/<id>/quiz/<quizId> */
 export function QuizRun({ bundle, quizId }: { bundle: CourseBundle; quizId: string }) {
-  const quiz = bundle.quizzes.find((q) => q.id === quizId);
   const [runKey, setRunKey] = useState(0);
+  // De gemengde quiz krijgt bij elke nieuwe poging (runKey) een nieuwe reeks.
+  const quiz = useMemo(
+    () => (quizId === MIX_ID ? buildMix(bundle.quizzes, bundle.course.id) : bundle.quizzes.find((q) => q.id === quizId)),
+    [quizId, bundle, runKey],
+  );
   if (!quiz) return <div className="pt-10"><Empty>Deze quiz bestaat niet.</Empty></div>;
   return <Run key={runKey} bundle={bundle} quiz={quiz} onRetry={() => { setRunKey((k) => k + 1); window.scrollTo(0, 0); }} />;
 }

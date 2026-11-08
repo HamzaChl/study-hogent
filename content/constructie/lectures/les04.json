@@ -1,0 +1,680 @@
+{
+  "id": "les04",
+  "courseId": "constructie",
+  "title": "Constructie — Over krachten & spanning",
+  "file": "2026-27_1IV_CONSTRUCTIE_LES_04_-_Over_krachten_&_spanning.pdf",
+  "pages": 20,
+  "covers": [
+    "p1-02"
+  ],
+  "chapters": [
+    {
+      "id": "spanning",
+      "number": "01",
+      "title": "Spanning",
+      "kicker": "Van externe naar interne krachten",
+      "topicIds": [
+        "p1-02"
+      ],
+      "cover": "img/les04-p06-2.jpg",
+      "intro": "Extern inwerkende krachten geven aanleiding tot een interne reactie in het element of materiaal: spanning. De les onderscheidt druk-, trek-, torsie-, schuif- en buigspanning, en geeft de formules σ = F / A en τ = F / A.",
+      "sections": [
+        {
+          "heading": "Wat is spanning?",
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "Spanning is de evenredige verdeling van de inwerkende kracht(en) over de doorsnede van het element waarop de krachten inwerken.",
+              "cite": "Les 04, p. 4"
+            },
+            {
+              "type": "definition",
+              "term": "Spanning",
+              "text": "Inwerkende kracht per oppervlakte-eenheid: spanning = inwerkende kracht / oppervlakte.",
+              "page": 4
+            },
+            {
+              "type": "note",
+              "text": "Kracht doet bewegen, spanning doet vervormen (p. 4)."
+            }
+          ]
+        },
+        {
+          "heading": "Soorten spanning",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Drukspanning",
+              "text": "Doet het element verkorten en daardoor ook uitzetten.",
+              "page": 6
+            },
+            {
+              "type": "definition",
+              "term": "Trekspanning",
+              "text": "Doet het element uitrekken en daardoor ook insnoeren.",
+              "page": 6
+            },
+            {
+              "type": "figure",
+              "src": "img/les04-p06-2.jpg",
+              "caption": "Druk- en trekspanning.",
+              "page": 6
+            },
+            {
+              "type": "definition",
+              "term": "Torsie of wringing",
+              "text": "Doet het element torderen onder invloed van een koppel krachten in het vlak van de dwarsdoorsnede van het element. De vervorming toont zich als een draaiing van een deel van het element om de as van het element.",
+              "page": 7
+            },
+            {
+              "type": "definition",
+              "term": "Afschuiving",
+              "text": "Wanneer delen van het materiaal ten opzichte van elkaar verschuiven onder invloed van de inwerkende krachten.",
+              "page": 8
+            },
+            {
+              "type": "definition",
+              "term": "Buigspanning of moment",
+              "text": "Wanneer de inwerkende krachten de balk doen doorbuigen.",
+              "page": 9
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "src": "img/les04-p07-2.jpg",
+                  "title": "Torsie",
+                  "page": 7
+                },
+                {
+                  "src": "img/les04-p08-2.jpg",
+                  "title": "Afschuiving",
+                  "page": 8
+                },
+                {
+                  "src": "img/les04-p09-2.jpg",
+                  "title": "Buigspanning",
+                  "page": 9
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Formules",
+          "blocks": [
+            {
+              "type": "table",
+              "headers": [
+                "Spanning",
+                "Formule",
+                "Eenheid"
+              ],
+              "rows": [
+                [
+                  "Trek- & drukspanning",
+                  "σ = F / A (A = oppervlakte van de doorsnede)",
+                  "N/m² = Pa (Pascal)"
+                ],
+                [
+                  "Schuifspanning",
+                  "τ = F / A",
+                  "N/m² = Pa (Pascal)"
+                ]
+              ],
+              "page": 10
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Spanning = evenredige verdeling van de inwerkende kracht over de doorsnede = kracht / oppervlakte.",
+        "Kracht doet bewegen, spanning doet vervormen.",
+        "Druk: verkorten en uitzetten. Trek: uitrekken en insnoeren.",
+        "Torsie: draaiing om de as. Afschuiving: delen verschuiven t.o.v. elkaar. Buigspanning: de balk buigt door.",
+        "σ = F / A en τ = F / A; eenheid N/m² = Pa."
+      ],
+      "source": {
+        "lecture": "les04",
+        "pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "id": "vervorming",
+      "number": "02",
+      "title": "Vervorming en de wet van Hooke",
+      "kicker": "Spanning doet vervormen",
+      "topicIds": [
+        "p1-02"
+      ],
+      "cover": "img/les04-p15-2.jpg",
+      "intro": "De wet van Hooke legt het verband tussen spanning en vervorming: σ = E · ε voor normaalspanning en τ = G · γ voor schuifspanning. Daarbij horen drie vormen van vervorming: rek of compressie, verschuiving en dwarscontractie.",
+      "sections": [
+        {
+          "heading": "Wet van Hooke",
+          "blocks": [
+            {
+              "type": "table",
+              "headers": [
+                "Verband",
+                "Formule",
+                "Symbolen"
+              ],
+              "rows": [
+                [
+                  "Normaalspanning ↔ vervorming",
+                  "σ = E · ε",
+                  "σ = normaalspanning (trek of druk) [Pa]; E = elasticiteits- of Youngmodulus [Pa]; ε = rek of compressie"
+                ],
+                [
+                  "Schuifspanning ↔ vervorming",
+                  "τ = G · γ",
+                  "τ = schuifspanning; G = glijdings- of schuifmodulus, een materiaalconstante [Pa]; γ ≈ a/h = verschuiving of glijding"
+                ]
+              ],
+              "page": 12
+            },
+            {
+              "type": "note",
+              "text": "Bij ε: trek → verlenging; druk → verkorting (p. 12)."
+            }
+          ]
+        },
+        {
+          "heading": "Drie vormen van vervorming",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Rek of compressie (ε)",
+              "text": "De verandering van lengte gedeeld door de oorspronkelijke lengte: ε = ΔL / L0. Geen eenheid.",
+              "page": 15
+            },
+            {
+              "type": "note",
+              "text": "In de fysica staat de Griekse letter delta (δ of Δ) bijna altijd voor de verandering van een grootheid (p. 15)."
+            },
+            {
+              "type": "definition",
+              "term": "Verschuiving of glijding (γ)",
+              "text": "γ ≈ a / h. Geen eenheid. De afronding is enkel geldig voor kleine hoeken.",
+              "page": 14
+            },
+            {
+              "type": "definition",
+              "term": "Dwarscontractie",
+              "text": "De mate waarin een materiaal vervormt loodrecht op de as van de belasting, i.e. de verandering van de doorsnede.",
+              "page": 16
+            },
+            {
+              "type": "table",
+              "caption": "Poisson-factor",
+              "headers": [
+                "Symbool",
+                "Betekenis"
+              ],
+              "rows": [
+                [
+                  "ν = – εd / εl",
+                  "Poisson-factor; een materiaalconstante zonder eenheid"
+                ],
+                [
+                  "εd = ΔD / D0",
+                  "relatieve verandering van dikte"
+                ],
+                [
+                  "εl = ΔL / L0",
+                  "relatieve verandering van lengte"
+                ]
+              ],
+              "page": 17
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "src": "img/les04-p14-2.jpg",
+                  "title": "Verschuiving",
+                  "page": 14
+                },
+                {
+                  "src": "img/les04-p15-2.jpg",
+                  "title": "Rek",
+                  "page": 15
+                },
+                {
+                  "src": "img/les04-p16-2.jpg",
+                  "title": "Dwarscontractie",
+                  "page": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Spanning-rek-diagram",
+          "blocks": [
+            {
+              "type": "figure",
+              "src": "img/les04-p18-2.jpg",
+              "caption": "Spanning-rek-diagram: verband tussen (normaal)spanning en vervorming.",
+              "page": 18
+            },
+            {
+              "type": "p",
+              "text": "Het spanning-rek-diagram vertelt ons hoe een materiaal zal reageren op belasting, welke vervorming er zal optreden, hoeveel vervorming, en wanneer het materiaal zal falen (breken)."
+            }
+          ]
+        }
+      ],
+      "summary": [
+        "Wet van Hooke: σ = E · ε (normaalspanning) en τ = G · γ (schuifspanning).",
+        "E = elasticiteits- of Youngmodulus; G = glijdings- of schuifmodulus; beide in Pa.",
+        "Rek ε = ΔL / L0, verschuiving γ ≈ a / h (kleine hoeken) — beide zonder eenheid.",
+        "Dwarscontractie: vervorming loodrecht op de belastingsas; Poisson-factor ν = – εd / εl.",
+        "Het spanning-rek-diagram toont reactie, vervorming en breukpunt van een materiaal."
+      ],
+      "source": {
+        "lecture": "les04",
+        "pages": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "les04-f01",
+      "chapterId": "spanning",
+      "front": "Wat is spanning (omschrijving uit de les)?",
+      "back": "De evenredige verdeling van de inwerkende kracht(en) over de doorsnede van het element waarop de krachten inwerken. Spanning = kracht / oppervlakte.",
+      "page": 4
+    },
+    {
+      "id": "les04-f02",
+      "chapterId": "spanning",
+      "front": "Kracht doet …, spanning doet …",
+      "back": "Kracht doet bewegen, spanning doet vervormen.",
+      "page": 4
+    },
+    {
+      "id": "les04-f03",
+      "chapterId": "spanning",
+      "front": "Wat doet drukspanning met een element?",
+      "back": "Het element verkort en zet daardoor ook uit.",
+      "page": 6
+    },
+    {
+      "id": "les04-f04",
+      "chapterId": "spanning",
+      "front": "Wat doet trekspanning met een element?",
+      "back": "Het element rekt uit en snoert daardoor ook in.",
+      "page": 6
+    },
+    {
+      "id": "les04-f05",
+      "chapterId": "spanning",
+      "front": "Torsie of wringing?",
+      "back": "Het element tordeert onder invloed van een koppel krachten in het vlak van de dwarsdoorsnede: een deel draait om de as van het element.",
+      "page": 7
+    },
+    {
+      "id": "les04-f06",
+      "chapterId": "spanning",
+      "front": "Afschuiving?",
+      "back": "Delen van het materiaal verschuiven ten opzichte van elkaar onder invloed van de inwerkende krachten.",
+      "page": 8
+    },
+    {
+      "id": "les04-f07",
+      "chapterId": "spanning",
+      "front": "Formule trek- en drukspanning?",
+      "back": "σ = F / A (A = oppervlakte van de doorsnede). Eenheid N/m² = Pa.",
+      "page": 10
+    },
+    {
+      "id": "les04-f08",
+      "chapterId": "spanning",
+      "front": "Formule schuifspanning?",
+      "back": "τ = F / A. Eenheid N/m² = Pa.",
+      "page": 11
+    },
+    {
+      "id": "les04-f09",
+      "chapterId": "vervorming",
+      "front": "Wet van Hooke voor normaalspanning?",
+      "back": "σ = E · ε — σ = normaalspanning, E = elasticiteits- of Youngmodulus, ε = rek of compressie.",
+      "page": 12
+    },
+    {
+      "id": "les04-f10",
+      "chapterId": "vervorming",
+      "front": "Wet van Hooke voor schuifspanning?",
+      "back": "τ = G · γ — τ = schuifspanning, G = glijdings- of schuifmodulus (materiaalconstante), γ = verschuiving.",
+      "page": 13
+    },
+    {
+      "id": "les04-f11",
+      "chapterId": "vervorming",
+      "front": "Formule rek?",
+      "back": "ε = ΔL / L0: verandering van lengte gedeeld door de oorspronkelijke lengte. Geen eenheid.",
+      "page": 15
+    },
+    {
+      "id": "les04-f12",
+      "chapterId": "vervorming",
+      "front": "Formule verschuiving of glijding?",
+      "back": "γ ≈ a / h. Geen eenheid; de afronding geldt enkel voor kleine hoeken.",
+      "page": 14
+    },
+    {
+      "id": "les04-f13",
+      "chapterId": "vervorming",
+      "front": "Dwarscontractie?",
+      "back": "De mate waarin een materiaal vervormt loodrecht op de as van de belasting — de verandering van de doorsnede.",
+      "page": 16
+    },
+    {
+      "id": "les04-f14",
+      "chapterId": "vervorming",
+      "front": "Poisson-factor?",
+      "back": "ν = – εd / εl (relatieve verandering van dikte / relatieve verandering van lengte). Materiaalconstante, geen eenheid.",
+      "page": 17
+    },
+    {
+      "id": "les04-f15",
+      "chapterId": "vervorming",
+      "front": "Wat betekent Δ (delta) in de fysica?",
+      "back": "Bijna altijd de verandering van een grootheid.",
+      "page": 15
+    }
+  ],
+  "practice": [
+    {
+      "id": "les04-pr01",
+      "chapterId": "spanning",
+      "type": "mc",
+      "prompt": "Een kracht van 1000 N werkt op een doorsnede van 0,5 m². Hoe groot is de spanning?",
+      "options": [
+        "500 Pa",
+        "2000 Pa",
+        "1000,5 Pa",
+        "0,0005 Pa"
+      ],
+      "answer": 1,
+      "explanation": "σ = F / A = 1000 N / 0,5 m² = 2000 N/m² = 2000 Pa.",
+      "page": 10
+    },
+    {
+      "id": "les04-pr02",
+      "chapterId": "spanning",
+      "type": "tf",
+      "statement": "Trekspanning doet een element uitrekken en daardoor ook insnoeren.",
+      "answer": true,
+      "explanation": "p. 6.",
+      "page": 6
+    },
+    {
+      "id": "les04-pr03",
+      "chapterId": "spanning",
+      "type": "match",
+      "prompt": "Koppel de spanning aan de vervorming.",
+      "pairs": [
+        [
+          "Drukspanning",
+          "verkorten en uitzetten"
+        ],
+        [
+          "Trekspanning",
+          "uitrekken en insnoeren"
+        ],
+        [
+          "Torsie",
+          "draaiing om de as"
+        ],
+        [
+          "Afschuiving",
+          "delen verschuiven t.o.v. elkaar"
+        ]
+      ],
+      "explanation": "p. 6–8.",
+      "page": 6
+    },
+    {
+      "id": "les04-pr04",
+      "chapterId": "spanning",
+      "type": "mc",
+      "prompt": "Wat is de eenheid van spanning?",
+      "options": [
+        "N",
+        "Nm",
+        "N/m² = Pa",
+        "kg/m³"
+      ],
+      "answer": 2,
+      "explanation": "Spanning = kracht / oppervlakte → N/m² = Pascal.",
+      "page": 10
+    },
+    {
+      "id": "les04-pr05",
+      "chapterId": "spanning",
+      "type": "definition",
+      "definition": "Inwerkende kracht per oppervlakte-eenheid.",
+      "accepted": [
+        "spanning",
+        "de spanning"
+      ],
+      "explanation": "Spanning (p. 4–5).",
+      "page": 5
+    },
+    {
+      "id": "les04-pr06",
+      "chapterId": "vervorming",
+      "type": "mc",
+      "prompt": "Een staaf van 2 m wordt 2 mm langer. Hoe groot is de rek ε?",
+      "options": [
+        "0,001",
+        "0,01",
+        "1",
+        "4 mm"
+      ],
+      "answer": 0,
+      "explanation": "ε = ΔL / L0 = 0,002 m / 2 m = 0,001 (geen eenheid).",
+      "page": 15
+    },
+    {
+      "id": "les04-pr07",
+      "chapterId": "vervorming",
+      "type": "tf",
+      "statement": "De rek ε wordt uitgedrukt in meter.",
+      "answer": false,
+      "explanation": "ε = ΔL / L0 is een verhouding: geen eenheid.",
+      "page": 15
+    },
+    {
+      "id": "les04-pr08",
+      "chapterId": "vervorming",
+      "type": "match",
+      "prompt": "Koppel het symbool aan zijn betekenis.",
+      "pairs": [
+        [
+          "E",
+          "elasticiteits- of Youngmodulus"
+        ],
+        [
+          "G",
+          "glijdings- of schuifmodulus"
+        ],
+        [
+          "ν",
+          "Poisson-factor"
+        ],
+        [
+          "γ",
+          "verschuiving of glijding"
+        ]
+      ],
+      "explanation": "p. 12–17.",
+      "page": 12
+    },
+    {
+      "id": "les04-pr09",
+      "chapterId": "vervorming",
+      "type": "definition",
+      "definition": "De mate waarin een materiaal vervormt loodrecht op de as van de belasting.",
+      "accepted": [
+        "dwarscontractie",
+        "de dwarscontractie"
+      ],
+      "explanation": "Dwarscontractie (p. 16).",
+      "page": 16
+    },
+    {
+      "id": "les04-pr10",
+      "chapterId": "vervorming",
+      "type": "open",
+      "prompt": "Geef de wet van Hooke voor normaalspanning en leg elk symbool uit.",
+      "model": "σ = E · ε. σ is de normaalspanning (trek- of drukspanning) in Pa of N/m². E is de elasticiteits- of Youngmodulus, ook in Pa. ε is de rek of compressie (trek → verlenging, druk → verkorting), zonder eenheid.",
+      "keywords": [
+        "σ = E · ε",
+        "normaalspanning",
+        "Youngmodulus",
+        "rek",
+        "compressie"
+      ],
+      "explanation": "p. 12.",
+      "page": 12
+    }
+  ],
+  "exam": [
+    {
+      "id": "les04-e01",
+      "chapterId": "spanning",
+      "type": "mc",
+      "prompt": "Welke uitspraak klopt volgens de les?",
+      "options": [
+        "Kracht doet bewegen, spanning doet vervormen",
+        "Spanning doet bewegen, kracht doet vervormen",
+        "Kracht en spanning doen beide enkel bewegen",
+        "Spanning is onafhankelijk van de doorsnede"
+      ],
+      "answer": 0,
+      "explanation": "‘Kracht doet bewegen, spanning doet vervormen’ (p. 4).",
+      "page": 4
+    },
+    {
+      "id": "les04-e02",
+      "chapterId": "spanning",
+      "type": "mc",
+      "prompt": "Welke spanning doet een element verkorten en uitzetten?",
+      "options": [
+        "Drukspanning",
+        "Trekspanning",
+        "Schuifspanning",
+        "Torsiespanning"
+      ],
+      "answer": 0,
+      "explanation": "Drukspanning (p. 6).",
+      "page": 6
+    },
+    {
+      "id": "les04-e03",
+      "chapterId": "vervorming",
+      "type": "mc",
+      "prompt": "Welke formule is de wet van Hooke voor schuifspanning?",
+      "options": [
+        "σ = F / A",
+        "σ = E · ε",
+        "ν = – εd / εl",
+        "τ = G · γ"
+      ],
+      "answer": 3,
+      "explanation": "τ = G · γ (p. 13).",
+      "page": 13
+    },
+    {
+      "id": "les04-e04",
+      "chapterId": "vervorming",
+      "type": "mc",
+      "prompt": "Waarom is γ ≈ a / h slechts een benadering?",
+      "options": [
+        "De afronding is enkel geldig voor kleine hoeken",
+        "Omdat a en h verschillende eenheden hebben",
+        "Omdat G geen constante is",
+        "Omdat afschuiving altijd ook torsie veroorzaakt"
+      ],
+      "answer": 0,
+      "explanation": "‘Afronding enkel geldig voor kleine hoeken’ (p. 14).",
+      "page": 14
+    },
+    {
+      "id": "les04-o01",
+      "chapterId": "spanning",
+      "type": "open",
+      "prompt": "Wat is spanning? Geef de omschrijving uit de les, de formule voor trek- en drukspanning en de eenheid.",
+      "model": "Spanning is de evenredige verdeling van de inwerkende kracht(en) over de doorsnede van het element waarop de krachten inwerken: de inwerkende kracht per oppervlakte-eenheid. Trek- en drukspanning: σ = F / A, met A de oppervlakte van de doorsnede. Eenheid: N/m² = Pa (Pascal).",
+      "keywords": [
+        "evenredige verdeling",
+        "doorsnede",
+        "kracht",
+        "oppervlakte",
+        "σ = F / A",
+        "Pa"
+      ],
+      "explanation": "p. 4 en p. 10.",
+      "page": 4
+    },
+    {
+      "id": "les04-o02",
+      "chapterId": "vervorming",
+      "type": "open",
+      "prompt": "Bespreek de drie vormen van vervorming uit de les met hun formule.",
+      "model": "Rek of compressie: ε = ΔL / L0, de verandering van lengte t.o.v. de oorspronkelijke lengte. Verschuiving of glijding: γ ≈ a / h (voor kleine hoeken). Dwarscontractie: vervorming loodrecht op de as van de belasting (verandering van de doorsnede), met de Poisson-factor ν = – εd / εl. Rek, verschuiving en ν hebben geen eenheid.",
+      "keywords": [
+        "rek",
+        "ΔL / L0",
+        "verschuiving",
+        "a / h",
+        "dwarscontractie",
+        "Poisson"
+      ],
+      "explanation": "p. 14–17.",
+      "page": 15
+    },
+    {
+      "id": "les04-d01",
+      "chapterId": "spanning",
+      "type": "drawing",
+      "prompt": "Bespreek deze tekening. Welke twee soorten spanning zie je, en hoe vervormt het element telkens?",
+      "image": "img/les04-p06-2.jpg",
+      "imageCaption": "Druk- en trekspanning",
+      "model": "Drukspanning doet het element verkorten en daardoor ook uitzetten. Trekspanning doet het element uitrekken en daardoor ook insnoeren.",
+      "keywords": [
+        "druk",
+        "verkorten",
+        "uitzetten",
+        "trek",
+        "uitrekken",
+        "insnoeren"
+      ],
+      "explanation": "p. 6.",
+      "page": 6
+    }
+  ],
+  "buildings": []
+}
