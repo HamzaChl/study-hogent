@@ -112,11 +112,25 @@ export default function Flashcards({ bundle, params }: { bundle: CourseBundle; p
       <div className="flex flex-col gap-4 border-b border-line pb-6 md:flex-row md:items-center md:justify-between">
         <div className="flex flex-wrap gap-1.5" role="group" aria-label="Hoofdstuk">
           <button className={`pill ${chapter === "all" ? "pill-active" : "hover:border-ink"}`} aria-pressed={chapter === "all"} onClick={() => { setChapter("all"); restart("all"); }}>Alle</button>
-          {chaptersWithCards.map((c) => (
-            <button key={c.id} className={`pill ${chapter === c.id ? "pill-active" : "hover:border-ink"}`} aria-pressed={chapter === c.id} onClick={() => { setChapter(c.id); restart(c.id); }}>
-              {c.number} {c.title}
-            </button>
-          ))}
+          {chaptersWithCards.map((c) => {
+            // Groen zodra elke kaart van het hoofdstuk als "beheerst" gemarkeerd is.
+            const complete = bundle.flashcards.filter((f) => f.chapterId === c.id).every((f) => status[f.id] === "mastered");
+            const active = chapter === c.id;
+            const tone = complete
+              ? active
+                ? "border-ok bg-ok text-paper"
+                : "border-ok-line bg-ok-soft text-ok-ink hover:border-ok"
+              : active
+                ? "pill-active"
+                : "hover:border-ink";
+            return (
+              <button key={c.id} className={`pill ${tone}`} aria-pressed={active} onClick={() => { setChapter(c.id); restart(c.id); }} title={complete ? "Volledig gekend" : undefined}>
+                {complete && <span aria-hidden className="mr-1">✓</span>}
+                {c.number} {c.title}
+                {complete && <span className="sr-only"> — volledig gekend</span>}
+              </button>
+            );
+          })}
         </div>
         <div className="flex flex-wrap items-center gap-1.5" role="group" aria-label="Selectie">
           {([["all", "Alle kaarten"], ["unmastered", "Niet beheerst"], ["review", `Te herhalen (${counts.review})`]] as [Deck, string][]).map(([d, l]) => (

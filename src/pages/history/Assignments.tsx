@@ -113,8 +113,8 @@ function Progress({ label, value }: { label: string; value: number }) {
   return (
     <div className="mt-8">
       <p className="text-[13px] font-extrabold uppercase tracking-[0.08em]">{label}</p>
-      <div className="mt-3 h-px w-full max-w-xl bg-line">
-        <div className="h-px bg-ink transition-[width] duration-500" style={{ width: `${Math.round(value * 100)}%` }} />
+      <div className="mt-3 h-1 w-full max-w-xl overflow-hidden rounded-full bg-ok-soft">
+        <div className="h-full rounded-full bg-ok transition-[width] duration-500" style={{ width: `${Math.round(value * 100)}%` }} />
       </div>
     </div>
   );

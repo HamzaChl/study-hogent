@@ -47,8 +47,8 @@ export default function ProgressPage() {
             <div className="grid gap-10 border-t border-ink pt-8 lg:grid-cols-[1fr_1.2fr]">
               <div>
                 <a href={`#/course/${b.course.id}`} className="text-[28px] font-extrabold uppercase tracking-[-0.03em] link-u sm:text-[40px]">{b.course.title}</a>
-                <p className="mt-6 text-[96px] font-extrabold leading-[0.85] tracking-[-0.06em] tabular-nums sm:text-[140px]">{Math.round(s.overall * 100)}%</p>
-                <p className="mt-3 meta">Voltooid</p>
+                <p className="mt-6 text-[96px] font-extrabold leading-[0.85] tracking-[-0.06em] tabular-nums text-ok-ink sm:text-[140px]">{Math.round(s.overall * 100)}%</p>
+                <p className="mt-3 meta text-ok">Voltooid</p>
                 <p className="mt-4 max-w-sm text-[12px] leading-relaxed text-mute">Gemiddelde van voltooide lessen, beheerste flashcards en (ooit) juist beantwoorde oefeningen.</p>
               </div>
               <div className="space-y-7">
@@ -142,8 +142,8 @@ function HistoryProgress({ b }: { b: CourseBundle }) {
       <div className="grid gap-10 border-t border-ink pt-8 lg:grid-cols-[1fr_1.2fr]">
         <div>
           <a href={`#/course/${b.course.id}`} className="text-[28px] font-extrabold uppercase tracking-[-0.03em] link-u sm:text-[40px]">{b.course.title}</a>
-          <p className="mt-6 text-[96px] font-extrabold leading-[0.85] tracking-[-0.06em] tabular-nums sm:text-[140px]">{Math.round(s.overall * 100)}%</p>
-          <p className="mt-3 meta">Voltooid</p>
+          <p className="mt-6 text-[96px] font-extrabold leading-[0.85] tracking-[-0.06em] tabular-nums text-ok-ink sm:text-[140px]">{Math.round(s.overall * 100)}%</p>
+          <p className="mt-3 meta text-ok">Voltooid</p>
           <p className="mt-4 max-w-sm text-[12px] leading-relaxed text-mute">Gemiddelde van de onderdelen die al beschikbaar zijn: opdrachten, en lessen, flashcards en quizzen zodra er lesmateriaal is.</p>
         </div>
         <div className="space-y-7">

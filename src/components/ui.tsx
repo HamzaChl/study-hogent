@@ -70,8 +70,8 @@ export function Bar({ value, label, detail }: { value: number; label: string; de
         <span className="meta">{label}</span>
         <span className="meta tabular-nums">{detail ?? `${pct}%`}</span>
       </div>
-      <div className="mt-2 h-px w-full bg-line" role="progressbar" aria-valuenow={pct} aria-valuemin={0} aria-valuemax={100} aria-label={label}>
-        <div className="h-px bg-ink transition-[width] duration-500" style={{ width: `${pct}%` }} />
+      <div className="mt-2 h-1 w-full overflow-hidden rounded-full bg-ok-soft" role="progressbar" aria-valuenow={pct} aria-valuemin={0} aria-valuemax={100} aria-label={label}>
+        <div className="h-full rounded-full bg-ok transition-[width] duration-500" style={{ width: `${pct}%` }} />
       </div>
     </div>
   );

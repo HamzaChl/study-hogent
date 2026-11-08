@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 import { FitText, Img } from "../components/ui";
 import { catalog, pad2 } from "../lib/content";
 import type { CatalogCourse } from "../lib/schema";
@@ -72,14 +72,39 @@ function CourseCard({ course, index, total }: { course: CatalogCourse; index: nu
     </>
   );
 
-  const cls = "group -ml-px -mt-px flex flex-col border border-line p-7 sm:p-8";
+  const cls = "-ml-px -mt-px flex flex-col border border-line p-7 sm:p-8";
   return available ? (
-    <a href={`#/course/${course.id}`} className={`${cls} transition-colors duration-300 hover:bg-haze/60 focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-ink`} aria-label={`${course.title} — ${course.subtitle ?? ""}: open de cursus`}>
+    <a href={`#/course/${course.id}`} className={`group ${cls} transition-colors duration-300 hover:bg-haze/60 focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-ink`} aria-label={`${course.title} — ${course.subtitle ?? ""}: open de cursus`}>
       {inner}
     </a>
   ) : (
-    <article className={cls} aria-label={`${course.title} — binnenkort beschikbaar`}>
+    <DisabledCard className={cls} label={`${course.title} — cursus nog niet beschikbaar`}>
       {inner}
+    </DisabledCard>
+  );
+}
+
+/** Niet-klikbare kaart: gedempt, met een zwevend label dat de muis volgt. */
+function DisabledCard({ className, label, children }: { className: string; label: string; children: ReactNode }) {
+  const [pos, setPos] = useState<{ x: number; y: number } | null>(null);
+  return (
+    <article
+      className={`${className} cursor-not-allowed select-none`}
+      aria-label={label}
+      aria-disabled="true"
+      onMouseMove={(e) => setPos({ x: e.clientX, y: e.clientY })}
+      onMouseLeave={() => setPos(null)}
+    >
+      <div className="flex flex-1 flex-col opacity-45 grayscale">{children}</div>
+      {pos && (
+        <span
+          role="tooltip"
+          className="pointer-events-none fixed z-50 whitespace-nowrap bg-ink px-2.5 py-1.5 text-[10px] font-semibold uppercase tracking-meta text-paper"
+          style={{ left: pos.x + 14, top: pos.y + 16 }}
+        >
+          Cursus nog niet beschikbaar
+        </span>
+      )}
     </article>
   );
 }

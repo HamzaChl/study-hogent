@@ -9,7 +9,7 @@ export default {
         mute: "#777777",
         line: "#D0D0D0",
         haze: "#F7F7F7",
-        // Enkel voor de quiz: groen = voortgang / juist / geselecteerd, rood = fout.
+        // Accentkleuren: groen = voortgang / juist / geselecteerd (quiz, voortgangsmeters), rood = fout.
         ok: { DEFAULT: "#2F9E57", soft: "#E3F6E8", line: "#CDEBD6", ink: "#1E6B3A" },
         bad: { DEFAULT: "#D14343", soft: "#FDECEC", line: "#F3CACA", ink: "#A12C2C" },
       },

@@ -14,12 +14,7 @@ function buildIndex(): (Hit & { hay: string })[] {
       out.push({ kind: "Les", title: `${ch.number} — ${ch.title}`, snippet: ch.kicker, href: `#/course/${cid}/study/${ch.id}`, hay: norm(`${ch.title} ${ch.kicker} ${ch.intro} ${text} ${ch.summary.join(" ")}`) });
     }
     for (const f of b.flashcards) out.push({ kind: "Flashcard", title: f.front, snippet: f.back, href: `#/course/${cid}/flashcards?card=${f.id}`, hay: norm(`${f.front} ${f.back}`) });
-    for (const q of b.practice) {
-      const t = q.type === "tf" ? q.statement : q.type === "definition" ? q.definition : q.prompt;
-      out.push({ kind: "Oefening", title: t, snippet: q.explanation, href: `#/course/${cid}/practice?q=${q.id}`, hay: norm(`${t} ${q.explanation}`) });
-    }
-    for (const qz of b.quizzes)
-      for (const q of qz.questions) out.push({ kind: "Quiz", title: q.question, snippet: qz.title, href: `#/course/${cid}/quiz/${qz.id}`, hay: norm(`${q.question} ${q.options.join(" ")} ${q.explanation}`) });
+    // Oefeningen, quiz en examens worden bewust niet geïndexeerd: ze moeten willekeurig blijven.
     for (const p of b.course.official.parts)
       for (const t of p.topics) {
         const chs = b.topicChapters.get(t.id);
@@ -76,7 +71,7 @@ export default function SearchOverlay({ open, onClose }: { open: boolean; onClos
           aria-label="Zoekterm"
         />
         <p className="mt-4 meta-mute" aria-live="polite">
-          {q.trim().length > 1 ? `${results.length} ${results.length === 1 ? "resultaat" : "resultaten"}` : "Lessen · flashcards · oefeningen · quiz · curriculum"}
+          {q.trim().length > 1 ? `${results.length} ${results.length === 1 ? "resultaat" : "resultaten"}` : "Lessen · flashcards · curriculum"}
         </p>
         <ul className="mt-6 border-t border-line pb-20">
           {results.map((r, i) => (

@@ -68,8 +68,7 @@
           "label": "Status",
           "value": "Binnenkort beschikbaar"
         }
-      ],
-      "hidden": true
+      ]
     },
     {
       "id": "course-04",
@@ -84,8 +83,7 @@
           "label": "Status",
           "value": "Binnenkort beschikbaar"
         }
-      ],
-      "hidden": true
+      ]
     },
     {
       "id": "course-05",
@@ -100,8 +98,7 @@
           "label": "Status",
           "value": "Binnenkort beschikbaar"
         }
-      ],
-      "hidden": true
+      ]
     }
   ]
 }

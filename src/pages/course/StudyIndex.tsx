@@ -17,9 +17,9 @@ export default function StudyIndex({ bundle }: { bundle: CourseBundle }) {
       {/* Voortgang in één regel */}
       <div className="flex flex-wrap items-center justify-between gap-4 py-6">
         <div className="flex min-w-[200px] flex-1 items-center gap-4">
-          <span className="meta tabular-nums">{percent}% voltooid</span>
-          <div className="h-px max-w-xs flex-1 bg-line" aria-hidden>
-            <div className="h-px bg-ink transition-[width] duration-500" style={{ width: `${percent}%` }} />
+          <span className="meta tabular-nums text-ok-ink">{percent}% voltooid</span>
+          <div className="h-1 max-w-xs flex-1 overflow-hidden rounded-full bg-ok-soft" aria-hidden>
+            <div className="h-full rounded-full bg-ok transition-[width] duration-500" style={{ width: `${percent}%` }} />
           </div>
         </div>
         {nextChapter && (

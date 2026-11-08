@@ -33,7 +33,9 @@ export function SiteHeader({ active, onSearch }: { active?: "courses" | "about" 
 
 export function HeaderShell({ left, right }: { left: ReactNode; right: ReactNode }) {
   return (
-    <header>
+    // relative z-10 : les grands titres FitText (police énorme, interligne serré) débordent vers le haut
+    // et recouvraient la nav, la rendant incliquable (ex. page « Over »).
+    <header className="relative z-10">
       <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-3 py-6">
         {left}
         {right}
